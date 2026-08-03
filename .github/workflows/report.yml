@@ -1,0 +1,73 @@
+name: Refresh Solana report
+
+# Automation strategy, in three parts:
+#   1. cron drives the refresh
+#   2. the sqlite history is cached between runs, which is what lets the
+#      statistical anomaly baseline accumulate instead of resetting cold
+#   3. the outputs are both committed (so the repo shows a real history of the
+#      chain) and published to Pages (so there is a live hosted dashboard)
+#
+# Note there are no `secrets` anywhere in this file. That is the point: every
+# source the report publishes is public and unauthenticated.
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"      # every two hours, off the hour to dodge the stampede
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: solstate-report
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # No `pip install` step. There is nothing to install.
+
+      - name: Restore metric history
+        uses: actions/cache/restore@v4
+        with:
+          path: out/history.db
+          key: solstate-history-${{ github.run_id }}
+          restore-keys: solstate-history-
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate report
+        run: python -m solstate --out out
+
+      - name: Save metric history
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: out/history.db
+          key: solstate-history-${{ github.run_id }}
+
+      - name: Commit refreshed outputs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out/report.json out/report.md out/index.html
+          git diff --staged --quiet || git commit -m "chore: refresh Solana report [skip ci]"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+      - id: deployment
+        uses: actions/deploy-pages@v4

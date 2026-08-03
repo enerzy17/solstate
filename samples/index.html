@@ -1,0 +1,252 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Solana Ecosystem State Report</title>
+<style>
+:root{
+  --bg:#0a0c10; --panel:#12161d; --panel2:#171c25; --line:#232a35;
+  --fg:#e6edf3; --dim:#8b98a9; --accent:#14f195; --accent2:#9945ff;
+  --crit:#ff5c5c; --warn:#ffb84d; --info:#58a6ff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);
+  font:14px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1240px;margin:0 auto;padding:28px 20px 80px}
+header{display:flex;flex-wrap:wrap;gap:16px;align-items:baseline;justify-content:space-between;
+  border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:22px}
+h1{margin:0;font-size:22px;letter-spacing:-.2px}
+h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+h2{font-size:15px;margin:30px 0 12px;color:var(--dim);text-transform:uppercase;
+  letter-spacing:.09em;font-weight:600}
+.meta{color:var(--dim);font-size:12.5px;text-align:right}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(212px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 15px;
+  position:relative;overflow:hidden}
+.card .k{color:var(--dim);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em}
+.card .v{font-size:23px;font-weight:640;margin-top:5px;font-variant-numeric:tabular-nums;
+  letter-spacing:-.4px}
+.card .s{font-size:12px;margin-top:3px;color:var(--dim)}
+.card.na .v{color:var(--dim);font-size:15px;font-weight:500}
+.up{color:var(--accent)} .down{color:var(--crit)}
+.spark{display:block;margin-top:9px;width:100%;height:30px}
+.bar{height:5px;border-radius:3px;background:var(--panel2);margin-top:9px;overflow:hidden}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+/* Wide tables scroll inside their own box. The page body must never scroll
+   sideways -- on a phone that turns the whole dashboard into a swipe puzzle. */
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;margin-bottom:6px}
+table{width:100%;min-width:540px;border-collapse:collapse;font-size:13px;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:8px 11px;text-align:left;border-bottom:1px solid var(--line)}
+th{color:var(--dim);font-weight:600;font-size:11.5px;text-transform:uppercase;
+  letter-spacing:.05em;cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{color:var(--fg)}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--panel2)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+code{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12px;color:var(--dim)}
+.anom{border-left:3px solid var(--line);background:var(--panel);border-radius:0 8px 8px 0;
+  padding:11px 14px;margin-bottom:8px}
+.anom.critical{border-left-color:var(--crit)}
+.anom.warning{border-left-color:var(--warn)}
+.anom.info{border-left-color:var(--info)}
+.anom b{font-family:ui-monospace,Menlo,Consolas,monospace}
+.tag{display:inline-block;padding:1px 7px;border-radius:20px;font-size:10.5px;font-weight:700;
+  text-transform:uppercase;letter-spacing:.05em;vertical-align:1px}
+.tag.critical{background:rgba(255,92,92,.16);color:var(--crit)}
+.tag.warning{background:rgba(255,184,77,.16);color:var(--warn)}
+.tag.info{background:rgba(88,166,255,.16);color:var(--info)}
+.tag.ok{background:rgba(20,241,149,.14);color:var(--accent)}
+.ctl{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:14px 0}
+input[type=search],select{background:var(--panel);border:1px solid var(--line);color:var(--fg);
+  border-radius:7px;padding:7px 11px;font:inherit;font-size:13px;outline:none}
+input[type=search]:focus,select:focus{border-color:var(--accent)}
+button{background:var(--panel);border:1px solid var(--line);color:var(--dim);border-radius:7px;
+  padding:7px 13px;font:inherit;font-size:13px;cursor:pointer}
+button:hover{color:var(--fg);border-color:var(--accent)}
+button.on{background:var(--accent);color:#04120c;border-color:var(--accent);font-weight:600}
+.news{list-style:none;padding:0;margin:0}
+.news li{padding:9px 0;border-bottom:1px solid var(--line)}
+.news li:last-child{border-bottom:none}
+.news .src{color:var(--dim);font-size:11.5px}
+.note{color:var(--dim);font-size:12.5px;background:var(--panel);border:1px solid var(--line);
+  border-left:3px solid var(--accent2);border-radius:0 8px 8px 0;padding:11px 14px;margin:10px 0}
+footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);
+  color:var(--dim);font-size:12px}
+.hidden{display:none}
+@media(max-width:640px){.grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+  .meta{text-align:left}h1{font-size:19px}}
+</style></head><body><div class=wrap>
+<header><div>
+<h1><span>Solana</span> Ecosystem State Report</h1>
+<div class=meta style="text-align:left;margin-top:6px"><span class="tag warning">1 warning</span> &nbsp;100.0% data completeness &middot; 14/14 probes &middot; 11 runs stored</div>
+</div><div class=meta>
+generated <b id=age data-ts="1785798332">just now</b><br>
+2026-08-03T23:05:32Z<br>
+11.1s &middot; 15 HTTP calls
+</div></header>
+<h2>Anomalies</h2>
+<div class=ctl><button class=on data-sev=all>All</button><button data-sev=critical>Critical</button><button data-sev=warning>Warning</button><button data-sev=info>Info</button></div>
+<div class="anom warning"><span class="tag warning">warning</span> <b>sol_change_7d_pct</b> <code>statistical</code> <code>z=60.03</code><br>sol_change_7d_pct is 60.0 robust deviations from its 11-point median of -2.51, a 70.9% move.</div>
+<h2>Network performance</h2><div class=grid>
+<div class="card"><div class="k">Cluster health</div><div class="v">ok</div><div class='s'>getHealth</div></div>
+<div class="card"><div class="k">TPS (non-vote)</div><div class="v">2,124.93</div><div class='s'>excludes consensus votes</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.3 18.2,25.5 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,26.0 145.5,19.9 163.6,17.9 181.8,2.0 200.0,17.6" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">TPS (all)</div><div class="v">3,704.98</div><div class='s'>latest 60s sample</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,24.5 18.2,25.1 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,24.6 145.5,19.4 163.6,18.3 181.8,2.0 200.0,17.8" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Slot time</div><div class="v">431.70</div><div class='s'>target 400ms</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,23.0 18.2,23.0 36.4,12.7 54.5,12.7 72.7,12.7 90.9,12.7 109.1,12.7 127.3,28.0 145.5,17.9 163.6,17.9 181.8,12.7 200.0,2.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Epoch</div><div class="v">1,011</div><div class='s'>71.5% complete</div><div class="bar"><i style="width:71.5%"></i></div></div>
+<div class="card"><div class="k">Block height</div><div class="v">415,115,793</div></div>
+<div class="card"><div class="k">Absolute slot</div><div class="v">437,060,871</div></div>
+<div class="card"><div class="k">Block lag</div><div class="v">13</div><div class='s'>seconds behind wall clock</div></div>
+</div>
+<h2>Validators</h2><div class=grid>
+<div class="card"><div class="k">Active</div><div class="v">691</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,28.0 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,28.0 145.5,28.0 163.6,28.0 181.8,28.0 200.0,28.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Delinquent</div><div class="v">12</div><div class='s'>0.13% of stake</div></div>
+<div class="card"><div class="k">Delinquent stake</div><div class="v">0.13%</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,28.0 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,28.0 145.5,28.0 163.6,28.0 181.8,28.0 200.0,28.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Nakamoto coefficient</div><div class="v">18</div><div class='s'>validators to halt the chain</div></div>
+<div class="card"><div class="k">Total active stake</div><div class="v">432.65M SOL</div></div>
+<div class="card"><div class="k">Stake in top 10</div><div class="v">24.41%</div><div class="bar"><i style="width:24.4%"></i></div></div>
+<div class="card"><div class="k">Stake in top 20</div><div class="v">35.71%</div><div class="bar"><i style="width:35.7%"></i></div></div>
+<div class="card"><div class="k">Median commission</div><div class="v">5.00%</div></div>
+</div>
+<div class=ctl><input type=search id=vfilter placeholder="Filter validators by pubkey"><span class=meta style="text-align:left">click a column to sort</span></div>
+<div class=tw><table class=sortable id=vtable><thead><tr><th>#</th><th>Node</th><th>Stake (SOL)</th><th>Share</th><th>Commission</th><th>Last vote</th></tr></thead><tbody>
+<tr><td class=num data-sort="1">1</td><td><code>Fd7btgySsrjuo25CJCj7...</code></td><td class=num data-sort="16803592.92">16.80M</td><td class=num data-sort="3.8839">3.884%</td><td class=num data-sort="7">7%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="2">2</td><td><code>HEL1USMZKAL2odpNBj2o...</code></td><td class=num data-sort="16025294.33">16.03M</td><td class=num data-sort="3.704">3.704%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="3">3</td><td><code>JUPiTERrZqgf1jUyR7dS...</code></td><td class=num data-sort="12539698.45">12.54M</td><td class=num data-sort="2.8983">2.898%</td><td class=num data-sort="5">5%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="4">4</td><td><code>DRpbCBMxVnDK7maPM5tG...</code></td><td class=num data-sort="12256189.57">12.26M</td><td class=num data-sort="2.8328">2.833%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="5">5</td><td><code>q9XWcZ7T1wP4bW9SB4Xg...</code></td><td class=num data-sort="9151489.81">9.15M</td><td class=num data-sort="2.1152">2.115%</td><td class=num data-sort="7">7%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="6">6</td><td><code>CAo1dCGYrB6NhHh5xb1c...</code></td><td class=num data-sort="8820734.06">8.82M</td><td class=num data-sort="2.0388">2.039%</td><td class=num data-sort="10">10%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="7">7</td><td><code>E1r4Psq84tHfQ6aPTvvD...</code></td><td class=num data-sort="8152808.03">8.15M</td><td class=num data-sort="1.8844">1.884%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="8">8</td><td><code>EvnRmnMrd69kFdbLMxWk...</code></td><td class=num data-sort="7919104.06">7.92M</td><td class=num data-sort="1.8304">1.830%</td><td class=num data-sort="7">7%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="9">9</td><td><code>9eGrDohdNTAo61DRHyfM...</code></td><td class=num data-sort="7297201.33">7.30M</td><td class=num data-sort="1.6866">1.687%</td><td class=num data-sort="5">5%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="10">10</td><td><code>Awes4Tr6TX8JDzEhCZY2...</code></td><td class=num data-sort="6646244.28">6.65M</td><td class=num data-sort="1.5362">1.536%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="11">11</td><td><code>9jxgosAfHgHzwnxsHw4R...</code></td><td class=num data-sort="6122616.98">6.12M</td><td class=num data-sort="1.4151">1.415%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="12">12</td><td><code>5pPRHniefFjkiaArbGX3...</code></td><td class=num data-sort="5905261.65">5.91M</td><td class=num data-sort="1.3649">1.365%</td><td class=num data-sort="5">5%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="13">13</td><td><code>5Cchr1XGEg7dbBXByV5N...</code></td><td class=num data-sort="5768479.72">5.77M</td><td class=num data-sort="1.3333">1.333%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="14">14</td><td><code>JD549HsbJHeEKKUrKgg4...</code></td><td class=num data-sort="5745112.99">5.75M</td><td class=num data-sort="1.3279">1.328%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="15">15</td><td><code>9rkJMARqK6VBkcxGfKBA...</code></td><td class=num data-sort="4625916.48">4.63M</td><td class=num data-sort="1.0692">1.069%</td><td class=num data-sort="8">8%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="16">16</td><td><code>GnC339vkyXRm1jRX69dt...</code></td><td class=num data-sort="4532643.41">4.53M</td><td class=num data-sort="1.0476">1.048%</td><td class=num data-sort="7">7%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="17">17</td><td><code>EkvdKhULbMFqjKBKotAz...</code></td><td class=num data-sort="4094708.18">4.09M</td><td class=num data-sort="0.9464">0.946%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="18">18</td><td><code>BtsmiEEvnSuUnKxqXj2P...</code></td><td class=num data-sort="4046666.94">4.05M</td><td class=num data-sort="0.9353">0.935%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="19">19</td><td><code>FBKFWadXZJahGtFitAsB...</code></td><td class=num data-sort="4045348.57">4.05M</td><td class=num data-sort="0.935">0.935%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="20">20</td><td><code>5ZqveVffQPiUbkjBg4KD...</code></td><td class=num data-sort="4001501.79">4.00M</td><td class=num data-sort="0.9249">0.925%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="21">21</td><td><code>Hz5aLvpKScNWoe9YZWxB...</code></td><td class=num data-sort="3919362.58">3.92M</td><td class=num data-sort="0.9059">0.906%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="22">22</td><td><code>A1vqhA2fS6K7CvHsJKX1...</code></td><td class=num data-sort="3914704.3">3.91M</td><td class=num data-sort="0.9048">0.905%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="23">23</td><td><code>J6etcxDdYjPHrtyvDXrb...</code></td><td class=num data-sort="3895995.26">3.90M</td><td class=num data-sort="0.9005">0.900%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="24">24</td><td><code>shftkxnsXmqAkmLgz9Mn...</code></td><td class=num data-sort="3604237.25">3.60M</td><td class=num data-sort="0.8331">0.833%</td><td class=num data-sort="0">0%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+<tr><td class=num data-sort="25">25</td><td><code>5EhGYUyQNrxgUbuYF4vb...</code></td><td class=num data-sort="3598006.07">3.60M</td><td class=num data-sort="0.8316">0.832%</td><td class=num data-sort="100">100%</td><td class=num data-sort="437060886">437,060,886</td></tr>
+</tbody></table></div>
+<h2>Economic indicators</h2><div class=grid>
+<div class="card"><div class="k">SOL price</div><div class="v">$73.40</div><div class='s down'>-0.20% 24h</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,22.2 36.4,4.9 54.5,4.9 72.7,2.0 90.9,2.0 109.1,2.0 127.3,2.0 145.5,4.9 163.6,13.6 181.8,25.1 200.0,25.1" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Market cap</div><div class="v">$42.66B</div></div>
+<div class="card"><div class="k">Spot volume 24h</div><div class="v">$1.40B</div></div>
+<div class="card"><div class="k">DeFi TVL</div><div class="v">$4.77B</div><div class='s up'>+1.41% 24h</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,28.0 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,28.0 145.5,28.0 163.6,28.0 181.8,28.0 200.0,28.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Stablecoin supply</div><div class="v">$15.82B</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,28.0 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,28.0 145.5,28.0 163.6,28.0 181.8,28.0 200.0,28.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">DEX volume 24h</div><div class="v">$1.34B</div><div class='s up'>+3.22% 24h</div><svg class="spark" viewBox="0 0 200 30" preserveAspectRatio="none" aria-hidden="true"><polyline points="0.0,28.0 18.2,28.0 36.4,28.0 54.5,28.0 72.7,28.0 90.9,28.0 109.1,28.0 127.3,28.0 145.5,28.0 163.6,28.0 181.8,28.0 200.0,28.0" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+<div class="card"><div class="k">Chain fees 24h</div><div class="v">$7.51M</div><div class='s'>REV proxy</div></div>
+<div class="card"><div class="k">Circulating SOL</div><div class="v">581.19M SOL</div><div class='s'>92.0% of total</div><div class="bar"><i style="width:92.0%"></i></div></div>
+</div>
+<h2>Upgrades and proposals</h2>
+<div class=note><b>Alpenglow</b> &mdash; Consensus replacement (Votor + Rotor) targeting ~150ms finality, retiring the current TowerBFT vote-by-transaction design.</div>
+<div class=note><b>SIMD-0525</b> &mdash; Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.</div>
+<div class=note><b>Firedancer</b> &mdash; Independent validator client from Jump; matters for client diversity and therefore for liveness risk.</div>
+<div class=note>SIMDs referenced in the current feed window: <code>SIMD-0286</code> <code>SIMD-0340</code> <code>SIMD-0433</code> <code>SIMD-0550</code> <code>SIMD-0553</code> <code>SIMD-0392</code> <code>SIMD-0290</code> <code>SIMD-0565</code> <code>SIMD-0529</code> <code>SIMD-0525</code> <code>SIMD-0022</code></div>
+<h2>Ecosystem news</h2><ul class=news>
+<li><a href="https://solana.com/news/how-external-assets-start-trading-on-solana-from-day-one" rel="noopener noreferrer" target=_blank>How External Assets Start Trading on Solana From Day One</a><div class=src>Wed, 01 Jul 2026 15:08:00 GMT</div></li>
+<li><a href="https://solana.com/news/overview-of-institutional-real-world-assets-on-solana" rel="noopener noreferrer" target=_blank>Overview of Institutional Real World Assets on Solana</a><div class=src>Thu, 30 Jul 2026 15:25:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-changelog-july-30-2026" rel="noopener noreferrer" target=_blank>Solana Changelog: Mainnet raises block limits to 100M CUs</a><div class=src>Thu, 30 Jul 2026 12:50:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-changelog-july-23-2026" rel="noopener noreferrer" target=_blank>Solana Changelog: July 23, 2026</a><div class=src>Thu, 23 Jul 2026 13:04:00 GMT</div></li>
+<li><a href="https://solana.com/news/case-study-crossmint" rel="noopener noreferrer" target=_blank>Deploying enterprise stablecoin rails on Solana in days with Crossmint</a><div class=src>Thu, 23 Jul 2026 13:00:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-changelog-july-16-2026" rel="noopener noreferrer" target=_blank>Solana Changelog: July 16, 2026</a><div class=src>Thu, 16 Jul 2026 14:33:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-changelog-july-9-2026" rel="noopener noreferrer" target=_blank>Solana Changelog: July 9, 2026</a><div class=src>Thu, 09 Jul 2026 12:05:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-changelog-agave-v4-1-0-rpc-2-0-and-alpenglow" rel="noopener noreferrer" target=_blank>Solana Changelog: Agave v4.1.0, RPC 2.0, and Alpenglow</a><div class=src>Thu, 02 Jul 2026 21:21:00 GMT</div></li>
+<li><a href="https://solana.com/news/rent-reduction-deep-dive" rel="noopener noreferrer" target=_blank>Rent Reduction on Solana: A Data-Backed Analysis</a><div class=src>Mon, 20 Jul 2026 00:00:00 GMT</div></li>
+<li><a href="https://solana.com/news/solana-ecosystem-roundup-june-2026" rel="noopener noreferrer" target=_blank>Solana Ecosystem Roundup: June 2026</a><div class=src>Mon, 06 Jul 2026 06:00:00 GMT</div></li>
+<li><a href="https://solana.com/news/tokenized-cards-and-physical-collectibles" rel="noopener noreferrer" target=_blank>Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles</a><div class=src>Fri, 31 Jul 2026 10:00:00 GMT</div></li>
+<li><a href="https://solana.com/news/skhy-is-now-live" rel="noopener noreferrer" target=_blank>The Sun Rises in Seoul and Trades on Solana: $SKHY is Now Live</a><div class=src>Fri, 10 Jul 2026 12:00:00 GMT</div></li>
+<li><a href="https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1" rel="noopener noreferrer" target=_blank>Release v4.2.0-rc.1</a><div class=src>2026-08-03T12:41:49Z</div></li>
+<li><a href="https://github.com/solana-foundation/solana-improvement-documents/commit/fc519fb3d1ef0f7624b6232bda958438feba09ce" rel="noopener noreferrer" target=_blank>re-amend SIMD-0340: additional inter- and intra- validation (#551)</a><div class=src>2026-07-31T16:27:22Z</div></li>
+<li><a href="https://github.com/solana-foundation/solana-improvement-documents/commit/06bd4bd6b0b835d110bf4ccb0bc7c759ae88e997" rel="noopener noreferrer" target=_blank>SIMD-0433: Loader V3: Set Program Data to ELF Length (#433)</a><div class=src>2026-07-31T08:06:24Z</div></li>
+<li><a href="https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.0" rel="noopener noreferrer" target=_blank>Release v4.2.0-rc.0</a><div class=src>2026-07-27T15:24:59Z</div></li>
+<li><a href="https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.1" rel="noopener noreferrer" target=_blank>Release v4.3.0-alpha.1</a><div class=src>2026-07-24T14:31:34Z</div></li>
+<li><a href="https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.2" rel="noopener noreferrer" target=_blank>Release v4.3.0-alpha.2</a><div class=src>2026-07-24T14:31:17Z</div></li>
+<li><a href="https://github.com/solana-foundation/solana-improvement-documents/commit/b13be70e7454144becbe9c474b296d737d72df98" rel="noopener noreferrer" target=_blank>SIMD-0550: Double disinflation (#550)</a><div class=src>2026-07-23T01:49:14Z</div></li>
+<li><a href="https://github.com/solana-foundation/solana-improvement-documents/commit/2e6243a5010255ed5b1592f42ebfc890a2c21d05" rel="noopener noreferrer" target=_blank>SIMD-0553: Resource and Inclusion Fee (#553)</a><div class=src>2026-07-20T18:46:49Z</div></li>
+</ul>
+<h2>Not collected</h2>
+<div class=note>Named gaps, not silent ones. No value in this dashboard is a guess standing in for a missing measurement.</div>
+<div class=anom><b>daily_active_addresses</b><br>No key-free public endpoint. Available via Dune; enable with --dune-key.</div>
+<div class=anom><b>tokenized_equity_volume</b><br>Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.</div>
+<div class=anom><b>mev_tips</b><br>Jito tip data needs the Jito API; excluded to keep the run key-free.</div>
+<h2>Probe log</h2>
+<div class=tw><table class=sortable><thead><tr><th>Section</th><th>Probe</th><th>Status</th><th>Source</th><th>Latency</th></tr></thead><tbody>
+<tr><td>network</td><td><code>health</code></td><td><span class="tag ok">ok</span></td><td><code>getHealth@api.mainnet-beta.solana.com</code></td><td class=num data-sort="308">308 ms</td></tr>
+<tr><td>network</td><td><code>epoch</code></td><td><span class="tag ok">ok</span></td><td><code>getEpochInfo@api.mainnet-beta.solana.com</code></td><td class=num data-sort="281">281 ms</td></tr>
+<tr><td>network</td><td><code>performance</code></td><td><span class="tag ok">ok</span></td><td><code>getRecentPerformanceSamples@api.mainnet-beta.s</code></td><td class=num data-sort="285">285 ms</td></tr>
+<tr><td>network</td><td><code>block_time</code></td><td><span class="tag ok">ok</span></td><td><code>getBlockTime@api.mainnet-beta.solana.com</code></td><td class=num data-sort="275">275 ms</td></tr>
+<tr><td>supply</td><td><code>supply</code></td><td><span class="tag ok">ok</span></td><td><code>getSupply@api.mainnet-beta.solana.com</code></td><td class=num data-sort="6171">6171 ms</td></tr>
+<tr><td>validators</td><td><code>vote_accounts</code></td><td><span class="tag ok">ok</span></td><td><code>getVoteAccounts@api.mainnet-beta.solana.com</code></td><td class=num data-sort="661">661 ms</td></tr>
+<tr><td>market</td><td><code>price</code></td><td><span class="tag ok">ok</span></td><td><code>coingecko:/coins/solana</code></td><td class=num data-sort="219">219 ms</td></tr>
+<tr><td>defi</td><td><code>tvl</code></td><td><span class="tag ok">ok</span></td><td><code>defillama:historicalChainTvl</code></td><td class=num data-sort="175">175 ms</td></tr>
+<tr><td>defi</td><td><code>stablecoins</code></td><td><span class="tag ok">ok</span></td><td><code>defillama:stablecoinchains</code></td><td class=num data-sort="163">163 ms</td></tr>
+<tr><td>defi</td><td><code>dex</code></td><td><span class="tag ok">ok</span></td><td><code>defillama:overview/dexs/solana</code></td><td class=num data-sort="208">208 ms</td></tr>
+<tr><td>defi</td><td><code>fees</code></td><td><span class="tag ok">ok</span></td><td><code>defillama:overview/fees/solana</code></td><td class=num data-sort="262">262 ms</td></tr>
+<tr><td>ecosystem</td><td><code>https://solana.com/news/rss.xml</code></td><td><span class="tag ok">ok</span></td><td><code>feed:https://solana.com/news/rss.xml</code></td><td class=num data-sort="215">215 ms</td></tr>
+<tr><td>ecosystem</td><td><code>https://github.com/anza-xyz/agave/releases.atom</code></td><td><span class="tag ok">ok</span></td><td><code>feed:https://github.com/anza-xyz/agave/release</code></td><td class=num data-sort="965">965 ms</td></tr>
+<tr><td>ecosystem</td><td><code>https://github.com/solana-foundation/solana-improvement-documents/commits/main.atom</code></td><td><span class="tag ok">ok</span></td><td><code>feed:https://github.com/solana-foundation/sola</code></td><td class=num data-sort="546">546 ms</td></tr>
+</tbody></table></div>
+<footer>Produced by <b>solstate</b>. Every figure comes from a public endpoint that needs no API key; the probe log above names the source and latency for each one. Machine-readable equivalent: <code>report.json</code>. Schema 1.0.</footer>
+</div><script>
+// Sortable tables. Click a header; numeric columns sort numerically.
+document.querySelectorAll('table.sortable').forEach(function(t){
+  t.querySelectorAll('th').forEach(function(th,i){
+    th.addEventListener('click',function(){
+      var body=t.tBodies[0], rows=[].slice.call(body.rows);
+      var dir=th.dataset.dir==='asc'?-1:1;
+      t.querySelectorAll('th').forEach(function(o){delete o.dataset.dir;});
+      th.dataset.dir=dir===1?'asc':'desc';
+      rows.sort(function(a,b){
+        var x=a.cells[i], y=b.cells[i];
+        var xv=x.dataset.sort!==undefined?parseFloat(x.dataset.sort):x.textContent.trim();
+        var yv=y.dataset.sort!==undefined?parseFloat(y.dataset.sort):y.textContent.trim();
+        if(typeof xv==='number'&&typeof yv==='number') return (xv-yv)*dir;
+        return String(xv).localeCompare(String(yv))*dir;
+      });
+      rows.forEach(function(r){body.appendChild(r);});
+    });
+  });
+});
+// Filter the validator table.
+var vf=document.getElementById('vfilter');
+if(vf) vf.addEventListener('input',function(){
+  var q=this.value.toLowerCase();
+  document.querySelectorAll('#vtable tbody tr').forEach(function(r){
+    r.classList.toggle('hidden', q && r.textContent.toLowerCase().indexOf(q)<0);
+  });
+});
+// Severity filter for anomalies.
+document.querySelectorAll('[data-sev]').forEach(function(b){
+  b.addEventListener('click',function(){
+    document.querySelectorAll('[data-sev]').forEach(function(o){o.classList.remove('on');});
+    b.classList.add('on');
+    var s=b.dataset.sev;
+    document.querySelectorAll('.anom').forEach(function(a){
+      a.classList.toggle('hidden', s!=='all' && !a.classList.contains(s));
+    });
+  });
+});
+// Relative age of the report, updated live so a stale tab is obvious.
+(function(){
+  var el=document.getElementById('age'); if(!el) return;
+  var t=parseInt(el.dataset.ts,10)*1000;
+  function tick(){
+    var s=Math.max(0,Math.floor((Date.now()-t)/1000));
+    var txt = s<60? s+'s ago' : s<3600? Math.floor(s/60)+'m ago'
+            : s<86400? Math.floor(s/3600)+'h ago' : Math.floor(s/86400)+'d ago';
+    el.textContent=txt;
+    el.style.color = s>7200 ? 'var(--warn)' : '';
+  }
+  tick(); setInterval(tick,1000);
+})();
+</script></body></html>
