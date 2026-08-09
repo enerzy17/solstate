@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-09T19:04:48Z** in 10.3s across 15 HTTP calls.
+Generated **2026-08-09T19:06:41Z** in 12.0s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 12 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 13 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,014 |
-| Epoch progress | 47.55% |
-| Epoch time remaining (est.) | 25h 10m |
-| Absolute slot | 438,253,405 |
-| Block height | 416,307,261 |
-| TPS (all) | 4,739.93 |
-| TPS (non-vote) | 3,125.55 |
-| TPS (30-sample mean) | 4,462.16 |
-| Slot time | 425.50 ms |
+| Epoch progress | 47.61% |
+| Epoch time remaining (est.) | 25h 8m |
+| Absolute slot | 438,253,663 |
+| Block height | 416,307,518 |
+| TPS (all) | 4,788.28 |
+| TPS (non-vote) | 3,183.28 |
+| TPS (30-sample mean) | 4,464.66 |
+| Slot time | 431.70 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 536,604,985,467 |
+| Lifetime transactions | 536,605,485,646 |
 
 ## Validators
 
@@ -77,10 +77,10 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.16 |
-| SOL 24h | 1.44% |
-| SOL 7d | 4.97% |
-| SOL 30d | -0.40% |
+| SOL price | $77.14 |
+| SOL 24h | 1.42% |
+| SOL 7d | 4.95% |
+| SOL 30d | -0.42% |
 | Market cap | $44.91B |
 | Spot volume 24h | $1.05B |
 | Circulating supply | 582.17M SOL |
