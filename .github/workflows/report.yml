@@ -67,26 +67,31 @@ jobs:
 
       # GITHUB PAGES IS BEST EFFORT, AND THE REASON MATTERS.
       #
-      # `enablement: true` is supposed to turn Pages on through the API on the
-      # first run. It does not work here and cannot be made to: GitHub does not
-      # let GITHUB_TOKEN create a Pages site that has never existed, so the step
-      # fails with "Resource not accessible by integration" every single time.
-      # Enabling it is a one time manual action in Settings, Pages, Source,
-      # GitHub Actions. Re-running the workflow will never fix it.
+      # Pages was enabled on 2026-08-09 and the dashboard now publishes to
+      # https://enerzy17.github.io/solstate/ on every run. These three steps are
+      # deliberately left tolerant anyway, because of how they behaved before.
       #
-      # Until this change that failure took the WHOLE WORKFLOW down with it. Ten
+      # `enablement: true` is supposed to turn Pages on through the API on the
+      # first run. It never worked: GitHub does not let GITHUB_TOKEN create a
+      # Pages site that has never existed, so the step failed with "Resource not
+      # accessible by integration" every single time. It took a call to
+      # POST /repos/{owner}/{repo}/pages with a token carrying `repo` scope to
+      # create the site once. Re-running the workflow would never have fixed it.
+      #
+      # Until that was done, this step took the WHOLE WORKFLOW down with it. Ten
       # consecutive runs showed a red X even though the tests passed, the report
       # regenerated, and the refreshed output was committed and pushed. Every
       # one of those runs did its actual job.
       #
       # On a project whose entire claim is that it updates itself, a permanently
-      # red badge is worse than a missing dashboard. It tells anyone who looks
+      # red badge is worse than a missing dashboard: it tells anyone who looks
       # that the automation is broken, when the automation is precisely the part
-      # that works. So the real work now decides the badge, and the dashboard
-      # deploy is allowed to be absent without lying about everything else.
+      # that works. So the real work decides the badge, and a Pages outage
+      # degrades the dashboard without lying about everything else.
       #
-      # If Pages is enabled later, nothing here needs to change: the step starts
-      # succeeding and the deploy runs on its own.
+      # ⛔ Use `steps.pages.outcome`, not `.conclusion`. With continue-on-error
+      # the API reports conclusion `success` even when the step really failed;
+      # `outcome` is the one that holds the truth.
       - id: pages
         continue-on-error: true
         uses: actions/configure-pages@v5
@@ -109,5 +114,5 @@ jobs:
           if [ "${{ steps.pages.outcome }}" = "success" ]; then
             echo "Pages deploy ran. Dashboard: https://enerzy17.github.io/solstate/"
           else
-            echo "::warning title=GitHub Pages is not enabled::The report built, tested and committed correctly, but there is no hosted dashboard. GITHUB_TOKEN cannot create a Pages site that has never existed. Fix once at Settings, Pages, Source, GitHub Actions. Until then the committed dashboard is readable at https://raw.githack.com/enerzy17/solstate/main/out/index.html"
+            echo "::warning title=GitHub Pages did not deploy::The report built, tested and committed correctly, but the hosted dashboard did not update, so https://enerzy17.github.io/solstate/ is serving an older run. The committed dashboard is current and readable at https://raw.githack.com/enerzy17/solstate/main/out/index.html and in out/report.md in this repository."
           fi

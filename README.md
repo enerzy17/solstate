@@ -29,17 +29,15 @@ the chain rather than a claim about it.
 
 | where | what it is |
 | --- | --- |
-| **[Latest report](out/report.md)** | GitHub renders this itself. No third party sits between you and it, so this link cannot rot. |
-| [Interactive dashboard](https://raw.githack.com/enerzy17/solstate/main/out/index.html) | the committed `out/index.html`, served through a third party CDN because there is no Pages URL yet |
+| **[Live dashboard](https://enerzy17.github.io/solstate/)** | published by the workflow on every run, from the same `out/` it commits |
+| [Latest report](out/report.md) | GitHub renders this itself. No third party sits between you and it, so this link cannot rot. |
 | [Raw JSON](out/report.json) | every figure, each with the endpoint it came from |
 | [Refresh history](https://github.com/enerzy17/solstate/commits/main/out/report.md) | what changed, run by run, timestamped by GitHub |
 
-There is no `github.io` URL yet, and that is a permissions fact rather than a
-bug: GitHub does not let `GITHUB_TOKEN` create a Pages site that has never
-existed, so `actions/configure-pages` cannot succeed no matter how often it
-runs. It takes one manual action, in Settings, Pages, Source, GitHub Actions.
-Until then the workflow skips the deploy, prints a warning annotation saying so,
-and stays green on the work it actually did.
+The dashboard is also mirrored at
+[raw.githack.com](https://raw.githack.com/enerzy17/solstate/main/out/index.html),
+which serves the same committed file through a third party CDN. It was the only
+option before Pages existed and is kept as a fallback.
 
 ---
 
