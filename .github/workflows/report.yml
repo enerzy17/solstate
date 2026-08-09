@@ -65,13 +65,49 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: refresh Solana report [skip ci]"
           git push
 
-      # `enablement: true` turns Pages on through the API on the first run, so a
-      # fresh clone of this repo publishes a live dashboard with no manual setup.
-      - uses: actions/configure-pages@v5
+      # GITHUB PAGES IS BEST EFFORT, AND THE REASON MATTERS.
+      #
+      # `enablement: true` is supposed to turn Pages on through the API on the
+      # first run. It does not work here and cannot be made to: GitHub does not
+      # let GITHUB_TOKEN create a Pages site that has never existed, so the step
+      # fails with "Resource not accessible by integration" every single time.
+      # Enabling it is a one time manual action in Settings, Pages, Source,
+      # GitHub Actions. Re-running the workflow will never fix it.
+      #
+      # Until this change that failure took the WHOLE WORKFLOW down with it. Ten
+      # consecutive runs showed a red X even though the tests passed, the report
+      # regenerated, and the refreshed output was committed and pushed. Every
+      # one of those runs did its actual job.
+      #
+      # On a project whose entire claim is that it updates itself, a permanently
+      # red badge is worse than a missing dashboard. It tells anyone who looks
+      # that the automation is broken, when the automation is precisely the part
+      # that works. So the real work now decides the badge, and the dashboard
+      # deploy is allowed to be absent without lying about everything else.
+      #
+      # If Pages is enabled later, nothing here needs to change: the step starts
+      # succeeding and the deploy runs on its own.
+      - id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
         with:
           enablement: true
-      - uses: actions/upload-pages-artifact@v3
+
+      - if: steps.pages.outcome == 'success'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: out
+
       - id: deployment
+        if: steps.pages.outcome == 'success'
         uses: actions/deploy-pages@v4
+
+      # Absent, but never silently absent. A skipped deploy that says nothing is
+      # how this sat unnoticed in the first place.
+      - name: Say where the dashboard is, or say that it is not there
+        run: |
+          if [ "${{ steps.pages.outcome }}" = "success" ]; then
+            echo "Pages deploy ran. Dashboard: https://enerzy17.github.io/solstate/"
+          else
+            echo "::warning title=GitHub Pages is not enabled::The report built, tested and committed correctly, but there is no hosted dashboard. GITHUB_TOKEN cannot create a Pages site that has never existed. Fix once at Settings, Pages, Source, GitHub Actions. Until then the committed dashboard is readable at https://raw.githack.com/enerzy17/solstate/main/out/index.html"
+          fi
