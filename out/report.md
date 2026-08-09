@@ -1,100 +1,100 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-03T23:05:32Z** in 11.1s across 15 HTTP calls.
+Generated **2026-08-09T00:22:08Z** in 11.5s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 11 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 0 prior runs.
 
 ## Anomalies
 
-- [WARNING] **sol_change_7d_pct** (statistical) - sol_change_7d_pct is 60.0 robust deviations from its 11-point median of -2.51, a 70.9% move.
+Nothing outside the configured thresholds or the statistical baseline.
+
+
+_Note: fewer than 8 prior runs are stored, so statistical detection is not active yet. Rule-based checks are._
 
 ## Network performance
 
 | Metric | Value |
 | --- | --- |
 | Health | ok |
-| Epoch | 1,011 |
-| Epoch progress | 71.50% |
-| Epoch time remaining (est.) | 13h 40m |
-| Absolute slot | 437,060,871 |
-| Block height | 415,115,793 |
-| TPS (all) | 3,704.98 |
-| TPS (non-vote) | 2,124.93 |
-| TPS (30-sample mean) | 3,714.39 |
-| Slot time | 431.70 ms |
-| Block lag vs wall clock | 13s |
-| Lifetime transactions | 534,858,800,331 |
+| Epoch | 1,014 |
+| Epoch progress | 10.62% |
+| Epoch time remaining (est.) | 42h 54m |
+| Absolute slot | 438,093,869 |
+| Block height | 416,147,785 |
+| TPS (all) | 3,370.42 |
+| TPS (non-vote) | 1,746.28 |
+| TPS (30-sample mean) | 3,344.45 |
+| Slot time | 422.50 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 536,370,760,723 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active | 691 |
-| Delinquent | 12 |
-| Delinquent share of stake | 0.13% |
-| Total active stake | 432.65M SOL |
+| Delinquent | 7 |
+| Delinquent share of stake | 0.01% |
+| Total active stake | 434.05M SOL |
 | Nakamoto coefficient | 18 |
-| Stake in top 10 | 24.41% |
-| Stake in top 20 | 35.71% |
-| Stake in top 50 | 55.40% |
+| Stake in top 10 | 24.39% |
+| Stake in top 20 | 35.74% |
+| Stake in top 50 | 55.42% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 260 |
-| Validators at 100% commission | 65 |
+| Validators at 0% commission | 261 |
+| Validators at 100% commission | 62 |
 
 ### Largest validators by active stake
 
 | # | Node | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `Fd7btgySsrju...` | 16.80M | 3.88% | 7.00% |
-| 2 | `HEL1USMZKAL2...` | 16.03M | 3.70% | 0.00% |
-| 3 | `JUPiTERrZqgf...` | 12.54M | 2.90% | 5.00% |
-| 4 | `DRpbCBMxVnDK...` | 12.26M | 2.83% | 0.00% |
-| 5 | `q9XWcZ7T1wP4...` | 9.15M | 2.12% | 7.00% |
-| 6 | `CAo1dCGYrB6N...` | 8.82M | 2.04% | 10.00% |
-| 7 | `E1r4Psq84tHf...` | 8.15M | 1.88% | 0.00% |
-| 8 | `EvnRmnMrd69k...` | 7.92M | 1.83% | 7.00% |
-| 9 | `9eGrDohdNTAo...` | 7.30M | 1.69% | 5.00% |
-| 10 | `Awes4Tr6TX8J...` | 6.65M | 1.54% | 0.00% |
-| 11 | `9jxgosAfHgHz...` | 6.12M | 1.42% | 100.00% |
-| 12 | `5pPRHniefFjk...` | 5.91M | 1.36% | 5.00% |
-| 13 | `5Cchr1XGEg7d...` | 5.77M | 1.33% | 100.00% |
-| 14 | `JD549HsbJHeE...` | 5.75M | 1.33% | 0.00% |
+| 1 | `Fd7btgySsrju...` | 16.92M | 3.90% | 7.00% |
+| 2 | `HEL1USMZKAL2...` | 15.98M | 3.68% | 0.00% |
+| 3 | `JUPiTERrZqgf...` | 12.49M | 2.88% | 5.00% |
+| 4 | `DRpbCBMxVnDK...` | 12.29M | 2.83% | 0.00% |
+| 5 | `C8Bey3LKVJHV...` | 9.18M | 2.12% | 7.00% |
+| 6 | `CAo1dCGYrB6N...` | 8.95M | 2.06% | 10.00% |
+| 7 | `E1r4Psq84tHf...` | 8.17M | 1.88% | 0.00% |
+| 8 | `EvnRmnMrd69k...` | 7.94M | 1.83% | 7.00% |
+| 9 | `9eGrDohdNTAo...` | 7.37M | 1.70% | 5.00% |
+| 10 | `Awes4Tr6TX8J...` | 6.57M | 1.51% | 0.00% |
+| 11 | `9jxgosAfHgHz...` | 6.12M | 1.41% | 100.00% |
+| 12 | `JD549HsbJHeE...` | 5.98M | 1.38% | 0.00% |
+| 13 | `5pPRHniefFjk...` | 5.91M | 1.36% | 5.00% |
+| 14 | `5Cchr1XGEg7d...` | 5.80M | 1.34% | 100.00% |
 | 15 | `9rkJMARqK6VB...` | 4.63M | 1.07% | 8.00% |
 
 ### Largest delinquent validators
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `7RtC1QgiNVLA...` | 274.84K | 436,844,203 |
-| `AoUwfPuiEek2...` | 268.12K | 435,023,998 |
-| `6c6RrC9TWNgi...` | 1.25K | 435,006,439 |
-| `3iQqh65Gby53...` | 389.68 | 436,812,576 |
-| `BirdeyeK5yoo...` | 127.40 | 435,360,263 |
+| `23U4mgK9DMCx...` | 29.53K | 437,861,171 |
+| `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
+| `AjGby82yXeYg...` | 527.20 | 438,028,228 |
+| `3iQqh65Gby53...` | 389.70 | 436,812,576 |
 | `5HCTsoKM7vwj...` | 121.83 | 435,891,365 |
-| `8cnksBVjDPsp...` | 116.73 | 434,612,175 |
+| `Drk2bcinK75J...` | 75.17 | 437,163,253 |
 | `32jCuWyy4aJj...` | 2.70 | 436,736,029 |
-| `7Hp1e6BrTBkb...` | 2.00 | 435,239,778 |
-| `R1parD2CtxPB...` | 1.61 | 384,048,870 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.40 |
-| SOL 24h | -0.20% |
-| SOL 7d | -0.73% |
-| SOL 30d | -10.32% |
-| Market cap | $42.66B |
-| Spot volume 24h | $1.40B |
-| Circulating supply | 581.19M SOL |
-| Circulating share | 92.03% |
-| DeFi TVL | $4.77B |
-| TVL 24h | 1.41% |
-| TVL 7d | -2.75% |
-| Stablecoin supply | $15.82B |
-| DEX volume 24h | $1.34B |
-| DEX volume 7d | $11.46B |
-| Chain fees 24h (REV proxy) | $7.51M |
+| SOL price | $75.93 |
+| SOL 24h | 3.23% |
+| SOL 7d | 5.61% |
+| SOL 30d | -2.65% |
+| Market cap | $44.20B |
+| Spot volume 24h | $1.41B |
+| Circulating supply | 582.17M SOL |
+| Circulating share | 92.13% |
+| DeFi TVL | $4.82B |
+| TVL 24h | 2.34% |
+| TVL 7d | 1.71% |
+| Stablecoin supply | $15.66B |
+| DEX volume 24h | $1.36B |
+| DEX volume 7d | $10.49B |
+| Chain fees 24h (REV proxy) | $8.15M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -108,21 +108,21 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 
 ## Ecosystem news
 
-- [How External Assets Start Trading on Solana From Day One](https://solana.com/news/how-external-assets-start-trading-on-solana-from-day-one)
+- [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments)
+- [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026)
+- [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
 - [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)
 - [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint)
 - [Solana Changelog: July 16, 2026](https://solana.com/news/solana-changelog-july-16-2026)
-- [Solana Changelog: July 9, 2026](https://solana.com/news/solana-changelog-july-9-2026)
-- [Solana Changelog: Agave v4.1.0, RPC 2.0, and Alpenglow](https://solana.com/news/solana-changelog-agave-v4-1-0-rpc-2-0-and-alpenglow)
+- [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
 - [Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)
-- [Solana Ecosystem Roundup: June 2026](https://solana.com/news/solana-ecosystem-roundup-june-2026)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
 - [The Sun Rises in Seoul and Trades on Solana: $SKHY is Now Live](https://solana.com/news/skhy-is-now-live)
+- [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
+- [Release v4.3.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3)
 - [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1)
-- [re-amend SIMD-0340: additional inter- and intra- validation (#551)](https://github.com/solana-foundation/solana-improvement-documents/commit/fc519fb3d1ef0f7624b6232bda958438feba09ce)
-- [SIMD-0433: Loader V3: Set Program Data to ELF Length (#433)](https://github.com/solana-foundation/solana-improvement-documents/commit/06bd4bd6b0b835d110bf4ccb0bc7c759ae88e997)
 
 ## Not collected
 
