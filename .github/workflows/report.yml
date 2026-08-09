@@ -65,7 +65,11 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: refresh Solana report [skip ci]"
           git push
 
+      # `enablement: true` turns Pages on through the API on the first run, so a
+      # fresh clone of this repo publishes a live dashboard with no manual setup.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
