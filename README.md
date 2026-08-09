@@ -21,6 +21,26 @@ python -m solstate --serve 8080    # run, then serve out/ at http://127.0.0.1:80
 python -m unittest discover -s tests
 ```
 
+## See it without running it
+
+The workflow here regenerates all three outputs on a schedule and commits them,
+so the copies in `out/` are current and the commit history is the audit trail of
+the chain rather than a claim about it.
+
+| where | what it is |
+| --- | --- |
+| **[Latest report](out/report.md)** | GitHub renders this itself. No third party sits between you and it, so this link cannot rot. |
+| [Interactive dashboard](https://raw.githack.com/enerzy17/solstate/main/out/index.html) | the committed `out/index.html`, served through a third party CDN because there is no Pages URL yet |
+| [Raw JSON](out/report.json) | every figure, each with the endpoint it came from |
+| [Refresh history](https://github.com/enerzy17/solstate/commits/main/out/report.md) | what changed, run by run, timestamped by GitHub |
+
+There is no `github.io` URL yet, and that is a permissions fact rather than a
+bug: GitHub does not let `GITHUB_TOKEN` create a Pages site that has never
+existed, so `actions/configure-pages` cannot succeed no matter how often it
+runs. It takes one manual action, in Settings, Pages, Source, GitHub Actions.
+Until then the workflow skips the deploy, prints a warning annotation saying so,
+and stays green on the work it actually did.
+
 ---
 
 ## The two constraints that shaped this
