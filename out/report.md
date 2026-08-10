@@ -1,13 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-10T15:18:59Z** in 9.2s across 15 HTTP calls.
+Generated **2026-08-10T17:12:14Z** in 10.2s across 15 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 23 prior runs.
+> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 24 prior runs.
 
 ## Anomalies
 
-- [WARNING] **dex_volume_24h_usd** (statistical) - dex_volume_24h_usd is 6.4 robust deviations from its 23-point median of 1.479e+09, a 8.9% move.
-- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 12.2 robust deviations from its 23-point median of 8.67, a 212.6% move.
+- [WARNING] **dex_volume_24h_usd** (statistical) - dex_volume_24h_usd is 6.4 robust deviations from its 24-point median of 1.479e+09, a 8.9% move.
+- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 12.2 robust deviations from its 24-point median of 8.67, a 212.6% move.
+- [WARNING] **sol_change_24h_pct** (statistical) - sol_change_24h_pct is 4.4 robust deviations from its 24-point median of 1.35, a 232.6% move.
 
 ## Network performance
 
@@ -15,24 +16,24 @@ Generated **2026-08-10T15:18:59Z** in 9.2s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,014 |
-| Epoch progress | 87.44% |
-| Epoch time remaining (est.) | 6h 1m |
-| Absolute slot | 438,425,730 |
-| Block height | 416,479,523 |
-| TPS (all) | 4,404.65 |
-| TPS (non-vote) | 2,759.15 |
-| TPS (30-sample mean) | 4,529.74 |
+| Epoch progress | 91.15% |
+| Epoch time remaining (est.) | 4h 14m |
+| Absolute slot | 438,441,776 |
+| Block height | 416,495,545 |
+| TPS (all) | 4,434.02 |
+| TPS (non-vote) | 2,786.95 |
+| TPS (30-sample mean) | 4,332.90 |
 | Slot time | 416.70 ms |
 | Block lag vs wall clock | 14s |
-| Lifetime transactions | 536,865,436,966 |
+| Lifetime transactions | 536,894,375,637 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 689 |
-| Delinquent | 9 |
-| Delinquent share of stake | 0.09% |
+| Active | 690 |
+| Delinquent | 8 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 434.05M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.39% |
@@ -66,7 +67,6 @@ Generated **2026-08-10T15:18:59Z** in 9.2s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `A4hyMd3FyvUJ...` | 358.52K | 438,424,880 |
 | `23U4mgK9DMCx...` | 29.53K | 437,861,171 |
 | `ChaossRPGKns...` | 12.75K | 438,322,645 |
 | `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
@@ -80,18 +80,18 @@ Generated **2026-08-10T15:18:59Z** in 9.2s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.19 |
-| SOL 24h | -0.87% |
-| SOL 7d | 3.40% |
-| SOL 30d | -2.90% |
-| Market cap | $44.35B |
-| Spot volume 24h | $1.33B |
+| SOL price | $75.81 |
+| SOL 24h | -1.79% |
+| SOL 7d | 3.37% |
+| SOL 30d | -2.68% |
+| Market cap | $44.11B |
+| Spot volume 24h | $1.38B |
 | Circulating supply | 582.17M SOL |
 | Circulating share | 92.13% |
-| DeFi TVL | $4.84B |
-| TVL 24h | 1.06% |
-| TVL 7d | 2.46% |
-| Stablecoin supply | $15.55B |
+| DeFi TVL | $4.83B |
+| TVL 24h | 0.71% |
+| TVL 7d | 2.10% |
+| Stablecoin supply | $15.60B |
 | DEX volume 24h | $1.35B |
 | DEX volume 7d | $10.68B |
 | Chain fees 24h (REV proxy) | $9.10M |
