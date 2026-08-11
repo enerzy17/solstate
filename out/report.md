@@ -1,13 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-11T13:46:03Z** in 9.5s across 15 HTTP calls.
+Generated **2026-08-11T15:18:39Z** in 24.5s across 15 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 33 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 34 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 6.9 robust deviations from its 33-point median of 9.154e+06, a 13.5% move.
-- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 6.9 robust deviations from its 33-point median of 9.154e+06, a 13.5% move.
+- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 7.5 robust deviations from its 34-point median of 9.154e+06, a 14.6% move.
+- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 7.5 robust deviations from its 34-point median of 9.154e+06, a 14.6% move.
 
 ## Network performance
 
@@ -15,32 +15,32 @@ Generated **2026-08-11T13:46:03Z** in 9.5s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 31.80% |
-| Epoch time remaining (est.) | 32h 44m |
-| Absolute slot | 438,617,393 |
-| Block height | 416,671,074 |
-| TPS (all) | 4,007.85 |
-| TPS (non-vote) | 2,354.78 |
-| TPS (30-sample mean) | 4,206.08 |
-| Slot time | 416.70 ms |
+| Epoch progress | 34.84% |
+| Epoch time remaining (est.) | 31h 16m |
+| Absolute slot | 438,630,519 |
+| Block height | 416,684,200 |
+| TPS (all) | 4,281.15 |
+| TPS (non-vote) | 2,651.87 |
+| TPS (30-sample mean) | 4,578.73 |
+| Slot time | 425.50 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,149,279,067 |
+| Lifetime transactions | 537,172,829,748 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 691 |
-| Delinquent | 8 |
-| Delinquent share of stake | 0.01% |
+| Active | 688 |
+| Delinquent | 11 |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 434.93M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.37% |
 | Stake in top 20 | 35.70% |
 | Stake in top 50 | 55.35% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 259 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 258 |
+| Validators at 100% commission | 61 |
 
 ### Largest validators by active stake
 
@@ -66,34 +66,36 @@ Generated **2026-08-11T13:46:03Z** in 9.5s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `9ppJrpsbbuGN...` | 143.39K | 438,630,374 |
 | `23U4mgK9DMCx...` | 28.58K | 437,861,171 |
+| `71F3mXrwguQ7...` | 11.90K | 438,630,170 |
+| `ECeaWy82Cxpe...` | 3.01K | 438,622,652 |
 | `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
 | `3iQqh65Gby53...` | 389.70 | 436,812,576 |
 | `AjGby82yXeYg...` | 305.80 | 438,028,228 |
 | `toshB4tPQTFf...` | 139.15 | 438,615,973 |
 | `Drk2bcinK75J...` | 75.17 | 437,163,253 |
 | `32jCuWyy4aJj...` | 2.70 | 436,736,029 |
-| `R1parD2CtxPB...` | 1.62 | 384,048,870 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.95 |
-| SOL 24h | -0.47% |
-| SOL 7d | 3.02% |
-| SOL 30d | -1.51% |
-| Market cap | $44.25B |
-| Spot volume 24h | $1.38B |
+| SOL price | $75.09 |
+| SOL 24h | -1.45% |
+| SOL 7d | 1.73% |
+| SOL 30d | -3.12% |
+| Market cap | $43.74B |
+| Spot volume 24h | $1.04B |
 | Circulating supply | 582.48M SOL |
 | Circulating share | 92.16% |
-| DeFi TVL | $4.84B |
-| TVL 24h | 0.08% |
-| TVL 7d | 1.95% |
-| Stablecoin supply | $15.71B |
+| DeFi TVL | $4.83B |
+| TVL 24h | -0.06% |
+| TVL 7d | 1.80% |
+| Stablecoin supply | $15.69B |
 | DEX volume 24h | $1.58B |
 | DEX volume 7d | $10.55B |
-| Chain fees 24h (REV proxy) | $10.39M |
+| Chain fees 24h (REV proxy) | $10.49M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -109,6 +111,7 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 
 - [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments)
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026)
+- [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps)
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
@@ -116,7 +119,6 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint)
 - [Solana Changelog: July 16, 2026](https://solana.com/news/solana-changelog-july-16-2026)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
-- [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps)
 - [Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
 - [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
