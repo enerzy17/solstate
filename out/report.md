@@ -1,14 +1,15 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-11T02:30:55Z** in 8.8s across 15 HTTP calls.
+Generated **2026-08-11T05:30:43Z** in 11.9s across 15 HTTP calls.
 
-> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 28 prior runs.
+> **Status:** 4 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 29 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 7.2 robust deviations from its 28-point median of 9.154e+06, a 14.1% move.
-- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 3.7 robust deviations from its 28-point median of 8.55, a 72.7% move.
-- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 7.2 robust deviations from its 28-point median of 9.154e+06, a 14.1% move.
+- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 7.3 robust deviations from its 29-point median of 9.154e+06, a 14.2% move.
+- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 3.7 robust deviations from its 29-point median of 8.55, a 72.7% move.
+- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 7.3 robust deviations from its 29-point median of 9.154e+06, a 14.2% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 5.0 robust deviations from its 29-point median of 419.6, a 5.1% move.
 
 ## Network performance
 
@@ -16,16 +17,16 @@ Generated **2026-08-11T02:30:55Z** in 8.8s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 9.56% |
-| Epoch time remaining (est.) | 43h 24m |
-| Absolute slot | 438,521,280 |
-| Block height | 416,575,030 |
-| TPS (all) | 3,609.08 |
-| TPS (non-vote) | 1,969.03 |
-| TPS (30-sample mean) | 3,387.06 |
-| Slot time | 419.60 ms |
+| Epoch progress | 15.47% |
+| Epoch time remaining (est.) | 40h 34m |
+| Absolute slot | 438,546,849 |
+| Block height | 416,600,562 |
+| TPS (all) | 2,714.53 |
+| TPS (non-vote) | 1,166.40 |
+| TPS (30-sample mean) | 2,919.05 |
+| Slot time | 441.20 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,018,709,965 |
+| Lifetime transactions | 537,053,977,416 |
 
 ## Validators
 
@@ -79,18 +80,18 @@ Generated **2026-08-11T02:30:55Z** in 8.8s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.93 |
-| SOL 24h | -0.70% |
-| SOL 7d | 3.01% |
-| SOL 30d | -1.11% |
-| Market cap | $44.23B |
-| Spot volume 24h | $1.35B |
+| SOL price | $75.73 |
+| SOL 24h | -1.27% |
+| SOL 7d | 2.73% |
+| SOL 30d | -1.20% |
+| Market cap | $44.12B |
+| Spot volume 24h | $1.32B |
 | Circulating supply | 582.48M SOL |
 | Circulating share | 92.16% |
-| DeFi TVL | $4.82B |
-| TVL 24h | -0.29% |
-| TVL 7d | 1.51% |
-| Stablecoin supply | $15.52B |
+| DeFi TVL | $4.83B |
+| TVL 24h | -0.09% |
+| TVL 7d | 1.77% |
+| Stablecoin supply | $15.74B |
 | DEX volume 24h | $1.55B |
 | DEX volume 7d | $10.38B |
 | Chain fees 24h (REV proxy) | $10.45M |
