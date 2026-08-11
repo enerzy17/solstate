@@ -1,14 +1,15 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-11T07:40:59Z** in 9.8s across 15 HTTP calls.
+Generated **2026-08-11T09:16:37Z** in 9.6s across 15 HTTP calls.
 
-> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 30 prior runs.
+> **Status:** 4 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 31 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 7.3 robust deviations from its 30-point median of 9.154e+06, a 14.2% move.
-- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 3.8 robust deviations from its 30-point median of 8.61, a 71.4% move.
-- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 7.3 robust deviations from its 30-point median of 9.154e+06, a 14.2% move.
+- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 7.1 robust deviations from its 31-point median of 9.154e+06, a 13.9% move.
+- [WARNING] **dex_volume_change_24h_pct** (statistical) - dex_volume_change_24h_pct is 4.0 robust deviations from its 31-point median of 8.67, a 70.2% move.
+- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 7.1 robust deviations from its 31-point median of 9.154e+06, a 13.9% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 5.0 robust deviations from its 31-point median of 419.6, a 5.1% move.
 
 ## Network performance
 
@@ -16,23 +17,23 @@ Generated **2026-08-11T07:40:59Z** in 9.8s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 19.76% |
-| Epoch time remaining (est.) | 38h 30m |
-| Absolute slot | 438,565,360 |
-| Block height | 416,619,056 |
-| TPS (all) | 2,956.27 |
-| TPS (non-vote) | 1,353.25 |
-| TPS (30-sample mean) | 3,131.89 |
-| Slot time | 425.50 ms |
+| Epoch progress | 22.91% |
+| Epoch time remaining (est.) | 37h 0m |
+| Absolute slot | 438,578,990 |
+| Block height | 416,632,681 |
+| TPS (all) | 3,104.73 |
+| TPS (non-vote) | 1,522.30 |
+| TPS (30-sample mean) | 3,227.83 |
+| Slot time | 441.20 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,078,267,861 |
+| Lifetime transactions | 537,096,170,182 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 690 |
-| Delinquent | 8 |
+| Active | 691 |
+| Delinquent | 7 |
 | Delinquent share of stake | 0.01% |
 | Total active stake | 434.93M SOL |
 | Nakamoto coefficient | 18 |
@@ -40,7 +41,7 @@ Generated **2026-08-11T07:40:59Z** in 9.8s across 15 HTTP calls.
 | Stake in top 20 | 35.70% |
 | Stake in top 50 | 55.35% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 259 |
+| Validators at 0% commission | 260 |
 | Validators at 100% commission | 62 |
 
 ### Largest validators by active stake
@@ -68,7 +69,6 @@ Generated **2026-08-11T07:40:59Z** in 9.8s across 15 HTTP calls.
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
 | `23U4mgK9DMCx...` | 28.58K | 437,861,171 |
-| `suoHAQF4NJQd...` | 6.75K | 438,564,353 |
 | `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
 | `3iQqh65Gby53...` | 389.70 | 436,812,576 |
 | `AjGby82yXeYg...` | 305.80 | 438,028,228 |
@@ -80,21 +80,21 @@ Generated **2026-08-11T07:40:59Z** in 9.8s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.60 |
-| SOL 24h | -1.79% |
-| SOL 7d | 3.09% |
-| SOL 30d | -0.95% |
-| Market cap | $44.04B |
-| Spot volume 24h | $1.36B |
+| SOL price | $75.73 |
+| SOL 24h | -1.58% |
+| SOL 7d | 3.39% |
+| SOL 30d | -1.22% |
+| Market cap | $44.12B |
+| Spot volume 24h | $1.37B |
 | Circulating supply | 582.48M SOL |
 | Circulating share | 92.16% |
-| DeFi TVL | $4.83B |
-| TVL 24h | -0.14% |
-| TVL 7d | 1.72% |
-| Stablecoin supply | $15.73B |
+| DeFi TVL | $4.84B |
+| TVL 24h | 0.02% |
+| TVL 7d | 1.88% |
+| Stablecoin supply | $15.71B |
 | DEX volume 24h | $1.55B |
 | DEX volume 7d | $10.39B |
-| Chain fees 24h (REV proxy) | $10.45M |
+| Chain fees 24h (REV proxy) | $10.43M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
