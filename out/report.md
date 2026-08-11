@@ -1,13 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-11T19:28:49Z** in 21.6s across 15 HTTP calls.
+Generated **2026-08-11T21:07:22Z** in 9.8s across 15 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 36 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 37 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 8.2 robust deviations from its 36-point median of 9.166e+06, a 14.5% move.
-- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 8.2 robust deviations from its 36-point median of 9.166e+06, a 14.5% move.
+- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 9.2 robust deviations from its 37-point median of 9.178e+06, a 14.3% move.
+- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 9.2 robust deviations from its 37-point median of 9.178e+06, a 14.3% move.
 
 ## Network performance
 
@@ -15,16 +15,16 @@ Generated **2026-08-11T19:28:49Z** in 21.6s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 43.08% |
-| Epoch time remaining (est.) | 27h 19m |
-| Absolute slot | 438,666,125 |
-| Block height | 416,719,767 |
-| TPS (all) | 4,381.27 |
-| TPS (non-vote) | 2,716.40 |
-| TPS (30-sample mean) | 3,969.86 |
-| Slot time | 413.80 ms |
+| Epoch progress | 46.33% |
+| Epoch time remaining (est.) | 25h 45m |
+| Absolute slot | 438,680,163 |
+| Block height | 416,733,777 |
+| TPS (all) | 3,569.10 |
+| TPS (non-vote) | 1,889.95 |
+| TPS (30-sample mean) | 4,372.93 |
+| Slot time | 411.00 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,234,326,370 |
+| Lifetime transactions | 537,260,148,187 |
 
 ## Validators
 
@@ -80,18 +80,18 @@ Generated **2026-08-11T19:28:49Z** in 21.6s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.21 |
-| SOL 24h | -1.02% |
-| SOL 7d | 1.53% |
-| SOL 30d | -2.99% |
-| Market cap | $43.80B |
-| Spot volume 24h | $1.25B |
+| SOL price | $76.00 |
+| SOL 24h | -0.45% |
+| SOL 7d | 2.47% |
+| SOL 30d | -1.83% |
+| Market cap | $44.27B |
+| Spot volume 24h | $1.32B |
 | Circulating supply | 582.48M SOL |
 | Circulating share | 92.16% |
 | DeFi TVL | $4.80B |
-| TVL 24h | -0.79% |
-| TVL 7d | 1.05% |
-| Stablecoin supply | $15.73B |
+| TVL 24h | -0.72% |
+| TVL 7d | 1.13% |
+| Stablecoin supply | $15.70B |
 | DEX volume 24h | $1.58B |
 | DEX volume 7d | $10.55B |
 | Chain fees 24h (REV proxy) | $10.49M |
