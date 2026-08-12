@@ -1,14 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-11T23:06:34Z** in 9.1s across 15 HTTP calls.
+Generated **2026-08-12T02:47:57Z** in 10.6s across 15 HTTP calls.
 
-> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 38 prior runs.
+> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 39 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 6.6 robust deviations from its 38-point median of 9.227e+06, a 13.7% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 55.8 robust deviations from its 38-point median of 0.0072, a 172.2% move.
-- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 6.6 robust deviations from its 38-point median of 9.227e+06, a 13.7% move.
+- [WARNING] **chain_fees_24h_usd** (statistical) - chain_fees_24h_usd is 4.2 robust deviations from its 39-point median of 9.275e+06, a 11.9% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 120.1 robust deviations from its 39-point median of 0.0072, a 741.7% move.
+- [WARNING] **rev_proxy_24h_usd** (statistical) - rev_proxy_24h_usd is 4.2 robust deviations from its 39-point median of 9.275e+06, a 11.9% move.
 
 ## Network performance
 
@@ -16,24 +16,24 @@ Generated **2026-08-11T23:06:34Z** in 9.1s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 50.29% |
-| Epoch time remaining (est.) | 23h 51m |
-| Absolute slot | 438,697,246 |
-| Block height | 416,750,860 |
-| TPS (all) | 3,785.73 |
-| TPS (non-vote) | 2,125.33 |
-| TPS (30-sample mean) | 3,877.11 |
-| Slot time | 411.00 ms |
-| Block lag vs wall clock | 16s |
-| Lifetime transactions | 537,289,190,177 |
+| Epoch progress | 57.59% |
+| Epoch time remaining (est.) | 20h 21m |
+| Absolute slot | 438,728,792 |
+| Block height | 416,782,364 |
+| TPS (all) | 3,473.32 |
+| TPS (non-vote) | 1,860.35 |
+| TPS (30-sample mean) | 3,637.03 |
+| Slot time | 425.50 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 537,340,380,652 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 690 |
-| Delinquent | 9 |
-| Delinquent share of stake | 0.02% |
+| Active | 688 |
+| Delinquent | 11 |
+| Delinquent share of stake | 0.06% |
 | Total active stake | 434.93M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.37% |
@@ -67,7 +67,9 @@ Generated **2026-08-11T23:06:34Z** in 9.1s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `ReFiqMfGnc7t...` | 141.30K | 438,728,599 |
 | `SPHERExTW7Ga...` | 52.22K | 438,638,200 |
+| `5ghoFEVrsXeA...` | 37.27K | 438,728,439 |
 | `23U4mgK9DMCx...` | 28.58K | 437,861,171 |
 | `ECeaWy82Cxpe...` | 3.01K | 438,622,652 |
 | `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
@@ -75,27 +77,26 @@ Generated **2026-08-11T23:06:34Z** in 9.1s across 15 HTTP calls.
 | `AjGby82yXeYg...` | 305.80 | 438,028,228 |
 | `Drk2bcinK75J...` | 75.17 | 437,163,253 |
 | `32jCuWyy4aJj...` | 2.70 | 436,736,029 |
-| `R1parD2CtxPB...` | 1.62 | 384,048,870 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.21 |
-| SOL 24h | 0.20% |
-| SOL 7d | 3.05% |
-| SOL 30d | -0.66% |
-| Market cap | $44.39B |
-| Spot volume 24h | $1.37B |
-| Circulating supply | 582.48M SOL |
-| Circulating share | 92.16% |
-| DeFi TVL | $4.84B |
-| TVL 24h | 0.11% |
-| TVL 7d | 1.98% |
+| SOL price | $76.43 |
+| SOL 24h | 0.51% |
+| SOL 7d | 3.11% |
+| SOL 30d | 0.16% |
+| Market cap | $44.52B |
+| Spot volume 24h | $1.38B |
+| Circulating supply | 582.50M SOL |
+| Circulating share | 92.17% |
+| DeFi TVL | $4.85B |
+| TVL 24h | 0.40% |
+| TVL 7d | 1.19% |
 | Stablecoin supply | $15.71B |
-| DEX volume 24h | $1.58B |
-| DEX volume 7d | $10.55B |
-| Chain fees 24h (REV proxy) | $10.49M |
+| DEX volume 24h | $1.65B |
+| DEX volume 7d | $10.28B |
+| Chain fees 24h (REV proxy) | $10.38M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
