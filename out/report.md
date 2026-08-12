@@ -1,13 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-12T15:17:15Z** in 13.1s across 15 HTTP calls.
+Generated **2026-08-12T17:16:06Z** in 25.2s across 19 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 45 prior runs.
+> **Status:** 1 warning-level anomaly. Data completeness 85.7% (12/14 probes returned data). History depth: 46 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 192.3 robust deviations from its 45-point median of 1.003, a 42.6% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 36.2 robust deviations from its 45-point median of 0.0072, a 223.6% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 27.9 robust deviations from its 46-point median of 0.0072, a 172.2% move.
 
 ## Network performance
 
@@ -15,16 +14,16 @@ Generated **2026-08-12T15:17:15Z** in 13.1s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,015 |
-| Epoch progress | 82.37% |
-| Epoch time remaining (est.) | 8h 27m |
-| Absolute slot | 438,835,844 |
-| Block height | 416,888,016 |
-| TPS (all) | 4,527.77 |
-| TPS (non-vote) | 2,907.72 |
-| TPS (30-sample mean) | 4,430.98 |
-| Slot time | 422.50 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 537,487,704,854 |
+| Epoch progress | 86.29% |
+| Epoch time remaining (est.) | 6h 34m |
+| Absolute slot | 438,852,782 |
+| Block height | 416,904,873 |
+| TPS (all) | 3,880.47 |
+| TPS (non-vote) | 2,231.57 |
+| TPS (30-sample mean) | 4,102.41 |
+| Slot time | 416.70 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 537,518,568,003 |
 
 ## Validators
 
@@ -68,12 +67,12 @@ Generated **2026-08-12T15:17:15Z** in 13.1s across 15 HTTP calls.
 | --- | --- | --- |
 | `SPHERExTW7Ga...` | 52.22K | 438,638,200 |
 | `23U4mgK9DMCx...` | 28.58K | 437,861,171 |
-| `DiFeTctQSaNc...` | 16.02K | 438,833,889 |
 | `ECeaWy82Cxpe...` | 3.01K | 438,622,652 |
 | `CpuDNi3iVoHX...` | 527.97 | 437,185,456 |
 | `3iQqh65Gby53...` | 389.70 | 436,812,576 |
 | `AjGby82yXeYg...` | 305.80 | 438,028,228 |
 | `Drk2bcinK75J...` | 75.17 | 437,163,253 |
+| `BADc8V9fi8Ks...` | 6.00 | 438,849,560 |
 | `32jCuWyy4aJj...` | 2.70 | 436,736,029 |
 | `R1parD2CtxPB...` | 1.62 | 384,048,870 |
 
@@ -81,18 +80,18 @@ Generated **2026-08-12T15:17:15Z** in 13.1s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.67 |
-| SOL 24h | 0.78% |
-| SOL 7d | 2.29% |
-| SOL 30d | -0.58% |
-| Market cap | $44.08B |
-| Spot volume 24h | $1.43B |
+| SOL price | $75.66 |
+| SOL 24h | 0.95% |
+| SOL 7d | 1.86% |
+| SOL 30d | 0.57% |
+| Market cap | $44.07B |
+| Spot volume 24h | $1.36B |
 | Circulating supply | 582.50M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.85B |
-| TVL 24h | 0.54% |
-| TVL 7d | 1.24% |
-| Stablecoin supply | $15.58B |
+| DeFi TVL | $4.83B |
+| TVL 24h | 0.08% |
+| TVL 7d | 0.78% |
+| Stablecoin supply | $15.60B |
 | DEX volume 24h | $1.65B |
 | DEX volume 7d | $10.45B |
 | Chain fees 24h (REV proxy) | $9.98M |
@@ -105,7 +104,7 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-0550, SIMD-0553, SIMD-0392, SIMD-0290, SIMD-0565, SIMD-0529, SIMD-0525, SIMD-0022
+SIMDs referenced in the last feed window: SIMD-0286
 
 ## Ecosystem news
 
@@ -121,9 +120,6 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
 - [Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
-- [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
-- [Release v4.3.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3)
-- [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1)
 
 ## Not collected
 
@@ -132,6 +128,8 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **daily_active_addresses** - No key-free public endpoint. Available via Dune; enable with --dune-key.
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
+- **ecosystem/https://github.com/anza-xyz/agave/releases.atom** - probe failed: HTTP 503
+- **ecosystem/https://github.com/solana-foundation/solana-improvement-documents/commits/main.atom** - probe failed: HTTP 503
 
 ---
 
