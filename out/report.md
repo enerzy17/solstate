@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-13T21:06:20Z** in 11.0s across 15 HTTP calls.
+Generated **2026-08-13T23:05:47Z** in 10.3s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 59 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 60 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 41.82% |
-| Epoch time remaining (est.) | 27h 55m |
-| Absolute slot | 439,092,649 |
-| Block height | 417,144,139 |
-| TPS (all) | 4,144.77 |
-| TPS (non-vote) | 2,543.75 |
-| TPS (30-sample mean) | 3,759.60 |
-| Slot time | 425.50 ms |
-| Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,906,967,093 |
+| Epoch progress | 45.80% |
+| Epoch time remaining (est.) | 26h 0m |
+| Absolute slot | 439,109,874 |
+| Block height | 417,161,340 |
+| TPS (all) | 3,467.98 |
+| TPS (non-vote) | 1,799.55 |
+| TPS (30-sample mean) | 4,048.80 |
+| Slot time | 413.80 ms |
+| Block lag vs wall clock | 14s |
+| Lifetime transactions | 537,934,003,658 |
 
 ## Validators
 
@@ -79,18 +79,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.21 |
-| SOL 24h | 0.48% |
-| SOL 7d | 4.65% |
-| SOL 30d | -1.17% |
-| Market cap | $44.40B |
-| Spot volume 24h | $1.17B |
+| SOL price | $76.16 |
+| SOL 24h | 0.94% |
+| SOL 7d | 4.86% |
+| SOL 30d | -1.84% |
+| Market cap | $44.37B |
+| Spot volume 24h | $1.16B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
 | DeFi TVL | $4.84B |
-| TVL 24h | -0.54% |
-| TVL 7d | 0.66% |
-| Stablecoin supply | $15.49B |
+| TVL 24h | -0.45% |
+| TVL 7d | 0.75% |
+| Stablecoin supply | $15.52B |
 | DEX volume 24h | $1.73B |
 | DEX volume 7d | $10.54B |
 | Chain fees 24h (REV proxy) | $9.67M |
