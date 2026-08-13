@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-13T17:16:30Z** in 13.4s across 15 HTTP calls.
+Generated **2026-08-13T19:28:49Z** in 11.8s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 57 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 58 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 34.16% |
-| Epoch time remaining (est.) | 31h 36m |
-| Absolute slot | 439,059,592 |
-| Block height | 417,111,167 |
-| TPS (all) | 3,868.78 |
-| TPS (non-vote) | 2,224.75 |
-| TPS (30-sample mean) | 4,358.83 |
-| Slot time | 416.70 ms |
-| Block lag vs wall clock | 15s |
-| Lifetime transactions | 537,849,894,510 |
+| Epoch progress | 38.57% |
+| Epoch time remaining (est.) | 29h 29m |
+| Absolute slot | 439,078,618 |
+| Block height | 417,130,147 |
+| TPS (all) | 3,950.73 |
+| TPS (non-vote) | 2,296.23 |
+| TPS (30-sample mean) | 4,212.37 |
+| Slot time | 413.80 ms |
+| Block lag vs wall clock | 14s |
+| Lifetime transactions | 537,882,887,374 |
 
 ## Validators
 
@@ -79,17 +79,17 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.67 |
-| SOL 24h | -0.03% |
-| SOL 7d | 3.02% |
-| SOL 30d | -2.04% |
-| Market cap | $44.10B |
+| SOL price | $76.00 |
+| SOL 24h | 0.36% |
+| SOL 7d | 4.43% |
+| SOL 30d | -1.61% |
+| Market cap | $44.29B |
 | Spot volume 24h | $1.14B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
 | DeFi TVL | $4.83B |
-| TVL 24h | -0.33% |
-| TVL 7d | 0.86% |
+| TVL 24h | -0.65% |
+| TVL 7d | 0.55% |
 | Stablecoin supply | $15.48B |
 | DEX volume 24h | $1.73B |
 | DEX volume 7d | $10.54B |
@@ -119,9 +119,9 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
 - [Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
+- [Release v4.2.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
 - [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
 - [Release v4.3.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3)
-- [Release v4.2.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.0-rc.1)
 
 ## Not collected
 
