@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-13T19:28:49Z** in 11.8s across 15 HTTP calls.
+Generated **2026-08-13T21:06:20Z** in 11.0s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 58 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 59 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 38.57% |
-| Epoch time remaining (est.) | 29h 29m |
-| Absolute slot | 439,078,618 |
-| Block height | 417,130,147 |
-| TPS (all) | 3,950.73 |
-| TPS (non-vote) | 2,296.23 |
-| TPS (30-sample mean) | 4,212.37 |
-| Slot time | 413.80 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 537,882,887,374 |
+| Epoch progress | 41.82% |
+| Epoch time remaining (est.) | 27h 55m |
+| Absolute slot | 439,092,649 |
+| Block height | 417,144,139 |
+| TPS (all) | 4,144.77 |
+| TPS (non-vote) | 2,543.75 |
+| TPS (30-sample mean) | 3,759.60 |
+| Slot time | 425.50 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 537,906,967,093 |
 
 ## Validators
 
@@ -79,18 +79,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.00 |
-| SOL 24h | 0.36% |
-| SOL 7d | 4.43% |
-| SOL 30d | -1.61% |
-| Market cap | $44.29B |
-| Spot volume 24h | $1.14B |
+| SOL price | $76.21 |
+| SOL 24h | 0.48% |
+| SOL 7d | 4.65% |
+| SOL 30d | -1.17% |
+| Market cap | $44.40B |
+| Spot volume 24h | $1.17B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.83B |
-| TVL 24h | -0.65% |
-| TVL 7d | 0.55% |
-| Stablecoin supply | $15.48B |
+| DeFi TVL | $4.84B |
+| TVL 24h | -0.54% |
+| TVL 7d | 0.66% |
+| Stablecoin supply | $15.49B |
 | DEX volume 24h | $1.73B |
 | DEX volume 7d | $10.54B |
 | Chain fees 24h (REV proxy) | $9.67M |
