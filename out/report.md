@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-14T07:53:52Z** in 9.5s across 15 HTTP calls.
+Generated **2026-08-14T09:30:09Z** in 13.3s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 63 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 64 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 63.45% |
-| Epoch time remaining (est.) | 17h 32m |
-| Absolute slot | 439,186,120 |
-| Block height | 417,237,518 |
-| TPS (all) | 3,138.83 |
-| TPS (non-vote) | 1,483.85 |
-| TPS (30-sample mean) | 3,004.14 |
-| Slot time | 413.80 ms |
+| Epoch progress | 66.68% |
+| Epoch time remaining (est.) | 15h 59m |
+| Absolute slot | 439,200,068 |
+| Block height | 417,251,458 |
+| TPS (all) | 3,112.98 |
+| TPS (non-vote) | 1,445.40 |
+| TPS (30-sample mean) | 3,067.04 |
+| Slot time | 411.00 ms |
 | Block lag vs wall clock | 14s |
-| Lifetime transactions | 538,039,846,724 |
+| Lifetime transactions | 538,057,528,875 |
 
 ## Validators
 
@@ -79,21 +79,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.56 |
-| SOL 24h | -1.06% |
-| SOL 7d | 3.89% |
-| SOL 30d | -3.00% |
-| Market cap | $44.02B |
+| SOL price | $75.72 |
+| SOL 24h | -0.29% |
+| SOL 7d | 3.49% |
+| SOL 30d | -2.32% |
+| Market cap | $44.12B |
 | Spot volume 24h | $1.12B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.84B |
-| TVL 24h | 0.28% |
-| TVL 7d | 2.42% |
+| DeFi TVL | $4.83B |
+| TVL 24h | 0.16% |
+| TVL 7d | 2.30% |
 | Stablecoin supply | $15.51B |
 | DEX volume 24h | $1.98B |
 | DEX volume 7d | $10.94B |
-| Chain fees 24h (REV proxy) | $10.09M |
+| Chain fees 24h (REV proxy) | $10.10M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
