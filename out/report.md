@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-14T15:09:40Z** in 9.5s across 15 HTTP calls.
+Generated **2026-08-14T17:14:59Z** in 12.1s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 67 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 68 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 7.7 robust deviations from its 67-point median of 0.0138, a 547.1% move.
+Nothing outside the configured thresholds or the statistical baseline.
 
 ## Network performance
 
@@ -14,31 +14,31 @@ Generated **2026-08-14T15:09:40Z** in 9.5s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 78.03% |
-| Epoch time remaining (est.) | 10h 32m |
-| Absolute slot | 439,249,107 |
-| Block height | 417,300,437 |
-| TPS (all) | 3,781.63 |
-| TPS (non-vote) | 2,137.33 |
-| TPS (30-sample mean) | 4,411.69 |
-| Slot time | 416.70 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 538,131,050,031 |
+| Epoch progress | 82.21% |
+| Epoch time remaining (est.) | 8h 32m |
+| Absolute slot | 439,267,160 |
+| Block height | 417,318,480 |
+| TPS (all) | 4,531.72 |
+| TPS (non-vote) | 2,866.95 |
+| TPS (30-sample mean) | 4,272.99 |
+| Slot time | 408.20 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 538,162,645,121 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 687 |
-| Delinquent | 10 |
-| Delinquent share of stake | 0.09% |
+| Active | 688 |
+| Delinquent | 9 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 434.67M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.44% |
 | Stake in top 20 | 35.79% |
 | Stake in top 50 | 55.48% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 255 |
+| Validators at 0% commission | 256 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -65,7 +65,6 @@ Generated **2026-08-14T15:09:40Z** in 9.5s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `BULKzVM41WAy...` | 328.08K | 439,248,190 |
 | `23U4mgK9DMCx...` | 27.99K | 437,861,171 |
 | `SPHERExTW7Ga...` | 21.31K | 438,638,200 |
 | `suoHAQF4NJQd...` | 6.75K | 438,911,998 |
@@ -80,18 +79,18 @@ Generated **2026-08-14T15:09:40Z** in 9.5s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.20 |
-| SOL 24h | -1.45% |
-| SOL 7d | 2.02% |
-| SOL 30d | -3.75% |
-| Market cap | $43.80B |
-| Spot volume 24h | $1.11B |
+| SOL price | $75.39 |
+| SOL 24h | -0.39% |
+| SOL 7d | 2.65% |
+| SOL 30d | -2.82% |
+| Market cap | $43.92B |
+| Spot volume 24h | $1.00B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.81B |
-| TVL 24h | -0.19% |
-| TVL 7d | 1.94% |
-| Stablecoin supply | $15.47B |
+| DeFi TVL | $4.80B |
+| TVL 24h | -0.44% |
+| TVL 7d | 1.68% |
+| Stablecoin supply | $15.44B |
 | DEX volume 24h | $1.94B |
 | DEX volume 7d | $11.10B |
 | Chain fees 24h (REV proxy) | $10.15M |
@@ -117,8 +116,8 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
 - [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)
 - [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint)
+- [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
-- [Rent Reduction on Solana: A Data-Backed Analysis](https://solana.com/news/rent-reduction-deep-dive)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
 - [Release v4.2.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
 - [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
