@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-14T17:14:59Z** in 12.1s across 15 HTTP calls.
+Generated **2026-08-14T19:17:09Z** in 15.2s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 68 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 69 prior runs.
 
 ## Anomalies
 
@@ -14,31 +14,31 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,016 |
-| Epoch progress | 82.21% |
-| Epoch time remaining (est.) | 8h 32m |
-| Absolute slot | 439,267,160 |
-| Block height | 417,318,480 |
-| TPS (all) | 4,531.72 |
-| TPS (non-vote) | 2,866.95 |
-| TPS (30-sample mean) | 4,272.99 |
-| Slot time | 408.20 ms |
+| Epoch progress | 86.30% |
+| Epoch time remaining (est.) | 6h 34m |
+| Absolute slot | 439,284,812 |
+| Block height | 417,336,128 |
+| TPS (all) | 3,444.93 |
+| TPS (non-vote) | 1,795.55 |
+| TPS (30-sample mean) | 3,786.01 |
+| Slot time | 419.60 ms |
 | Block lag vs wall clock | 15s |
-| Lifetime transactions | 538,162,645,121 |
+| Lifetime transactions | 538,193,006,566 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active | 688 |
-| Delinquent | 9 |
-| Delinquent share of stake | 0.01% |
+| Delinquent | 10 |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 434.67M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.44% |
 | Stake in top 20 | 35.79% |
 | Stake in top 50 | 55.48% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 256 |
+| Validators at 0% commission | 255 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -65,6 +65,7 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `BRAZAtTTzR2E...` | 112.06K | 439,283,417 |
 | `23U4mgK9DMCx...` | 27.99K | 437,861,171 |
 | `SPHERExTW7Ga...` | 21.31K | 438,638,200 |
 | `suoHAQF4NJQd...` | 6.75K | 438,911,998 |
@@ -79,18 +80,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.39 |
-| SOL 24h | -0.39% |
-| SOL 7d | 2.65% |
-| SOL 30d | -2.82% |
-| Market cap | $43.92B |
-| Spot volume 24h | $1.00B |
+| SOL price | $74.70 |
+| SOL 24h | -1.75% |
+| SOL 7d | 1.69% |
+| SOL 30d | -3.72% |
+| Market cap | $43.53B |
+| Spot volume 24h | $1.06B |
 | Circulating supply | 582.61M SOL |
 | Circulating share | 92.17% |
 | DeFi TVL | $4.80B |
-| TVL 24h | -0.44% |
-| TVL 7d | 1.68% |
-| Stablecoin supply | $15.44B |
+| TVL 24h | -0.42% |
+| TVL 7d | 1.71% |
+| Stablecoin supply | $15.42B |
 | DEX volume 24h | $1.94B |
 | DEX volume 7d | $11.10B |
 | Chain fees 24h (REV proxy) | $10.15M |
@@ -119,9 +120,9 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
+- [Release v4.3.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.0)
 - [Release v4.2.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
 - [Release v4.2.0](https://github.com/anza-xyz/agave/releases/tag/v4.2.0)
-- [Release v4.3.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-alpha.3)
 
 ## Not collected
 
