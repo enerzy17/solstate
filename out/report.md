@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-15T22:41:21Z** in 9.5s across 15 HTTP calls.
+Generated **2026-08-16T01:59:17Z** in 8.0s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 83 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 84 prior runs.
 
 ## Anomalies
 
-- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 3.8 robust deviations from its 83-point median of 1.055e+10, a 7.1% move.
+Nothing outside the configured thresholds or the statistical baseline.
 
 ## Network performance
 
@@ -14,16 +14,16 @@ Generated **2026-08-15T22:41:21Z** in 9.5s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,017 |
-| Epoch progress | 41.22% |
-| Epoch time remaining (est.) | 28h 12m |
-| Absolute slot | 439,522,077 |
-| Block height | 417,572,701 |
-| TPS (all) | 3,504.12 |
-| TPS (non-vote) | 1,885.58 |
-| TPS (30-sample mean) | 3,316.66 |
-| Slot time | 416.70 ms |
+| Epoch progress | 47.84% |
+| Epoch time remaining (est.) | 25h 2m |
+| Absolute slot | 439,550,650 |
+| Block height | 417,601,263 |
+| TPS (all) | 3,580.55 |
+| TPS (non-vote) | 1,904.07 |
+| TPS (30-sample mean) | 3,265.94 |
+| Slot time | 411.00 ms |
 | Block lag vs wall clock | 14s |
-| Lifetime transactions | 538,524,194,963 |
+| Lifetime transactions | 538,562,415,485 |
 
 ## Validators
 
@@ -79,21 +79,21 @@ Generated **2026-08-15T22:41:21Z** in 9.5s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.54 |
-| SOL 24h | 0.70% |
-| SOL 7d | -0.83% |
-| SOL 30d | -0.49% |
-| Market cap | $44.02B |
-| Spot volume 24h | $657.31M |
-| Circulating supply | 582.73M SOL |
+| SOL price | $75.34 |
+| SOL 24h | 0.01% |
+| SOL 7d | -0.87% |
+| SOL 30d | -0.18% |
+| Market cap | $43.91B |
+| Spot volume 24h | $641.77M |
+| Circulating supply | 582.78M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.82B |
-| TVL 24h | -0.33% |
-| TVL 7d | 1.51% |
+| DeFi TVL | $4.81B |
+| TVL 24h | -0.09% |
+| TVL 7d | 0.10% |
 | Stablecoin supply | $15.41B |
-| DEX volume 24h | $1.61B |
-| DEX volume 7d | $11.29B |
-| Chain fees 24h (REV proxy) | $8.05M |
+| DEX volume 24h | $1.23B |
+| DEX volume 7d | $10.90B |
+| Chain fees 24h (REV proxy) | $8.27M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
