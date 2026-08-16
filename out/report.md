@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-16T18:49:50Z** in 10.5s across 15 HTTP calls.
+Generated **2026-08-16T20:44:17Z** in 166.5s across 22 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 93 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 94 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,017 |
-| Epoch progress | 81.58% |
-| Epoch time remaining (est.) | 8h 50m |
-| Absolute slot | 439,696,431 |
-| Block height | 417,747,013 |
-| TPS (all) | 3,636.10 |
-| TPS (non-vote) | 2,005.30 |
-| TPS (30-sample mean) | 3,611.54 |
-| Slot time | 416.70 ms |
-| Block lag vs wall clock | 15s |
-| Lifetime transactions | 538,750,131,158 |
+| Epoch progress | 85.32% |
+| Epoch time remaining (est.) | 7h 2m |
+| Absolute slot | 439,712,584 |
+| Block height | 417,763,166 |
+| TPS (all) | 3,580.98 |
+| TPS (non-vote) | 1,879.22 |
+| TPS (30-sample mean) | 3,509.67 |
+| Slot time | 402.70 ms |
+| Block lag vs wall clock | 14s |
+| Lifetime transactions | 538,774,038,969 |
 
 ## Validators
 
@@ -79,17 +79,17 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.12 |
-| SOL 24h | -0.53% |
-| SOL 7d | -2.63% |
-| SOL 30d | -0.10% |
-| Market cap | $43.78B |
-| Spot volume 24h | $596.01M |
-| Circulating supply | 582.78M SOL |
-| Circulating share | 92.17% |
+| SOL price | $75.09 |
+| SOL 24h | -0.46% |
+| SOL 7d | -2.70% |
+| SOL 30d | -0.03% |
+| Market cap | $43.77B |
+| Spot volume 24h | $614.82M |
+| Circulating supply | unavailable |
+| Circulating share | unavailable |
 | DeFi TVL | $4.80B |
-| TVL 24h | -0.26% |
-| TVL 7d | -0.09% |
+| TVL 24h | -0.42% |
+| TVL 7d | -0.25% |
 | Stablecoin supply | $15.40B |
 | DEX volume 24h | $1.17B |
 | DEX volume 7d | $10.98B |
@@ -130,6 +130,7 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **daily_active_addresses** - No key-free public endpoint. Available via Dune; enable with --dune-key.
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
+- **supply/supply** - probe failed: HTTP 402
 
 ---
 
