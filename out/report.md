@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-16T22:40:12Z** in 9.6s across 15 HTTP calls.
+Generated **2026-08-17T01:57:45Z** in 11.0s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 95 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 96 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,017 |
-| Epoch progress | 89.29% |
-| Epoch time remaining (est.) | 5h 8m |
-| Absolute slot | 439,729,719 |
-| Block height | 417,780,293 |
-| TPS (all) | 3,012.55 |
-| TPS (non-vote) | 1,358.17 |
-| TPS (30-sample mean) | 3,601.60 |
+| Epoch progress | 95.90% |
+| Epoch time remaining (est.) | 1h 58m |
+| Absolute slot | 439,758,268 |
+| Block height | 417,808,825 |
+| TPS (all) | 3,190.33 |
+| TPS (non-vote) | 1,534.72 |
+| TPS (30-sample mean) | 3,145.34 |
 | Slot time | 413.80 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 538,799,786,137 |
+| Block lag vs wall clock | 16s |
+| Lifetime transactions | 538,840,045,208 |
 
 ## Validators
 
@@ -79,21 +79,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $74.30 |
-| SOL 24h | -1.63% |
-| SOL 7d | -3.95% |
-| SOL 30d | -0.92% |
-| Market cap | $43.31B |
-| Spot volume 24h | $705.59M |
+| SOL price | $75.09 |
+| SOL 24h | -0.33% |
+| SOL 7d | -1.96% |
+| SOL 30d | 0.05% |
+| Market cap | $43.76B |
+| Spot volume 24h | $790.92M |
 | Circulating supply | 582.78M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.79B |
-| TVL 24h | -0.49% |
-| TVL 7d | -0.32% |
-| Stablecoin supply | $15.39B |
-| DEX volume 24h | $1.17B |
-| DEX volume 7d | $10.98B |
-| Chain fees 24h (REV proxy) | $8.15M |
+| DeFi TVL | $4.78B |
+| TVL 24h | -0.29% |
+| TVL 7d | -1.62% |
+| Stablecoin supply | $15.41B |
+| DEX volume 24h | $1.05B |
+| DEX volume 7d | $10.62B |
+| Chain fees 24h (REV proxy) | $6.63M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -115,9 +115,9 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
 - [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)
-- [Deploying enterprise stablecoin rails on Solana in days with Crossmint](https://solana.com/news/case-study-crossmint)
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
+- [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
 - [Release v4.3.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.0)
 - [Release v4.2.1](https://github.com/anza-xyz/agave/releases/tag/v4.2.1)
