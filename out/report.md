@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-17T22:45:07Z** in 37.2s across 16 HTTP calls.
+Generated **2026-08-18T01:53:43Z** in 8.6s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 106 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 107 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,018 |
-| Epoch progress | 37.59% |
-| Epoch time remaining (est.) | 29h 57m |
-| Absolute slot | 439,938,391 |
-| Block height | 417,988,794 |
-| TPS (all) | 3,487.82 |
-| TPS (non-vote) | 1,851.50 |
-| TPS (30-sample mean) | 3,714.16 |
-| Slot time | 419.60 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 539,109,425,897 |
+| Epoch progress | 43.93% |
+| Epoch time remaining (est.) | 26h 54m |
+| Absolute slot | 439,965,758 |
+| Block height | 418,016,157 |
+| TPS (all) | 3,482.85 |
+| TPS (non-vote) | 1,880.25 |
+| TPS (30-sample mean) | 3,241.85 |
+| Slot time | 425.50 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 539,148,786,866 |
 
 ## Validators
 
@@ -76,21 +76,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $75.72 |
-| SOL 24h | 1.92% |
-| SOL 7d | -0.70% |
-| SOL 30d | 0.36% |
-| Market cap | $44.13B |
-| Spot volume 24h | $1.26B |
+| SOL price | $75.64 |
+| SOL 24h | 0.71% |
+| SOL 7d | -0.08% |
+| SOL 30d | 0.12% |
+| Market cap | $44.09B |
+| Spot volume 24h | $1.23B |
 | Circulating supply | 582.90M SOL |
 | Circulating share | 92.17% |
 | DeFi TVL | $4.85B |
-| TVL 24h | 0.80% |
-| TVL 7d | -0.14% |
-| Stablecoin supply | $15.37B |
-| DEX volume 24h | $1.06B |
-| DEX volume 7d | $10.69B |
-| Chain fees 24h (REV proxy) | $6.80M |
+| TVL 24h | 0.03% |
+| TVL 7d | 0.30% |
+| Stablecoin supply | $15.39B |
+| DEX volume 24h | $1.43B |
+| DEX volume 7d | $10.47B |
+| Chain fees 24h (REV proxy) | $8.16M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
