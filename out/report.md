@@ -1,12 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-18T19:01:33Z** in 114.2s across 21 HTTP calls.
+Generated **2026-08-18T20:42:56Z** in 9.8s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 92.9% (13/14 probes returned data). History depth: 116 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 117 prior runs.
 
 ## Anomalies
 
-- [WARNING] **tvl_change_24h_pct** (statistical) - tvl_change_24h_pct is 3.6 robust deviations from its 116-point median of 0.025, a 9860.0% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 8.7 robust deviations from its 117-point median of 0.0166, a 686.1% move.
+- [WARNING] **tvl_change_24h_pct** (statistical) - tvl_change_24h_pct is 3.7 robust deviations from its 117-point median of 0.03, a 8633.3% move.
 
 ## Network performance
 
@@ -14,24 +15,24 @@ Generated **2026-08-18T19:01:33Z** in 114.2s across 21 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,018 |
-| Epoch progress | 78.24% |
-| Epoch time remaining (est.) | 10h 26m |
-| Absolute slot | 440,114,010 |
-| Block height | 418,164,291 |
-| TPS (all) | 4,226.58 |
-| TPS (non-vote) | 2,592.43 |
-| TPS (30-sample mean) | 4,621.75 |
-| Slot time | 419.60 ms |
-| Block lag vs wall clock | 15s |
-| Lifetime transactions | 539,371,667,007 |
+| Epoch progress | 81.69% |
+| Epoch time remaining (est.) | 8h 47m |
+| Absolute slot | 440,128,882 |
+| Block height | 418,179,159 |
+| TPS (all) | 3,779.15 |
+| TPS (non-vote) | 2,100.22 |
+| TPS (30-sample mean) | 3,984.43 |
+| Slot time | 411.00 ms |
+| Block lag vs wall clock | 14s |
+| Lifetime transactions | 539,397,310,281 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 688 |
-| Delinquent | 7 |
-| Delinquent share of stake | 0.01% |
+| Active | 687 |
+| Delinquent | 8 |
+| Delinquent share of stake | 0.13% |
 | Total active stake | 435.68M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.39% |
@@ -65,6 +66,7 @@ Generated **2026-08-18T19:01:33Z** in 114.2s across 21 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `84gC25fbFKYu...` | 518.24K | 440,128,487 |
 | `23U4mgK9DMCx...` | 27.98K | 437,861,171 |
 | `DiFeTctQSaNc...` | 16.03K | 440,085,111 |
 | `ECeaWy82Cxpe...` | 2.89K | 438,622,652 |
@@ -77,17 +79,17 @@ Generated **2026-08-18T19:01:33Z** in 114.2s across 21 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.23 |
-| SOL 24h | 1.85% |
-| SOL 7d | 2.74% |
-| SOL 30d | 2.03% |
-| Market cap | $45.02B |
-| Spot volume 24h | $1.37B |
-| Circulating supply | unavailable |
-| Circulating share | unavailable |
+| SOL price | $76.97 |
+| SOL 24h | 1.45% |
+| SOL 7d | 1.67% |
+| SOL 30d | 1.50% |
+| Market cap | $44.87B |
+| Spot volume 24h | $1.38B |
+| Circulating supply | 582.89M SOL |
+| Circulating share | 92.17% |
 | DeFi TVL | $4.90B |
-| TVL 24h | 2.49% |
-| TVL 7d | 1.17% |
+| TVL 24h | 2.62% |
+| TVL 7d | 1.30% |
 | Stablecoin supply | $15.42B |
 | DEX volume 24h | $1.47B |
 | DEX volume 7d | $10.60B |
@@ -128,7 +130,6 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **daily_active_addresses** - No key-free public endpoint. Available via Dune; enable with --dune-key.
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
-- **supply/supply** - probe failed: HTTP 402
 
 ---
 
