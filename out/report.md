@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-19T08:57:23Z** in 8.1s across 15 HTTP calls.
+Generated **2026-08-19T10:48:58Z** in 17.0s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 123 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 124 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,019 |
-| Epoch progress | 6.22% |
-| Epoch time remaining (est.) | 45h 0m |
-| Absolute slot | 440,234,885 |
-| Block height | 418,285,058 |
-| TPS (all) | 2,873.05 |
-| TPS (non-vote) | 1,271.65 |
-| TPS (30-sample mean) | 3,053.70 |
-| Slot time | 425.50 ms |
-| Block lag vs wall clock | 16s |
-| Lifetime transactions | 539,550,963,421 |
+| Epoch progress | 9.95% |
+| Epoch time remaining (est.) | 43h 13m |
+| Absolute slot | 440,250,977 |
+| Block height | 418,301,134 |
+| TPS (all) | 3,225.15 |
+| TPS (non-vote) | 1,580.37 |
+| TPS (30-sample mean) | 3,069.85 |
+| Slot time | 413.80 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 539,571,830,603 |
 
 ## Validators
 
@@ -80,18 +80,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $77.42 |
-| SOL 24h | 1.77% |
-| SOL 7d | 1.62% |
-| SOL 30d | 1.67% |
-| Market cap | $45.14B |
-| Spot volume 24h | $1.37B |
+| SOL price | $77.30 |
+| SOL 24h | 1.96% |
+| SOL 7d | 0.78% |
+| SOL 30d | 1.16% |
+| Market cap | $45.07B |
+| Spot volume 24h | $1.41B |
 | Circulating supply | 583.01M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.89B |
-| TVL 24h | 0.85% |
-| TVL 7d | 0.56% |
-| Stablecoin supply | $15.43B |
+| DeFi TVL | $4.90B |
+| TVL 24h | 0.98% |
+| TVL 7d | 0.70% |
+| Stablecoin supply | $15.42B |
 | DEX volume 24h | $1.82B |
 | DEX volume 7d | $10.65B |
 | Chain fees 24h (REV proxy) | $8.71M |
@@ -104,17 +104,17 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-0550, SIMD-0553, SIMD-0392, SIMD-0290, SIMD-0565, SIMD-0529, SIMD-0525, SIMD-0022
+SIMDs referenced in the last feed window: SIMD-0340, SIMD-0433, SIMD-0550, SIMD-0553, SIMD-0392, SIMD-0290, SIMD-0565, SIMD-0529, SIMD-0525, SIMD-0022
 
 ## Ecosystem news
 
+- [Lowering Slot Time and Validators Economic](https://solana.com/news/lowering-slot-time-and-validators-economic)
 - [Why Asia Is Ahead on Stablecoins, According to Reap's Daren Guo](https://solana.com/news/bits-to-bricks-asia-ahead-stablecoins-daren-guo-reap)
 - [Webinar Recap: Giving AI agents a native way to pay with x402](https://solana.com/news/webinar-recap-agentic-payments)
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026)
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps)
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
-- [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
 - [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
