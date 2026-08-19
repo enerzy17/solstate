@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-19T01:55:21Z** in 10.1s across 15 HTTP calls.
+Generated **2026-08-19T03:13:09Z** in 8.1s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 119 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 120 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 49.6 robust deviations from its 119-point median of 0.0166, a 3901.2% move.
+Nothing outside the configured thresholds or the statistical baseline.
 
 ## Network performance
 
@@ -14,31 +14,31 @@ Generated **2026-08-19T01:55:21Z** in 10.1s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,018 |
-| Epoch progress | 92.12% |
-| Epoch time remaining (est.) | 3h 47m |
-| Absolute slot | 440,173,940 |
-| Block height | 418,224,189 |
-| TPS (all) | 4,371.28 |
-| TPS (non-vote) | 2,693.57 |
-| TPS (30-sample mean) | 3,897.18 |
-| Slot time | 408.20 ms |
-| Block lag vs wall clock | 14s |
-| Lifetime transactions | 539,469,514,710 |
+| Epoch progress | 94.71% |
+| Epoch time remaining (est.) | 2h 32m |
+| Absolute slot | 440,185,163 |
+| Block height | 418,235,388 |
+| TPS (all) | 3,988.10 |
+| TPS (non-vote) | 2,330.52 |
+| TPS (30-sample mean) | 3,537.44 |
+| Slot time | 411.00 ms |
+| Block lag vs wall clock | 15s |
+| Lifetime transactions | 539,487,711,827 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 687 |
-| Delinquent | 8 |
-| Delinquent share of stake | 0.66% |
+| Active | 688 |
+| Delinquent | 7 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 435.68M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.39% |
 | Stake in top 20 | 35.72% |
-| Stake in top 50 | 55.37% |
+| Stake in top 50 | 55.44% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 253 |
+| Validators at 0% commission | 255 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -65,9 +65,8 @@ Generated **2026-08-19T01:55:21Z** in 10.1s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `CoG8d9Fp2TFJ...` | 2.53M | 440,170,811 |
-| `BULKzVM41WAy...` | 328.30K | 440,173,293 |
 | `23U4mgK9DMCx...` | 27.98K | 437,861,171 |
+| `DiFeTctQSaNc...` | 16.03K | 440,175,360 |
 | `ECeaWy82Cxpe...` | 2.89K | 438,622,652 |
 | `SPHERExTW7Ga...` | 1.50K | 438,638,200 |
 | `4GEEKSwuiBHW...` | 1.40K | 439,921,724 |
@@ -78,17 +77,17 @@ Generated **2026-08-19T01:55:21Z** in 10.1s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $76.75 |
-| SOL 24h | 1.54% |
-| SOL 7d | 0.58% |
-| SOL 30d | 0.29% |
-| Market cap | $44.72B |
-| Spot volume 24h | $1.45B |
+| SOL price | $76.69 |
+| SOL 24h | 1.88% |
+| SOL 7d | 0.42% |
+| SOL 30d | -0.31% |
+| Market cap | $44.70B |
+| Spot volume 24h | $1.38B |
 | Circulating supply | 582.89M SOL |
 | Circulating share | 92.17% |
-| DeFi TVL | $4.90B |
-| TVL 24h | 0.52% |
-| TVL 7d | 0.75% |
+| DeFi TVL | $4.89B |
+| TVL 24h | 0.82% |
+| TVL 7d | 0.63% |
 | Stablecoin supply | $15.42B |
 | DEX volume 24h | $1.82B |
 | DEX volume 7d | $10.65B |
@@ -113,8 +112,8 @@ SIMDs referenced in the last feed window: SIMD-0286, SIMD-0340, SIMD-0433, SIMD-
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)
 - [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
 - [Solana Changelog: Mainnet raises block limits to 100M CUs](https://solana.com/news/solana-changelog-july-30-2026)
-- [Solana Changelog: July 23, 2026](https://solana.com/news/solana-changelog-july-23-2026)
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
+- [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
 - [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
