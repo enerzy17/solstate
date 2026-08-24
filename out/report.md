@@ -1,24 +1,24 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-24T20:51:28Z** in 8.0s across 15 HTTP calls.
+Generated **2026-08-24T22:47:06Z** in 9.5s across 15 HTTP calls.
 
-> **Status:** 13 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 189 prior runs.
+> **Status:** 13 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 190 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 5.5 robust deviations from its 189-point median of 6.508e+07, a 27.3% move.
-- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 18.6 robust deviations from its 189-point median of 1.079e+10, a 79.4% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.1 robust deviations from its 189-point median of 413.8, a 12.7% move.
-- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 14.0 robust deviations from its 189-point median of -73.96, a 9.3% move.
-- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 7.8 robust deviations from its 189-point median of 0.56, a 5183.9% move.
-- [WARNING] **sol_change_7d_pct** (statistical) - sol_change_7d_pct is 4.4 robust deviations from its 189-point median of 3.73, a 637.5% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 14.4 robust deviations from its 189-point median of 4.827e+10, a 26.5% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 14.4 robust deviations from its 189-point median of 4.449e+10, a 26.5% move.
-- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 14.3 robust deviations from its 189-point median of 76.37, a 26.4% move.
-- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 9.0 robust deviations from its 189-point median of 1.347e+09, a 295.2% move.
-- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 5.7 robust deviations from its 189-point median of -0.02, a 83350.0% move.
-- [WARNING] **tvl_change_7d_pct** (statistical) - tvl_change_7d_pct is 6.9 robust deviations from its 189-point median of 1.98, a 758.6% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 12.1 robust deviations from its 189-point median of 4.849e+09, a 15.3% move.
+- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 5.4 robust deviations from its 190-point median of 6.51e+07, a 27.2% move.
+- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 18.3 robust deviations from its 190-point median of 1.079e+10, a 79.4% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 5.6 robust deviations from its 190-point median of 413.8, a 11.6% move.
+- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 14.4 robust deviations from its 190-point median of -73.95, a 9.8% move.
+- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 8.1 robust deviations from its 190-point median of 0.565, a 5439.8% move.
+- [WARNING] **sol_change_7d_pct** (statistical) - sol_change_7d_pct is 4.6 robust deviations from its 190-point median of 3.745, a 673.8% move.
+- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 15.0 robust deviations from its 190-point median of 4.829e+10, a 28.1% move.
+- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 15.0 robust deviations from its 190-point median of 4.45e+10, a 28.1% move.
+- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 14.6 robust deviations from its 190-point median of 76.4, a 27.9% move.
+- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 9.0 robust deviations from its 190-point median of 1.349e+09, a 302.1% move.
+- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 5.7 robust deviations from its 190-point median of -0.01, a 170300.0% move.
+- [WARNING] **tvl_change_7d_pct** (statistical) - tvl_change_7d_pct is 6.7 robust deviations from its 190-point median of 2.025, a 758.3% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 12.4 robust deviations from its 190-point median of 4.849e+09, a 15.6% move.
 
 ## Network performance
 
@@ -26,16 +26,16 @@ Generated **2026-08-24T20:51:28Z** in 8.0s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,021 |
-| Epoch progress | 93.67% |
-| Epoch time remaining (est.) | 3h 2m |
-| Absolute slot | 441,476,645 |
-| Block height | 419,525,572 |
-| TPS (all) | 3,900.82 |
-| TPS (non-vote) | 2,020.87 |
-| TPS (30-sample mean) | 3,968.39 |
-| Slot time | 361.40 ms |
+| Epoch progress | 98.05% |
+| Epoch time remaining (est.) | 56m 14s |
+| Absolute slot | 441,495,563 |
+| Block height | 419,544,466 |
+| TPS (all) | 4,022.87 |
+| TPS (non-vote) | 2,176.38 |
+| TPS (30-sample mean) | 3,956.03 |
+| Slot time | 365.90 ms |
 | Block lag vs wall clock | 13s |
-| Lifetime transactions | 541,470,217,583 |
+| Lifetime transactions | 541,497,915,176 |
 
 ## Validators
 
@@ -91,18 +91,18 @@ Generated **2026-08-24T20:51:28Z** in 8.0s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $96.51 |
-| SOL 24h | 1.52% |
-| SOL 7d | 27.51% |
-| SOL 30d | 29.59% |
-| Market cap | $56.29B |
-| Spot volume 24h | $5.32B |
+| SOL price | $97.70 |
+| SOL 24h | 2.41% |
+| SOL 7d | 28.98% |
+| SOL 30d | 31.30% |
+| Market cap | $57.02B |
+| Spot volume 24h | $5.43B |
 | Circulating supply | 583.28M SOL |
 | Circulating share | 92.18% |
-| DeFi TVL | $5.59B |
-| TVL 24h | 0.57% |
-| TVL 7d | 17.00% |
-| Stablecoin supply | $15.84B |
+| DeFi TVL | $5.61B |
+| TVL 24h | 0.89% |
+| TVL 7d | 17.38% |
+| Stablecoin supply | $15.90B |
 | DEX volume 24h | $2.94B |
 | DEX volume 7d | $19.36B |
 | Chain fees 24h (REV proxy) | $12.65M |
@@ -125,10 +125,10 @@ SIMDs referenced in the last feed window: SIMD-0340, SIMD-0433, SIMD-0550, SIMD-
 - [Solana Ecosystem Roundup: July 2026](https://solana.com/news/solana-ecosystem-roundup-july-2026)
 - [MoneyGram Ramps launches on Solana](https://solana.com/news/moneygram-ramps)
 - [Breakpoint 2026: The Token Supercycle](https://solana.com/news/the-token-supercycle)
-- [Overview of Institutional Real World Assets on Solana](https://solana.com/news/overview-of-institutional-real-world-assets-on-solana)
 - [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
 - [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi)
 - [Solana Changelog: August 6, 2026](https://solana.com/news/solana-changelog-august-6-2026)
+- [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026)
 - [Transaction v1 and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)
 - [Inside Solana’s Growing Market for Tokenized Cards and Physical Collectibles](https://solana.com/news/tokenized-cards-and-physical-collectibles)
 - [Release v4.3.0-beta.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-beta.2)
