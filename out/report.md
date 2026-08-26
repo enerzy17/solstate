@@ -1,23 +1,23 @@
 # Solana Ecosystem State Report
 
-Generated **2026-08-26T07:11:59Z** in 26.5s across 15 HTTP calls.
+Generated **2026-08-26T09:05:47Z** in 17.3s across 15 HTTP calls.
 
-> **Status:** 12 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 206 prior runs.
+> **Status:** 12 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 207 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 6.0 robust deviations from its 206-point median of 6.559e+07, a 36.6% move.
-- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 16.7 robust deviations from its 206-point median of 1.092e+10, a 97.9% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 3.7 robust deviations from its 206-point median of 411, a 11.5% move.
-- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 9.9 robust deviations from its 206-point median of -73.84, a 9.3% move.
-- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 4.8 robust deviations from its 206-point median of 1.035, a 2455.6% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 10.0 robust deviations from its 206-point median of 4.849e+10, a 26.5% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 10.1 robust deviations from its 206-point median of 4.468e+10, a 26.5% move.
-- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 9.9 robust deviations from its 206-point median of 76.72, a 26.3% move.
-- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 4.6 robust deviations from its 206-point median of 1.367e+09, a 185.9% move.
-- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 3.6 robust deviations from its 206-point median of 0.235, a 5763.8% move.
-- [WARNING] **tvl_change_7d_pct** (statistical) - tvl_change_7d_pct is 4.0 robust deviations from its 206-point median of 2.255, a 536.4% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 10.6 robust deviations from its 206-point median of 4.856e+09, a 15.3% move.
+- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 5.9 robust deviations from its 207-point median of 6.561e+07, a 36.5% move.
+- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 16.9 robust deviations from its 207-point median of 1.093e+10, a 97.6% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 3.5 robust deviations from its 207-point median of 411, a 11.0% move.
+- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 9.7 robust deviations from its 207-point median of -73.84, a 9.3% move.
+- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 4.9 robust deviations from its 207-point median of 1.06, a 2456.6% move.
+- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 9.9 robust deviations from its 207-point median of 4.849e+10, a 26.4% move.
+- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 10.1 robust deviations from its 207-point median of 4.469e+10, a 26.5% move.
+- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 9.7 robust deviations from its 207-point median of 76.73, a 26.3% move.
+- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 3.9 robust deviations from its 207-point median of 1.368e+09, a 161.4% move.
+- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 3.6 robust deviations from its 207-point median of 0.24, a 5645.8% move.
+- [WARNING] **tvl_change_7d_pct** (statistical) - tvl_change_7d_pct is 3.9 robust deviations from its 207-point median of 2.3, a 524.3% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 10.3 robust deviations from its 207-point median of 4.857e+09, a 15.3% move.
 
 ## Network performance
 
@@ -25,16 +25,16 @@ Generated **2026-08-26T07:11:59Z** in 26.5s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,022 |
-| Epoch progress | 71.94% |
-| Epoch time remaining (est.) | 13h 28m |
-| Absolute slot | 441,814,786 |
-| Block height | 419,863,311 |
-| TPS (all) | 3,097.10 |
-| TPS (non-vote) | 1,217.92 |
-| TPS (30-sample mean) | 3,229.70 |
-| Slot time | 363.60 ms |
+| Epoch progress | 76.28% |
+| Epoch time remaining (est.) | 11h 23m |
+| Absolute slot | 441,833,538 |
+| Block height | 419,882,059 |
+| TPS (all) | 3,172.40 |
+| TPS (non-vote) | 1,305.40 |
+| TPS (30-sample mean) | 3,250.46 |
+| Slot time | 365.90 ms |
 | Block lag vs wall clock | 14s |
-| Lifetime transactions | 541,957,245,907 |
+| Lifetime transactions | 541,979,381,608 |
 
 ## Validators
 
@@ -91,17 +91,17 @@ Generated **2026-08-26T07:11:59Z** in 26.5s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $96.92 |
-| SOL 24h | -4.52% |
-| SOL 7d | 25.83% |
-| SOL 30d | 26.45% |
-| Market cap | $56.54B |
-| Spot volume 24h | $3.91B |
+| SOL price | $96.90 |
+| SOL 24h | -3.19% |
+| SOL 7d | 25.28% |
+| SOL 30d | 27.10% |
+| Market cap | $56.52B |
+| Spot volume 24h | $3.58B |
 | Circulating supply | 583.38M SOL |
 | Circulating share | 92.18% |
 | DeFi TVL | $5.60B |
 | TVL 24h | -2.40% |
-| TVL 7d | 14.35% |
+| TVL 7d | 14.36% |
 | Stablecoin supply | $15.95B |
 | DEX volume 24h | $2.95B |
 | DEX volume 7d | $21.60B |
