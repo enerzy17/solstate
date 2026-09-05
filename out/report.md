@@ -1,22 +1,21 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-05T00:09:24Z** in 10.2s across 15 HTTP calls.
+Generated **2026-09-05T04:36:32Z** in 13.2s across 15 HTTP calls.
 
-> **Status:** 11 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 250 prior runs.
+> **Status:** 10 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 251 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 6.0 robust deviations from its 250-point median of 1.295, a 100.0% move.
-- [WARNING] **dex_volume_7d_usd** (statistical) - dex_volume_7d_usd is 3.6 robust deviations from its 250-point median of 1.122e+10, a 39.2% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 4.7 robust deviations from its 250-point median of 411, a 24.4% move.
-- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 5.5 robust deviations from its 250-point median of -73.47, a 11.2% move.
-- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 4.3 robust deviations from its 250-point median of 1.99, a 1794.0% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 5.4 robust deviations from its 250-point median of 4.922e+10, a 31.1% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 5.4 robust deviations from its 250-point median of 4.537e+10, a 31.4% move.
-- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 5.5 robust deviations from its 250-point median of 77.81, a 30.9% move.
-- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 3.9 robust deviations from its 250-point median of 0.745, a 2772.5% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 5.3 robust deviations from its 250-point median of 4.909e+09, a 18.8% move.
-- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 6.1 robust deviations from its 250-point median of 9, a 100.0% move.
+- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 6.0 robust deviations from its 251-point median of 1.295, a 100.0% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 4.5 robust deviations from its 251-point median of 411, a 23.6% move.
+- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 4.6 robust deviations from its 251-point median of -73.34, a 11.0% move.
+- [WARNING] **sol_change_30d_pct** (statistical) - sol_change_30d_pct is 4.3 robust deviations from its 251-point median of 2.03, a 1813.3% move.
+- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 4.5 robust deviations from its 251-point median of 4.947e+10, a 30.5% move.
+- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 4.6 robust deviations from its 251-point median of 4.56e+10, a 30.9% move.
+- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 4.6 robust deviations from its 251-point median of 78.19, a 30.4% move.
+- [WARNING] **tvl_change_30d_pct** (statistical) - tvl_change_30d_pct is 4.0 robust deviations from its 251-point median of 0.75, a 2825.3% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 5.1 robust deviations from its 251-point median of 4.916e+09, a 19.2% move.
+- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 6.1 robust deviations from its 251-point median of 9, a 100.0% move.
 
 ## Network performance
 
@@ -24,16 +23,16 @@ Generated **2026-09-05T00:09:24Z** in 10.2s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,028 |
-| Epoch progress | 65.37% |
-| Epoch time remaining (est.) | 16h 37m |
-| Absolute slot | 444,378,407 |
-| Block height | 422,423,592 |
-| TPS (all) | 3,307.32 |
-| TPS (non-vote) | 1,153.05 |
-| TPS (30-sample mean) | 3,215.70 |
-| Slot time | 310.90 ms |
-| Block lag vs wall clock | 12s |
-| Lifetime transactions | 545,239,132,697 |
+| Epoch progress | 77.15% |
+| Epoch time remaining (est.) | 10h 57m |
+| Absolute slot | 444,429,306 |
+| Block height | 422,474,227 |
+| TPS (all) | 3,072.88 |
+| TPS (non-vote) | 924.65 |
+| TPS (30-sample mean) | 3,171.18 |
+| Slot time | 314.10 ms |
+| Block lag vs wall clock | 11s |
+| Lifetime transactions | 545,291,194,372 |
 
 ## Validators
 
@@ -90,21 +89,21 @@ Generated **2026-09-05T00:09:24Z** in 10.2s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.87 |
-| SOL 24h | -1.79% |
-| SOL 7d | -2.16% |
-| SOL 30d | 37.69% |
-| Market cap | $59.63B |
-| Spot volume 24h | $3.37B |
+| SOL price | $101.94 |
+| SOL 24h | -2.19% |
+| SOL 7d | -1.88% |
+| SOL 30d | 38.84% |
+| Market cap | $59.67B |
+| Spot volume 24h | $3.16B |
 | Circulating supply | 585.36M SOL |
 | Circulating share | 92.41% |
-| DeFi TVL | $5.83B |
-| TVL 24h | 2.32% |
-| TVL 7d | -2.98% |
-| Stablecoin supply | $16.37B |
-| DEX volume 24h | $2.46B |
-| DEX volume 7d | $15.61B |
-| Chain fees 24h (REV proxy) | $11.82M |
+| DeFi TVL | $5.86B |
+| TVL 24h | -0.98% |
+| TVL 7d | -0.17% |
+| Stablecoin supply | $16.32B |
+| DEX volume 24h | $1.85B |
+| DEX volume 7d | $14.32B |
+| Chain fees 24h (REV proxy) | $9.54M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
