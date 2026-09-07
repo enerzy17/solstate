@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-07T04:49:53Z** in 8.4s across 15 HTTP calls.
+Generated **2026-09-07T12:42:38Z** in 10.8s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 263 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 264 prior runs.
 
 ## Anomalies
 
@@ -14,31 +14,31 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,030 |
-| Epoch progress | 4.26% |
-| Epoch time remaining (est.) | 45h 57m |
-| Absolute slot | 444,978,418 |
-| Block height | 423,022,696 |
-| TPS (all) | 3,717.23 |
-| TPS (non-vote) | 1,546.23 |
-| TPS (30-sample mean) | 3,566.24 |
-| Slot time | 312.50 ms |
-| Block lag vs wall clock | 12s |
-| Lifetime transactions | 545,906,100,463 |
+| Epoch progress | 24.99% |
+| Epoch time remaining (est.) | 36h 0m |
+| Absolute slot | 445,067,954 |
+| Block height | 423,112,201 |
+| TPS (all) | 3,632.07 |
+| TPS (non-vote) | 1,526.48 |
+| TPS (30-sample mean) | 3,662.87 |
+| Slot time | 317.50 ms |
+| Block lag vs wall clock | 11s |
+| Lifetime transactions | 546,004,493,858 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 677 |
-| Delinquent | 11 |
-| Delinquent share of stake | 0.01% |
+| Active | 674 |
+| Delinquent | 14 |
+| Delinquent share of stake | 0.05% |
 | Total active stake | 439.48M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.19% |
 | Stake in top 20 | 35.45% |
 | Stake in top 50 | 55.13% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 247 |
+| Validators at 0% commission | 244 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -65,6 +65,9 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `uEhHSnCXvWgt...` | 99.97K | 445,055,774 |
+| `DefiihS7gLkj...` | 84.37K | 445,006,201 |
+| `mrgn4atx3Jnf...` | 20.30K | 445,047,030 |
 | `xLabscif2DLn...` | 8.89K | 443,788,373 |
 | `prt1st4RSxAt...` | 7.04K | 443,486,942 |
 | `E4xNK4UwGnMt...` | 6.26K | 443,348,723 |
@@ -72,26 +75,23 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `pSoLoZx55zZz...` | 1.51K | 444,539,191 |
 | `4GEEKSwuiBHW...` | 1.34K | 443,438,639 |
 | `CpdzCVzaR9gj...` | 193.38 | 442,800,351 |
-| `HFTcVVrX93SJ...` | 148.42 | 442,800,457 |
-| `As9NxA9bCfhr...` | 46.58 | 442,800,334 |
-| `6mygxmZxmTqq...` | 2.00 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $105.19 |
-| SOL 24h | -0.95% |
-| SOL 7d | 3.20% |
-| SOL 30d | 40.58% |
-| Market cap | $61.66B |
-| Spot volume 24h | $3.81B |
+| SOL price | $105.24 |
+| SOL 24h | -1.65% |
+| SOL 7d | 1.83% |
+| SOL 30d | 39.33% |
+| Market cap | $61.71B |
+| Spot volume 24h | $3.42B |
 | Circulating supply | 586.17M SOL |
 | Circulating share | 92.51% |
 | DeFi TVL | $5.92B |
 | TVL 24h | 1.11% |
 | TVL 7d | 0.23% |
-| Stablecoin supply | $16.44B |
+| Stablecoin supply | $16.42B |
 | DEX volume 24h | $1.96B |
 | DEX volume 7d | $14.51B |
 | Chain fees 24h (REV proxy) | $10.48M |
@@ -112,14 +112,14 @@ SIMDs referenced in the last feed window: SIMD-0550, SIMD-0599, SIMD-0340, SIMD-
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped)
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america)
 - [The Token Supercycle Is Here: Solana Brings Breakpoint 2026 to London](https://solana.com/news/breakpoint-2026-london-speakers)
-- [Solana Changelog: August 13, 2026](https://solana.com/news/solana-changelog-august-13-2026)
-- [How Meow Built Agentic Banking and Agent Payment Rails, with Brandon Arvanaghi](https://solana.com/news/how-meow-built-agentic-banking-and-agent-payment-rails-with-brandon-arvanaghi)
 - [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)
 - [How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction)
 - [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026)
 - [v1 Transactions and the ALT Trade-off](https://solana.com/news/transaction-v1-and-the-alt-trade-off)
+- [# How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)
 - [Resource and Inclusion Fee: Digging into Data](https://solana.com/news/resource-and-inclusion-fee-digging-into-data)
+- [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
 - [Release v4.3.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.0)
 - [Release v4.4.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.3)
 - [Remove floating point arithmetic from Runtime critical inflation and …](https://github.com/solana-foundation/solana-improvement-documents/commit/4828b2dd994c98032af401acfa20d37688878003)
