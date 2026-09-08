@@ -1,12 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-08T04:45:52Z** in 10.3s across 15 HTTP calls.
+Generated **2026-09-08T11:25:57Z** in 9.4s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 267 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 265 prior runs.
 
 ## Anomalies
 
-- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 8.8 robust deviations from its 267-point median of 256, a 5.1% move.
+- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 8.8 robust deviations from its 265-point median of 256, a 5.1% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 9.0 robust deviations from its 265-point median of 0.0202, a 816.8% move.
 
 ## Network performance
 
@@ -14,24 +15,24 @@ Generated **2026-09-08T04:45:52Z** in 10.3s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,030 |
-| Epoch progress | 67.27% |
-| Epoch time remaining (est.) | 15h 42m |
-| Absolute slot | 445,250,585 |
-| Block height | 423,294,737 |
-| TPS (all) | 4,061.00 |
-| TPS (non-vote) | 1,893.23 |
-| TPS (30-sample mean) | 3,703.23 |
-| Slot time | 310.90 ms |
+| Epoch progress | 84.83% |
+| Epoch time remaining (est.) | 7h 16m |
+| Absolute slot | 445,326,484 |
+| Block height | 423,370,488 |
+| TPS (all) | 4,026.23 |
+| TPS (non-vote) | 1,905.87 |
+| TPS (30-sample mean) | 3,648.97 |
+| Slot time | 317.50 ms |
 | Block lag vs wall clock | 11s |
-| Lifetime transactions | 546,229,182,408 |
+| Lifetime transactions | 546,314,142,471 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 676 |
-| Delinquent | 12 |
-| Delinquent share of stake | 0.01% |
+| Active | 675 |
+| Delinquent | 13 |
+| Delinquent share of stake | 0.19% |
 | Total active stake | 439.48M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.19% |
@@ -65,36 +66,36 @@ Generated **2026-09-08T04:45:52Z** in 10.3s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `3YVoK8UN62dy...` | 489.64K | 445,283,403 |
+| `7RtC1QgiNVLA...` | 276.02K | 445,321,743 |
 | `mrgn4atx3Jnf...` | 20.30K | 445,227,848 |
 | `xLabscif2DLn...` | 8.89K | 443,788,373 |
 | `prt1st4RSxAt...` | 7.04K | 443,486,942 |
 | `E4xNK4UwGnMt...` | 6.26K | 443,348,723 |
 | `5ZjxMYBbnKd4...` | 3.79K | 443,965,922 |
 | `pSoLoZx55zZz...` | 1.51K | 444,539,191 |
-| `4GEEKSwuiBHW...` | 1.34K | 443,438,639 |
 | `CpdzCVzaR9gj...` | 193.38 | 442,800,351 |
 | `HFTcVVrX93SJ...` | 148.42 | 442,800,457 |
-| `As9NxA9bCfhr...` | 46.58 | 442,800,334 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $103.32 |
-| SOL 24h | -1.70% |
-| SOL 7d | -0.29% |
-| SOL 30d | 36.06% |
-| Market cap | $60.56B |
-| Spot volume 24h | $2.97B |
+| SOL price | $103.05 |
+| SOL 24h | -1.73% |
+| SOL 7d | 0.68% |
+| SOL 30d | 35.01% |
+| Market cap | $60.40B |
+| Spot volume 24h | $2.95B |
 | Circulating supply | 586.17M SOL |
 | Circulating share | 92.51% |
-| DeFi TVL | $5.92B |
-| TVL 24h | -1.06% |
-| TVL 7d | -1.03% |
-| Stablecoin supply | $16.36B |
-| DEX volume 24h | $2.87B |
-| DEX volume 7d | $15.45B |
-| Chain fees 24h (REV proxy) | $16.00M |
+| DeFi TVL | $5.88B |
+| TVL 24h | -1.92% |
+| TVL 7d | -1.78% |
+| Stablecoin supply | $16.30B |
+| DEX volume 24h | $2.72B |
+| DEX volume 7d | $16.29B |
+| Chain fees 24h (REV proxy) | $15.99M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,7 +105,7 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0550, SIMD-0599, SIMD-0340, SIMD-0433, SIMD-0553, SIMD-0392, SIMD-0290, SIMD-0565, SIMD-0529
+SIMDs referenced in the last feed window: SIMD-0608, SIMD-0550, SIMD-0599, SIMD-0340, SIMD-0433, SIMD-0553, SIMD-0392, SIMD-0290, SIMD-0565
 
 ## Ecosystem news
 
@@ -120,9 +121,9 @@ SIMDs referenced in the last feed window: SIMD-0550, SIMD-0599, SIMD-0340, SIMD-
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)
 - [Resource and Inclusion Fee: Digging into Data](https://solana.com/news/resource-and-inclusion-fee-digging-into-data)
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
+- [SIMD-0608: `DeactivateDelinquent` for Closed Vote Accounts (#608)](https://github.com/solana-foundation/solana-improvement-documents/commit/18e2b3626a9339e7726ea5c1b5b07338bbaf1f52)
 - [Release v4.3.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0-rc.0)
 - [Release v4.4.0-alpha.3](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.3)
-- [Remove floating point arithmetic from Runtime critical inflation and …](https://github.com/solana-foundation/solana-improvement-documents/commit/4828b2dd994c98032af401acfa20d37688878003)
 
 ## Not collected
 
