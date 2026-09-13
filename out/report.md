@@ -1,13 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-12T22:21:51Z** in 13.4s across 15 HTTP calls.
+Generated **2026-09-13T04:54:48Z** in 11.5s across 18 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 233 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 92.9% (13/14 probes returned data). History depth: 232 prior runs.
 
 ## Anomalies
 
-- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.4 robust deviations from its 233-point median of 255, a 5.1% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 16.1 robust deviations from its 233-point median of 0.023, a 1572.6% move.
+- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.7 robust deviations from its 232-point median of 255, a 5.5% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 17.8 robust deviations from its 232-point median of 0.0236, a 1673.7% move.
 
 ## Network performance
 
@@ -15,32 +15,32 @@ Generated **2026-09-12T22:21:51Z** in 13.4s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,033 |
-| Epoch progress | 66.15% |
-| Epoch time remaining (est.) | 16h 14m |
-| Absolute slot | 446,541,772 |
-| Block height | 424,584,500 |
-| TPS (all) | 3,356.08 |
-| TPS (non-vote) | 1,203.47 |
-| TPS (30-sample mean) | 3,661.07 |
-| Slot time | 314.10 ms |
-| Block lag vs wall clock | 12s |
-| Lifetime transactions | 547,850,052,990 |
+| Epoch progress | 83.45% |
+| Epoch time remaining (est.) | 7h 56m |
+| Absolute slot | 446,616,498 |
+| Block height | 424,659,195 |
+| TPS (all) | 3,526.75 |
+| TPS (non-vote) | 1,346.73 |
+| TPS (30-sample mean) | 3,488.73 |
+| Slot time | 309.30 ms |
+| Block lag vs wall clock | unavailable |
+| Lifetime transactions | 547,935,252,108 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 679 |
-| Delinquent | 11 |
-| Delinquent share of stake | 0.38% |
+| Active | 677 |
+| Delinquent | 13 |
+| Delinquent share of stake | 0.42% |
 | Total active stake | 436.84M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.40% |
 | Stake in top 20 | 35.72% |
 | Stake in top 50 | 55.49% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 242 |
-| Validators at 100% commission | 66 |
+| Validators at 0% commission | 241 |
+| Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
 
@@ -67,35 +67,35 @@ Generated **2026-09-12T22:21:51Z** in 13.4s across 15 HTTP calls.
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
 | `pSo1KZXgG1EG...` | 1.64M | 446,256,027 |
+| `FGiEdzde7Fco...` | 128.28K | 446,560,438 |
 | `EWARp8Syq8cT...` | 31.93K | 446,424,161 |
+| `mrgn4atx3Jnf...` | 19.58K | 446,552,232 |
 | `AYY1TCe347UZ...` | 10.81K | 446,256,027 |
 | `pSoLoZx55zZz...` | 1.51K | 446,256,027 |
 | `4GEEKSwuiBHW...` | 326.50 | 445,809,612 |
 | `inWVrrYJ38Vi...` | 14.05 | 445,699,097 |
 | `6mygxmZxmTqq...` | 2.00 | 0 |
 | `R1parD2CtxPB...` | 1.63 | 384,048,870 |
-| `Fb77sbwgXmtj...` | 1.08 | 446,256,027 |
-| `4kdjgZKJUwPK...` | 1.05 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.65 |
-| SOL 24h | -0.41% |
-| SOL 7d | -2.00% |
-| SOL 30d | 33.49% |
-| Market cap | $59.63B |
-| Spot volume 24h | $1.92B |
-| Circulating supply | 586.63M SOL |
+| SOL price | $101.66 |
+| SOL 24h | -0.03% |
+| SOL 7d | -4.09% |
+| SOL 30d | 34.21% |
+| Market cap | $59.64B |
+| Spot volume 24h | $1.77B |
+| Circulating supply | 586.64M SOL |
 | Circulating share | 92.54% |
-| DeFi TVL | $5.90B |
-| TVL 24h | 2.53% |
-| TVL 7d | 0.42% |
-| Stablecoin supply | $16.22B |
-| DEX volume 24h | $3.18B |
-| DEX volume 7d | $19.31B |
-| Chain fees 24h (REV proxy) | $17.88M |
+| DeFi TVL | $5.91B |
+| TVL 24h | 0.23% |
+| TVL 7d | -0.09% |
+| Stablecoin supply | $16.21B |
+| DEX volume 24h | $2.47B |
+| DEX volume 7d | $18.59B |
+| Chain fees 24h (REV proxy) | $13.91M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -132,6 +132,7 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **daily_active_addresses** - No key-free public endpoint. Available via Dune; enable with --dune-key.
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
+- **network/block_time** - probe failed: HTTP 402
 
 ---
 
