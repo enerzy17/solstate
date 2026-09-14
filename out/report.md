@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-14T12:57:37Z** in 11.0s across 15 HTTP calls.
+Generated **2026-09-14T19:26:31Z** in 10.5s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 223 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 221 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 15.0 robust deviations from its 223-point median of 0.0292, a 1360.3% move.
+Nothing outside the configured thresholds or the statistical baseline.
 
 ## Network performance
 
@@ -14,31 +14,31 @@ Generated **2026-09-14T12:57:37Z** in 11.0s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,034 |
-| Epoch progress | 68.08% |
-| Epoch time remaining (est.) | 15h 19m |
-| Absolute slot | 446,982,107 |
-| Block height | 425,024,572 |
-| TPS (all) | 3,706.07 |
-| TPS (non-vote) | 1,570.00 |
-| TPS (30-sample mean) | 3,710.28 |
+| Epoch progress | 85.16% |
+| Epoch time remaining (est.) | 7h 7m |
+| Absolute slot | 447,055,895 |
+| Block height | 425,098,253 |
+| TPS (all) | 4,132.22 |
+| TPS (non-vote) | 2,005.03 |
+| TPS (30-sample mean) | 4,059.14 |
 | Slot time | 317.50 ms |
-| Block lag vs wall clock | 11s |
-| Lifetime transactions | 548,359,547,806 |
+| Block lag vs wall clock | 12s |
+| Lifetime transactions | 548,457,566,859 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 677 |
-| Delinquent | 13 |
-| Delinquent share of stake | 0.43% |
+| Active | 679 |
+| Delinquent | 11 |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 438.74M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.29% |
 | Stake in top 20 | 35.52% |
 | Stake in top 50 | 55.20% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 241 |
+| Validators at 0% commission | 242 |
 | Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
@@ -65,33 +65,33 @@ Generated **2026-09-14T12:57:37Z** in 11.0s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `pSo1KZXgG1EG...` | 1.63M | 446,256,027 |
 | `FGiEdzde7Fco...` | 128.30K | 446,560,438 |
-| `ABREU5YkQcfp...` | 78.61K | 446,959,606 |
-| `mrgn4atx3Jnf...` | 19.58K | 446,852,977 |
+| `mrgn4atx3Jnf...` | 19.58K | 447,039,544 |
 | `AYY1TCe347UZ...` | 10.81K | 446,874,801 |
-| `pSoLoZx55zZz...` | 1.51K | 446,256,027 |
+| `pSoLoZx55zZz...` | 1.51K | 447,044,285 |
 | `4GEEKSwuiBHW...` | 196.81 | 445,809,612 |
-| `toshB4tPQTFf...` | 136.49 | 446,894,461 |
+| `EWARp8Syq8cT...` | 99.63 | 446,995,996 |
 | `inWVrrYJ38Vi...` | 14.05 | 445,699,097 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
+| `6mygxmZxmTqq...` | 2.00 | 0 |
+| `Fb77sbwgXmtj...` | 1.08 | 446,256,027 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.29 |
-| SOL 24h | 1.69% |
-| SOL 7d | -3.46% |
-| SOL 30d | 34.73% |
-| Market cap | $59.47B |
-| Spot volume 24h | $2.44B |
+| SOL price | $103.50 |
+| SOL 24h | 2.49% |
+| SOL 7d | -0.39% |
+| SOL 30d | 37.10% |
+| Market cap | $60.74B |
+| Spot volume 24h | $3.14B |
 | Circulating supply | 586.89M SOL |
 | Circulating share | 92.57% |
-| DeFi TVL | $5.90B |
-| TVL 24h | -0.12% |
-| TVL 7d | -1.77% |
-| Stablecoin supply | $16.03B |
+| DeFi TVL | $5.94B |
+| TVL 24h | 0.61% |
+| TVL 7d | -1.04% |
+| Stablecoin supply | $16.10B |
 | DEX volume 24h | $1.79B |
 | DEX volume 7d | $18.46B |
 | Chain fees 24h (REV proxy) | $14.04M |
@@ -108,7 +108,6 @@ SIMDs referenced in the last feed window: SIMD-0558, SIMD-0608, SIMD-0550, SIMD-
 
 ## Ecosystem news
 
-- [Lowering Slot Time and Validator Economics](https://solana.com/news/lowering-slot-time-and-validators-economic)
 - [The Token Supercycle: Everything of Value is Becoming Programmable](https://solana.com/news/the-token-supercycle-oped)
 - [Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances)
 - [Webinar Recap: Cross-Border Payments in Latin America](https://solana.com/news/webinar-recap-cross-border-payments-in-latin-america)
@@ -116,6 +115,7 @@ SIMDs referenced in the last feed window: SIMD-0558, SIMD-0608, SIMD-0550, SIMD-
 - [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)
 - [How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction)
 - [Solana Changelog: August 20, 2026](https://solana.com/news/solana-changelog-august-20-2026)
+- [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)
 - [Resource and Inclusion Fee: Digging into Data](https://solana.com/news/resource-and-inclusion-fee-digging-into-data)
