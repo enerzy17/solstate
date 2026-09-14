@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-14T19:26:31Z** in 10.5s across 15 HTTP calls.
+Generated **2026-09-14T23:11:09Z** in 11.7s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 221 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 218 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,034 |
-| Epoch progress | 85.16% |
-| Epoch time remaining (est.) | 7h 7m |
-| Absolute slot | 447,055,895 |
-| Block height | 425,098,253 |
-| TPS (all) | 4,132.22 |
-| TPS (non-vote) | 2,005.03 |
-| TPS (30-sample mean) | 4,059.14 |
-| Slot time | 317.50 ms |
+| Epoch progress | 95.00% |
+| Epoch time remaining (est.) | 2h 24m |
+| Absolute slot | 447,098,389 |
+| Block height | 425,140,727 |
+| TPS (all) | 3,757.47 |
+| TPS (non-vote) | 1,615.75 |
+| TPS (30-sample mean) | 4,075.02 |
+| Slot time | 315.80 ms |
 | Block lag vs wall clock | 12s |
-| Lifetime transactions | 548,457,566,859 |
+| Lifetime transactions | 548,513,701,566 |
 
 ## Validators
 
@@ -80,18 +80,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $103.50 |
-| SOL 24h | 2.49% |
-| SOL 7d | -0.39% |
-| SOL 30d | 37.10% |
-| Market cap | $60.74B |
-| Spot volume 24h | $3.14B |
+| SOL price | $102.76 |
+| SOL 24h | 3.18% |
+| SOL 7d | -0.72% |
+| SOL 30d | 36.07% |
+| Market cap | $60.31B |
+| Spot volume 24h | $3.46B |
 | Circulating supply | 586.89M SOL |
 | Circulating share | 92.57% |
-| DeFi TVL | $5.94B |
-| TVL 24h | 0.61% |
-| TVL 7d | -1.04% |
-| Stablecoin supply | $16.10B |
+| DeFi TVL | $5.97B |
+| TVL 24h | 1.08% |
+| TVL 7d | -0.58% |
+| Stablecoin supply | $16.14B |
 | DEX volume 24h | $1.79B |
 | DEX volume 7d | $18.46B |
 | Chain fees 24h (REV proxy) | $14.04M |
