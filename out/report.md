@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-14T05:07:31Z** in 14.5s across 15 HTTP calls.
+Generated **2026-09-14T12:57:37Z** in 11.0s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 225 prior runs.
+> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 223 prior runs.
 
 ## Anomalies
 
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 14.3 robust deviations from its 225-point median of 0.0292, a 1299.0% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 15.0 robust deviations from its 223-point median of 0.0292, a 1360.3% move.
 
 ## Network performance
 
@@ -14,32 +14,32 @@ Generated **2026-09-14T05:07:31Z** in 14.5s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,034 |
-| Epoch progress | 47.38% |
-| Epoch time remaining (est.) | 25h 15m |
-| Absolute slot | 446,892,663 |
-| Block height | 424,935,200 |
-| TPS (all) | 3,437.90 |
-| TPS (non-vote) | 1,299.15 |
-| TPS (30-sample mean) | 3,451.87 |
-| Slot time | 315.80 ms |
-| Block lag vs wall clock | 12s |
-| Lifetime transactions | 548,260,838,612 |
+| Epoch progress | 68.08% |
+| Epoch time remaining (est.) | 15h 19m |
+| Absolute slot | 446,982,107 |
+| Block height | 425,024,572 |
+| TPS (all) | 3,706.07 |
+| TPS (non-vote) | 1,570.00 |
+| TPS (30-sample mean) | 3,710.28 |
+| Slot time | 317.50 ms |
+| Block lag vs wall clock | 11s |
+| Lifetime transactions | 548,359,547,806 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 678 |
-| Delinquent | 12 |
-| Delinquent share of stake | 0.41% |
+| Active | 677 |
+| Delinquent | 13 |
+| Delinquent share of stake | 0.43% |
 | Total active stake | 438.74M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.29% |
 | Stake in top 20 | 35.52% |
 | Stake in top 50 | 55.20% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 244 |
-| Validators at 100% commission | 63 |
+| Validators at 0% commission | 241 |
+| Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
 
@@ -67,34 +67,34 @@ Generated **2026-09-14T05:07:31Z** in 14.5s across 15 HTTP calls.
 | --- | --- | --- |
 | `pSo1KZXgG1EG...` | 1.63M | 446,256,027 |
 | `FGiEdzde7Fco...` | 128.30K | 446,560,438 |
+| `ABREU5YkQcfp...` | 78.61K | 446,959,606 |
 | `mrgn4atx3Jnf...` | 19.58K | 446,852,977 |
 | `AYY1TCe347UZ...` | 10.81K | 446,874,801 |
 | `pSoLoZx55zZz...` | 1.51K | 446,256,027 |
 | `4GEEKSwuiBHW...` | 196.81 | 445,809,612 |
-| `EWARp8Syq8cT...` | 99.63 | 446,880,107 |
+| `toshB4tPQTFf...` | 136.49 | 446,894,461 |
 | `inWVrrYJ38Vi...` | 14.05 | 445,699,097 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
-| `6mygxmZxmTqq...` | 2.00 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.13 |
-| SOL 24h | -0.60% |
-| SOL 7d | -3.74% |
-| SOL 30d | 34.01% |
-| Market cap | $59.32B |
-| Spot volume 24h | $2.30B |
+| SOL price | $101.29 |
+| SOL 24h | 1.69% |
+| SOL 7d | -3.46% |
+| SOL 30d | 34.73% |
+| Market cap | $59.47B |
+| Spot volume 24h | $2.44B |
 | Circulating supply | 586.89M SOL |
 | Circulating share | 92.57% |
-| DeFi TVL | $5.86B |
-| TVL 24h | -0.35% |
-| TVL 7d | -2.47% |
-| Stablecoin supply | $16.09B |
-| DEX volume 24h | $1.64B |
-| DEX volume 7d | $17.32B |
-| Chain fees 24h (REV proxy) | $14.18M |
+| DeFi TVL | $5.90B |
+| TVL 24h | -0.12% |
+| TVL 7d | -1.77% |
+| Stablecoin supply | $16.03B |
+| DEX volume 24h | $1.79B |
+| DEX volume 7d | $18.46B |
+| Chain fees 24h (REV proxy) | $14.04M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
