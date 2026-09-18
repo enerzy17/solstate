@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-18T11:24:25Z** in 40.0s across 16 HTTP calls.
+Generated **2026-09-18T16:29:48Z** in 7.6s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 195 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 192 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,037 |
-| Epoch progress | 19.68% |
-| Epoch time remaining (est.) | 38h 33m |
-| Absolute slot | 448,069,004 |
-| Block height | 426,109,984 |
-| TPS (all) | 4,604.50 |
-| TPS (non-vote) | 2,048.38 |
-| TPS (30-sample mean) | 4,234.99 |
-| Slot time | 265.50 ms |
-| Block lag vs wall clock | 10s |
-| Lifetime transactions | 549,765,631,195 |
+| Epoch progress | 35.59% |
+| Epoch time remaining (est.) | 30h 55m |
+| Absolute slot | 448,137,741 |
+| Block height | 426,178,688 |
+| TPS (all) | 5,588.87 |
+| TPS (non-vote) | 3,025.27 |
+| TPS (30-sample mean) | 5,247.61 |
+| Slot time | 264.30 ms |
+| Block lag vs wall clock | 9s |
+| Lifetime transactions | 549,854,056,207 |
 
 ## Validators
 
@@ -70,7 +70,7 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `AYY1TCe347UZ...` | 10.81K | 448,061,114 |
 | `mrgn4atx3Jnf...` | 2.26K | 448,011,673 |
 | `pSoLoZx55zZz...` | 1.51K | 447,874,752 |
-| `HgozywotiKv4...` | 807.55 | 447,943,625 |
+| `HgozywotiKv4...` | 807.55 | 448,132,036 |
 | `TiMxX1yasS4C...` | 114.23 | 375,618,479 |
 | `EWARp8Syq8cT...` | 98.61 | 446,995,996 |
 | `BZBKHmW1DhBa...` | 5.90 | 402,784,479 |
@@ -80,21 +80,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $105.55 |
-| SOL 24h | 5.54% |
-| SOL 7d | 6.44% |
-| SOL 30d | 36.52% |
-| Market cap | $61.98B |
-| Spot volume 24h | $4.37B |
+| SOL price | $111.54 |
+| SOL 24h | 10.36% |
+| SOL 7d | 9.79% |
+| SOL 30d | 36.30% |
+| Market cap | $65.48B |
+| Spot volume 24h | $5.81B |
 | Circulating supply | 587.30M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.05B |
-| TVL 24h | 4.61% |
-| TVL 7d | 5.17% |
-| Stablecoin supply | $15.26B |
+| DeFi TVL | $6.13B |
+| TVL 24h | 6.04% |
+| TVL 7d | 6.60% |
+| Stablecoin supply | $16.14B |
 | DEX volume 24h | $2.59B |
 | DEX volume 7d | $17.44B |
-| Chain fees 24h (REV proxy) | $14.59M |
+| Chain fees 24h (REV proxy) | $14.68M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -120,9 +120,9 @@ SIMDs referenced in the last feed window: SIMD-0582, SIMD-0377, SIMD-0609, SIMD-
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
 - [Solana Changelog: August 27, 2026](https://solana.com/news/solana-changelog-august-27-2026)
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
+- [Release v4.4.0-alpha.5](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-alpha.5)
+- [Release v4.3.0](https://github.com/anza-xyz/agave/releases/tag/v4.3.0)
 - [SIMD-0582: Early detection of instruction trace overflow (#582)](https://github.com/solana-foundation/solana-improvement-documents/commit/2df3442ef8fca03a48999a9ce525f69224368ebb)
-- [SIMD-0377: fix JMP32 register opcodes, JSGE32 condition and callx opc…](https://github.com/solana-foundation/solana-improvement-documents/commit/31406c06ad6abb28576bca29b58c2c8179b1569d)
-- [SIMD-0609: Prohibit Vote Account Self-Withdrawals (#609)](https://github.com/solana-foundation/solana-improvement-documents/commit/74fec38613b6a54df5062766cbbb637b17669c41)
 
 ## Not collected
 
