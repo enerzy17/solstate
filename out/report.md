@@ -1,13 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-24T11:54:49Z** in 8.6s across 15 HTTP calls.
+Generated **2026-09-24T17:16:52Z** in 8.1s across 15 HTTP calls.
 
-> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 150 prior runs.
+> **Status:** 2 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 148 prior runs.
 
 ## Anomalies
 
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.9 robust deviations from its 150-point median of 315.8, a 15.9% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 3.6 robust deviations from its 150-point median of 5.88e+09, a 7.8% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.9 robust deviations from its 148-point median of 315.8, a 15.9% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 4.2 robust deviations from its 148-point median of 5.887e+09, a 8.9% move.
 
 ## Network performance
 
@@ -15,23 +15,23 @@ Generated **2026-09-24T11:54:49Z** in 8.6s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,041 |
-| Epoch progress | 71.58% |
-| Epoch time remaining (est.) | 13h 38m |
-| Absolute slot | 450,021,218 |
-| Block height | 428,061,322 |
-| TPS (all) | 3,945.07 |
-| TPS (non-vote) | 1,402.50 |
-| TPS (30-sample mean) | 3,998.22 |
+| Epoch progress | 88.38% |
+| Epoch time remaining (est.) | 5h 34m |
+| Absolute slot | 450,093,803 |
+| Block height | 428,133,889 |
+| TPS (all) | 4,958.07 |
+| TPS (non-vote) | 2,423.92 |
+| TPS (30-sample mean) | 4,945.27 |
 | Slot time | 265.50 ms |
 | Block lag vs wall clock | 9s |
-| Lifetime transactions | 552,077,999,689 |
+| Lifetime transactions | 552,171,251,746 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 676 |
-| Delinquent | 11 |
+| Active | 674 |
+| Delinquent | 12 |
 | Delinquent share of stake | 0.05% |
 | Total active stake | 439.96M SOL |
 | Nakamoto coefficient | 18 |
@@ -39,7 +39,7 @@ Generated **2026-09-24T11:54:49Z** in 8.6s across 15 HTTP calls.
 | Stake in top 20 | 35.66% |
 | Stake in top 50 | 55.38% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 234 |
+| Validators at 0% commission | 233 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -74,28 +74,28 @@ Generated **2026-09-24T11:54:49Z** in 8.6s across 15 HTTP calls.
 | `mrgn4atx3Jnf...` | 2.21K | 448,597,405 |
 | `pSoLoZx55zZz...` | 1.51K | 447,874,752 |
 | `HgozywotiKv4...` | 797.43 | 448,492,871 |
+| `ARKk6RgiFq4M...` | 63.92 | 450,022,154 |
 | `9fTWmMqVz5cW...` | 23.86 | 448,762,375 |
-| `R1parD2CtxPB...` | 2.87 | 384,048,870 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $113.28 |
-| SOL 24h | -3.24% |
-| SOL 7d | 13.57% |
-| SOL 30d | 13.70% |
-| Market cap | $66.53B |
-| Spot volume 24h | $4.74B |
+| SOL price | $117.15 |
+| SOL 24h | 2.74% |
+| SOL 7d | 15.66% |
+| SOL 30d | 19.33% |
+| Market cap | $68.84B |
+| Spot volume 24h | $4.23B |
 | Circulating supply | 587.58M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.34B |
-| TVL 24h | -3.02% |
-| TVL 7d | 9.59% |
-| Stablecoin supply | $16.12B |
+| DeFi TVL | $6.41B |
+| TVL 24h | -1.89% |
+| TVL 7d | 10.88% |
+| Stablecoin supply | $15.97B |
 | DEX volume 24h | $2.55B |
 | DEX volume 7d | $20.98B |
-| Chain fees 24h (REV proxy) | $16.50M |
+| Chain fees 24h (REV proxy) | $16.12M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -112,10 +112,10 @@ SIMDs referenced in the last feed window: SIMD-0558, SIMD-0582, SIMD-0377, SIMD-
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)
 - [Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances)
+- [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
 - [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026)
 - [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)
 - [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)
-- [How to Reclaim Excess SOL After Rent Reduction](https://solana.com/news/how-to-reclaim-excess-sol-after-rent-reduction)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
