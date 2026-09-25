@@ -1,17 +1,19 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-25T13:53:46Z** in 8.4s across 15 HTTP calls.
+Generated **2026-09-25T18:41:32Z** in 9.7s across 15 HTTP calls.
 
-> **Status:** 6 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
+> **Status:** 8 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 140 prior runs.
 
 ## Anomalies
 
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.5 robust deviations from its 142-point median of 314.1, a 14.7% move.
-- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 3.9 robust deviations from its 142-point median of -64.76, a 8.3% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 4.0 robust deviations from its 142-point median of 6.549e+10, a 15.4% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 4.0 robust deviations from its 142-point median of 6.054e+10, a 15.6% move.
-- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 3.9 robust deviations from its 142-point median of 103.4, a 15.2% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 5.8 robust deviations from its 142-point median of 5.898e+09, a 10.8% move.
+- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.4 robust deviations from its 140-point median of 243, a 5.3% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.7 robust deviations from its 140-point median of 314.1, a 15.1% move.
+- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 4.7 robust deviations from its 140-point median of -64.72, a 9.8% move.
+- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 4.8 robust deviations from its 140-point median of 6.553e+10, a 18.3% move.
+- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 4.9 robust deviations from its 140-point median of 6.062e+10, a 18.4% move.
+- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 4.7 robust deviations from its 140-point median of 103.5, a 18.1% move.
+- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 4.1 robust deviations from its 140-point median of 3.379e+09, a 89.4% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 6.3 robust deviations from its 140-point median of 5.9e+09, a 11.7% move.
 
 ## Network performance
 
@@ -19,16 +21,16 @@ Generated **2026-09-25T13:53:46Z** in 8.4s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,042 |
-| Epoch progress | 52.73% |
-| Epoch time remaining (est.) | 22h 41m |
-| Absolute slot | 450,371,808 |
-| Block height | 428,411,704 |
-| TPS (all) | 4,930.95 |
-| TPS (non-vote) | 2,421.32 |
-| TPS (30-sample mean) | 4,785.74 |
-| Slot time | 267.90 ms |
-| Block lag vs wall clock | 9s |
-| Lifetime transactions | 552,493,732,056 |
+| Epoch progress | 67.61% |
+| Epoch time remaining (est.) | 15h 32m |
+| Absolute slot | 450,436,090 |
+| Block height | 428,475,966 |
+| TPS (all) | 4,488.13 |
+| TPS (non-vote) | 1,966.63 |
+| TPS (30-sample mean) | 4,788.77 |
+| Slot time | 266.70 ms |
+| Block lag vs wall clock | 10s |
+| Lifetime transactions | 552,579,494,450 |
 
 ## Validators
 
@@ -43,7 +45,7 @@ Generated **2026-09-25T13:53:46Z** in 8.4s across 15 HTTP calls.
 | Stake in top 20 | 35.63% |
 | Stake in top 50 | 55.32% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 231 |
+| Validators at 0% commission | 230 |
 | Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
@@ -85,18 +87,18 @@ Generated **2026-09-25T13:53:46Z** in 8.4s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.07 |
-| SOL 24h | 3.89% |
-| SOL 7d | 12.66% |
-| SOL 30d | 22.69% |
-| Market cap | $69.98B |
-| Spot volume 24h | $5.68B |
+| SOL price | $122.16 |
+| SOL 24h | 4.36% |
+| SOL 7d | 8.67% |
+| SOL 30d | 26.00% |
+| Market cap | $71.79B |
+| Spot volume 24h | $6.40B |
 | Circulating supply | 587.65M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.54B |
-| TVL 24h | 2.21% |
-| TVL 7d | 10.83% |
-| Stablecoin supply | $16.59B |
+| DeFi TVL | $6.59B |
+| TVL 24h | 3.05% |
+| TVL 7d | 11.73% |
+| Stablecoin supply | $16.66B |
 | DEX volume 24h | $2.45B |
 | DEX volume 7d | $20.84B |
 | Chain fees 24h (REV proxy) | $15.98M |
@@ -109,7 +111,7 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550, SIMD-0599, SIMD-0340
+SIMDs referenced in the last feed window: SIMD-0376, SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550, SIMD-0599
 
 ## Ecosystem news
 
@@ -125,9 +127,9 @@ SIMDs referenced in the last feed window: SIMD-0215, SIMD-0558, SIMD-0582, SIMD-
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
+- [Amend simd 0376 ed25519-zebra verification (#616)](https://github.com/solana-foundation/solana-improvement-documents/commit/4b643ca8746742183a469681765e694b385bb315)
 - [SIMD-0215: clarify LtHash security considerations (#669)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5)
 - [SIMD-0558: Describe pointer validation & update CU cost (#651)](https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207)
-- [Increase TxV1 Account Lock Limit to 96 (#596)](https://github.com/solana-foundation/solana-improvement-documents/commit/b7ca332f0aabe11ecc6cf36143462d4487d59a39)
 
 ## Not collected
 
