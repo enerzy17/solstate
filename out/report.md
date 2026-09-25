@@ -1,19 +1,19 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-25T18:41:32Z** in 9.7s across 15 HTTP calls.
+Generated **2026-09-25T23:20:02Z** in 8.7s across 15 HTTP calls.
 
-> **Status:** 8 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 140 prior runs.
+> **Status:** 8 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 139 prior runs.
 
 ## Anomalies
 
-- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.4 robust deviations from its 140-point median of 243, a 5.3% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.7 robust deviations from its 140-point median of 314.1, a 15.1% move.
-- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 4.7 robust deviations from its 140-point median of -64.72, a 9.8% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 4.8 robust deviations from its 140-point median of 6.553e+10, a 18.3% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 4.9 robust deviations from its 140-point median of 6.062e+10, a 18.4% move.
-- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 4.7 robust deviations from its 140-point median of 103.5, a 18.1% move.
-- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 4.1 robust deviations from its 140-point median of 3.379e+09, a 89.4% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 6.3 robust deviations from its 140-point median of 5.9e+09, a 11.7% move.
+- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.4 robust deviations from its 139-point median of 243, a 5.3% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.5 robust deviations from its 139-point median of 314.1, a 14.7% move.
+- [WARNING] **sol_ath_change_pct** (statistical) - sol_ath_change_pct is 4.7 robust deviations from its 139-point median of -64.71, a 9.8% move.
+- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 4.6 robust deviations from its 139-point median of 6.561e+10, a 18.2% move.
+- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 4.8 robust deviations from its 139-point median of 6.066e+10, a 18.3% move.
+- [WARNING] **sol_price_usd** (statistical) - sol_price_usd is 4.7 robust deviations from its 139-point median of 103.5, a 18.0% move.
+- [WARNING] **sol_volume_24h_usd** (statistical) - sol_volume_24h_usd is 4.0 robust deviations from its 139-point median of 3.39e+09, a 89.0% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 6.6 robust deviations from its 139-point median of 5.9e+09, a 12.0% move.
 
 ## Network performance
 
@@ -21,16 +21,16 @@ Generated **2026-09-25T18:41:32Z** in 9.7s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,042 |
-| Epoch progress | 67.61% |
-| Epoch time remaining (est.) | 15h 32m |
-| Absolute slot | 450,436,090 |
-| Block height | 428,475,966 |
-| TPS (all) | 4,488.13 |
-| TPS (non-vote) | 1,966.63 |
-| TPS (30-sample mean) | 4,788.77 |
-| Slot time | 266.70 ms |
-| Block lag vs wall clock | 10s |
-| Lifetime transactions | 552,579,494,450 |
+| Epoch progress | 82.07% |
+| Epoch time remaining (est.) | 8h 36m |
+| Absolute slot | 450,498,556 |
+| Block height | 428,538,420 |
+| TPS (all) | 3,932.18 |
+| TPS (non-vote) | 1,419.48 |
+| TPS (30-sample mean) | 4,366.35 |
+| Slot time | 267.90 ms |
+| Block lag vs wall clock | 11s |
+| Lifetime transactions | 552,655,232,596 |
 
 ## Validators
 
@@ -73,12 +73,12 @@ Generated **2026-09-25T18:41:32Z** in 9.7s across 15 HTTP calls.
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
 | `4YGgmwyqztpJ...` | 12.74K | 450,345,071 |
-| `AYY1TCe347UZ...` | 10.70K | 450,287,917 |
+| `AYY1TCe347UZ...` | 10.70K | 450,466,404 |
 | `NWY18yrPHsTo...` | 9.76K | 448,798,710 |
 | `mrgn4atx3Jnf...` | 2.21K | 448,597,405 |
 | `HgozywotiKv4...` | 797.43 | 448,492,871 |
 | `ARKk6RgiFq4M...` | 63.93 | 450,022,154 |
-| `BbCQMWnfxo4e...` | 45.00 | 450,114,566 |
+| `BbCQMWnfxo4e...` | 45.00 | 450,473,191 |
 | `9fTWmMqVz5cW...` | 23.86 | 448,762,375 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
 | `6mygxmZxmTqq...` | 2.00 | 450,230,119 |
@@ -87,18 +87,18 @@ Generated **2026-09-25T18:41:32Z** in 9.7s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $122.16 |
-| SOL 24h | 4.36% |
-| SOL 7d | 8.67% |
-| SOL 30d | 26.00% |
-| Market cap | $71.79B |
-| Spot volume 24h | $6.40B |
-| Circulating supply | 587.65M SOL |
+| SOL price | $122.15 |
+| SOL 24h | 4.77% |
+| SOL 7d | 7.94% |
+| SOL 30d | 22.46% |
+| Market cap | $71.78B |
+| Spot volume 24h | $6.41B |
+| Circulating supply | 587.64M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.59B |
-| TVL 24h | 3.05% |
-| TVL 7d | 11.73% |
-| Stablecoin supply | $16.66B |
+| DeFi TVL | $6.61B |
+| TVL 24h | 3.32% |
+| TVL 7d | 12.02% |
+| Stablecoin supply | $16.67B |
 | DEX volume 24h | $2.45B |
 | DEX volume 7d | $20.84B |
 | Chain fees 24h (REV proxy) | $15.98M |
@@ -121,9 +121,9 @@ SIMDs referenced in the last feed window: SIMD-0376, SIMD-0215, SIMD-0558, SIMD-
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
 - [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026)
 - [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)
-- [Payment Channels: 1 Million Payments Per Second](https://solana.com/news/payment-channels-1-million-payments-per-second)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
+- [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
 - [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
