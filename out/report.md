@@ -1,96 +1,98 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-28T20:35:33Z** in 9.5s across 15 HTTP calls.
+Generated **2026-09-28T22:28:00Z** in 7.7s across 15 HTTP calls.
 
-> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 143 prior runs.
+> **Status:** 4 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 143 prior runs.
 
 ## Anomalies
 
-- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.7 robust deviations from its 143-point median of 242, a 5.8% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 5.9 robust deviations from its 143-point median of 312.5, a 13.9% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 4.1 robust deviations from its 143-point median of 5.914e+09, a 11.2% move.
+- [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.4 robust deviations from its 143-point median of 242, a 5.4% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 14.3 robust deviations from its 143-point median of 0.0377, a 1418.3% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 6.5 robust deviations from its 143-point median of 312.5, a 15.4% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 3.9 robust deviations from its 143-point median of 5.915e+09, a 10.8% move.
 
 ## Network performance
 
 | Metric | Value |
 | --- | --- |
 | Health | ok |
-| Epoch | 1,044 |
-| Epoch progress | 97.22% |
-| Epoch time remaining (est.) | 1h 20m |
-| Absolute slot | 451,427,970 |
-| Block height | 429,467,600 |
-| TPS (all) | 4,677.07 |
-| TPS (non-vote) | 2,173.08 |
-| TPS (30-sample mean) | 5,016.43 |
-| Slot time | 269.10 ms |
+| Epoch | 1,045 |
+| Epoch progress | 3.05% |
+| Epoch time remaining (est.) | 46h 32m |
+| Absolute slot | 451,453,157 |
+| Block height | 429,492,775 |
+| TPS (all) | 4,104.38 |
+| TPS (non-vote) | 1,562.57 |
+| TPS (30-sample mean) | 4,523.21 |
+| Slot time | 264.30 ms |
 | Block lag vs wall clock | 9s |
-| Lifetime transactions | 553,787,142,448 |
+| Lifetime transactions | 553,818,822,793 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 676 |
-| Delinquent | 7 |
-| Delinquent share of stake | 0.01% |
-| Total active stake | 440.55M SOL |
+| Active | 674 |
+| Delinquent | 8 |
+| Delinquent share of stake | 0.57% |
+| Total active stake | 441.25M SOL |
 | Nakamoto coefficient | 18 |
-| Stake in top 10 | 24.46% |
-| Stake in top 20 | 35.37% |
-| Stake in top 50 | 55.09% |
+| Stake in top 10 | 24.45% |
+| Stake in top 20 | 35.33% |
+| Stake in top 50 | 54.97% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 228 |
-| Validators at 100% commission | 65 |
+| Validators at 0% commission | 229 |
+| Validators at 100% commission | 61 |
 
 ### Largest validators by active stake
 
 | # | Node | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `Fd7btgySsrju...` | 17.87M | 4.06% | 7.00% |
-| 2 | `HEL1USMZKAL2...` | 15.84M | 3.60% | 0.00% |
-| 3 | `DRpbCBMxVnDK...` | 12.33M | 2.80% | 0.00% |
-| 4 | `JUPiTERrZqgf...` | 11.22M | 2.55% | 5.00% |
-| 5 | `E1r4Psq84tHf...` | 10.84M | 2.46% | 0.00% |
-| 6 | `C8Bey3LKVJHV...` | 9.24M | 2.10% | 7.00% |
-| 7 | `CAo1dCGYrB6N...` | 9.21M | 2.09% | 10.00% |
-| 8 | `EvnRmnMrd69k...` | 7.62M | 1.73% | 7.00% |
-| 9 | `9eGrDohdNTAo...` | 7.09M | 1.61% | 5.00% |
-| 10 | `Awes4Tr6TX8J...` | 6.51M | 1.48% | 0.00% |
+| 1 | `Fd7btgySsrju...` | 17.82M | 4.04% | 7.00% |
+| 2 | `HEL1USMZKAL2...` | 15.89M | 3.60% | 0.00% |
+| 3 | `DRpbCBMxVnDK...` | 12.34M | 2.80% | 0.00% |
+| 4 | `E1r4Psq84tHf...` | 11.30M | 2.56% | 0.00% |
+| 5 | `JUPiTERrZqgf...` | 11.21M | 2.54% | 5.00% |
+| 6 | `C8Bey3LKVJHV...` | 9.24M | 2.09% | 7.00% |
+| 7 | `CAo1dCGYrB6N...` | 9.22M | 2.09% | 10.00% |
+| 8 | `EvnRmnMrd69k...` | 7.64M | 1.73% | 7.00% |
+| 9 | `9eGrDohdNTAo...` | 6.70M | 1.52% | 5.00% |
+| 10 | `Awes4Tr6TX8J...` | 6.52M | 1.48% | 0.00% |
 | 11 | `JD549HsbJHeE...` | 6.27M | 1.42% | 0.00% |
-| 12 | `5pPRHniefFjk...` | 5.91M | 1.34% | 5.00% |
-| 13 | `5Cchr1XGEg7d...` | 5.63M | 1.28% | 100.00% |
+| 12 | `5pPRHniefFjk...` | 5.92M | 1.34% | 5.00% |
+| 13 | `5Cchr1XGEg7d...` | 5.63M | 1.27% | 100.00% |
 | 14 | `9rkJMARqK6VB...` | 4.70M | 1.07% | 8.00% |
-| 15 | `GnC339vkyXRm...` | 4.62M | 1.05% | 7.00% |
+| 15 | `GnC339vkyXRm...` | 4.63M | 1.05% | 7.00% |
 
 ### Largest delinquent validators
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `GQzMeEMwAR44...` | 2.50M | 451,451,974 |
 | `4YGgmwyqztpJ...` | 12.74K | 450,345,071 |
 | `AYY1TCe347UZ...` | 10.70K | 451,280,677 |
 | `ARKk6RgiFq4M...` | 63.93 | 450,022,154 |
-| `stacheBmGG5z...` | 3.00 | 429,535,683 |
+| `R1parD2CtxPB...` | 2.87 | 384,048,870 |
 | `6mygxmZxmTqq...` | 2.00 | 451,196,568 |
-| `CZMekcZwyKLC...` | 1.00 | 0 |
 | `CQYPRQ4vqn8e...` | 1.00 | 451,396,967 |
+| `AEAJtnjjB19X...` | 1.00 | 451,436,763 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $118.86 |
-| SOL 24h | -3.24% |
-| SOL 7d | 0.47% |
-| SOL 30d | 12.81% |
-| Market cap | $69.87B |
-| Spot volume 24h | $4.14B |
-| Circulating supply | 587.78M SOL |
+| SOL price | $117.66 |
+| SOL 24h | -3.58% |
+| SOL 7d | -1.24% |
+| SOL 30d | 12.01% |
+| Market cap | $69.15B |
+| Spot volume 24h | $4.15B |
+| Circulating supply | 587.85M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.58B |
-| TVL 24h | -0.73% |
-| TVL 7d | 5.97% |
-| Stablecoin supply | $16.40B |
+| DeFi TVL | $6.55B |
+| TVL 24h | -1.09% |
+| TVL 7d | 5.58% |
+| Stablecoin supply | $16.46B |
 | DEX volume 24h | $1.93B |
 | DEX volume 7d | $18.32B |
 | Chain fees 24h (REV proxy) | $15.42M |
