@@ -1,16 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-28T14:05:56Z** in 9.8s across 15 HTTP calls.
+Generated **2026-09-28T20:35:33Z** in 9.5s across 15 HTTP calls.
 
-> **Status:** 5 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 143 prior runs.
+> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 143 prior runs.
 
 ## Anomalies
 
 - [WARNING] **commission_zero_count** (statistical) - commission_zero_count is 4.7 robust deviations from its 143-point median of 242, a 5.8% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 4.7 robust deviations from its 143-point median of 312.5, a 11.1% move.
-- [WARNING] **sol_fdv_usd** (statistical) - sol_fdv_usd is 3.6 robust deviations from its 143-point median of 6.575e+10, a 15.4% move.
-- [WARNING] **sol_market_cap_usd** (statistical) - sol_market_cap_usd is 3.8 robust deviations from its 143-point median of 6.078e+10, a 15.6% move.
-- [WARNING] **tvl_usd** (statistical) - tvl_usd is 3.8 robust deviations from its 143-point median of 5.914e+09, a 10.2% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 5.9 robust deviations from its 143-point median of 312.5, a 13.9% move.
+- [WARNING] **tvl_usd** (statistical) - tvl_usd is 4.1 robust deviations from its 143-point median of 5.914e+09, a 11.2% move.
 
 ## Network performance
 
@@ -18,23 +16,23 @@ Generated **2026-09-28T14:05:56Z** in 9.8s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,044 |
-| Epoch progress | 77.04% |
-| Epoch time remaining (est.) | 11h 1m |
-| Absolute slot | 451,340,826 |
-| Block height | 429,380,461 |
-| TPS (all) | 4,855.00 |
-| TPS (non-vote) | 2,435.73 |
-| TPS (30-sample mean) | 5,060.68 |
-| Slot time | 277.80 ms |
-| Block lag vs wall clock | 10s |
-| Lifetime transactions | 553,672,470,742 |
+| Epoch progress | 97.22% |
+| Epoch time remaining (est.) | 1h 20m |
+| Absolute slot | 451,427,970 |
+| Block height | 429,467,600 |
+| TPS (all) | 4,677.07 |
+| TPS (non-vote) | 2,173.08 |
+| TPS (30-sample mean) | 5,016.43 |
+| Slot time | 269.10 ms |
+| Block lag vs wall clock | 9s |
+| Lifetime transactions | 553,787,142,448 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 675 |
-| Delinquent | 8 |
+| Active | 676 |
+| Delinquent | 7 |
 | Delinquent share of stake | 0.01% |
 | Total active stake | 440.55M SOL |
 | Nakamoto coefficient | 18 |
@@ -72,31 +70,30 @@ Generated **2026-09-28T14:05:56Z** in 9.8s across 15 HTTP calls.
 | `4YGgmwyqztpJ...` | 12.74K | 450,345,071 |
 | `AYY1TCe347UZ...` | 10.70K | 451,280,677 |
 | `ARKk6RgiFq4M...` | 63.93 | 450,022,154 |
-| `BbCQMWnfxo4e...` | 46.00 | 451,330,892 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
 | `6mygxmZxmTqq...` | 2.00 | 451,196,568 |
 | `CZMekcZwyKLC...` | 1.00 | 0 |
-| `CQYPRQ4vqn8e...` | 1.00 | 451,316,502 |
+| `CQYPRQ4vqn8e...` | 1.00 | 451,396,967 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.49 |
-| SOL 24h | -2.77% |
-| SOL 7d | 1.10% |
-| SOL 30d | 15.10% |
-| Market cap | $70.27B |
-| Spot volume 24h | $3.93B |
+| SOL price | $118.86 |
+| SOL 24h | -3.24% |
+| SOL 7d | 0.47% |
+| SOL 30d | 12.81% |
+| Market cap | $69.87B |
+| Spot volume 24h | $4.14B |
 | Circulating supply | 587.78M SOL |
 | Circulating share | 92.59% |
-| DeFi TVL | $6.52B |
-| TVL 24h | -1.58% |
-| TVL 7d | 5.06% |
-| Stablecoin supply | $16.65B |
-| DEX volume 24h | $1.90B |
-| DEX volume 7d | $18.26B |
-| Chain fees 24h (REV proxy) | $15.31M |
+| DeFi TVL | $6.58B |
+| TVL 24h | -0.73% |
+| TVL 7d | 5.97% |
+| Stablecoin supply | $16.40B |
+| DEX volume 24h | $1.93B |
+| DEX volume 7d | $18.32B |
+| Chain fees 24h (REV proxy) | $15.42M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -118,13 +115,13 @@ SIMDs referenced in the last feed window: SIMD-0376, SIMD-0215, SIMD-0558, SIMD-
 - [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
+- [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
 - [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [How BitRobot Crowdsources Real-World Data for Embodied AI, with Jonathan Victor](https://solana.com/news/bits-to-bricks-bitrobot-jonathan-victor)
-- [Solana Ecosystem Roundup: August 2026](https://solana.com/news/solana-ecosystem-roundup-august-2026)
+- [Release v4.4.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0)
 - [Amend simd 0376 ed25519-zebra verification (#616)](https://github.com/solana-foundation/solana-improvement-documents/commit/4b643ca8746742183a469681765e694b385bb315)
 - [SIMD-0215: clarify LtHash security considerations (#669)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5)
-- [SIMD-0558: Describe pointer validation & update CU cost (#651)](https://github.com/solana-foundation/solana-improvement-documents/commit/8b157e1def5fb3b3779f0935ec71cd7cae271207)
 
 ## Not collected
 
