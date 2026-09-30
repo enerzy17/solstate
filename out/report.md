@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-09-30T18:36:13Z** in 9.0s across 15 HTTP calls.
+Generated **2026-09-30T20:31:08Z** in 9.4s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 157 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 158 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,046 |
-| Epoch progress | 40.50% |
-| Epoch time remaining (est.) | 28h 33m |
-| Absolute slot | 452,046,963 |
-| Block height | 430,086,198 |
-| TPS (all) | 5,647.93 |
-| TPS (non-vote) | 3,102.52 |
-| TPS (30-sample mean) | 5,051.41 |
-| Slot time | 263.20 ms |
-| Block lag vs wall clock | 11s |
-| Lifetime transactions | 554,516,987,141 |
+| Epoch progress | 46.44% |
+| Epoch time remaining (est.) | 25h 42m |
+| Absolute slot | 452,072,615 |
+| Block height | 430,111,798 |
+| TPS (all) | 4,751.70 |
+| TPS (non-vote) | 2,285.98 |
+| TPS (30-sample mean) | 4,929.35 |
+| Slot time | 266.70 ms |
+| Block lag vs wall clock | 9s |
+| Lifetime transactions | 554,550,850,175 |
 
 ## Validators
 
@@ -80,18 +80,18 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $118.73 |
-| SOL 24h | -0.02% |
-| SOL 7d | 3.69% |
-| SOL 30d | 14.59% |
-| Market cap | $69.82B |
-| Spot volume 24h | $4.10B |
+| SOL price | $118.05 |
+| SOL 24h | -0.83% |
+| SOL 7d | 3.02% |
+| SOL 30d | 13.93% |
+| Market cap | $69.39B |
+| Spot volume 24h | $4.07B |
 | Circulating supply | 588.01M SOL |
 | Circulating share | 92.60% |
-| DeFi TVL | $6.58B |
-| TVL 24h | 1.86% |
-| TVL 7d | 0.64% |
-| Stablecoin supply | $16.09B |
+| DeFi TVL | $6.55B |
+| TVL 24h | 1.48% |
+| TVL 7d | 0.26% |
+| Stablecoin supply | $16.10B |
 | DEX volume 24h | $2.53B |
 | DEX volume 7d | $16.89B |
 | Chain fees 24h (REV proxy) | $14.69M |
@@ -108,9 +108,9 @@ SIMDs referenced in the last feed window: SIMD-0376, SIMD-0215, SIMD-0558, SIMD-
 
 ## Ecosystem news
 
+- [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)
-- [Report: Stablecoins Are Reshaping Remittances](https://solana.com/news/report-stablecoins-are-reshaping-remittances)
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
 - [Solana Changelog: September 10, 2026](https://solana.com/news/solana-changelog-september-10-2026)
 - [Solana Changelog: September 3, 2026](https://solana.com/news/solana-changelog-september-3-2026)
