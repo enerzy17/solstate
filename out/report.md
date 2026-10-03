@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-03T05:24:30Z** in 10.0s across 15 HTTP calls.
+Generated **2026-10-03T11:46:34Z** in 7.6s across 15 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 157 prior runs.
 
@@ -14,31 +14,31 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,048 |
-| Epoch progress | 23.62% |
-| Epoch time remaining (est.) | 36h 39m |
-| Absolute slot | 452,838,049 |
-| Block height | 430,876,642 |
-| TPS (all) | 3,591.18 |
-| TPS (non-vote) | 1,158.48 |
-| TPS (30-sample mean) | 3,910.12 |
-| Slot time | 275.20 ms |
+| Epoch progress | 43.52% |
+| Epoch time remaining (est.) | 27h 6m |
+| Absolute slot | 452,924,025 |
+| Block height | 430,962,595 |
+| TPS (all) | 4,162.25 |
+| TPS (non-vote) | 1,630.72 |
+| TPS (30-sample mean) | 3,956.55 |
+| Slot time | 264.30 ms |
 | Block lag vs wall clock | 9s |
-| Lifetime transactions | 555,480,115,545 |
+| Lifetime transactions | 555,570,063,188 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 671 |
-| Delinquent | 13 |
-| Delinquent share of stake | 0.02% |
+| Active | 672 |
+| Delinquent | 12 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 442.01M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.53% |
 | Stake in top 20 | 35.45% |
 | Stake in top 50 | 55.12% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 228 |
+| Validators at 0% commission | 229 |
 | Validators at 100% commission | 62 |
 
 ### Largest validators by active stake
@@ -65,7 +65,6 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `GK2YYwmQk58x...` | 65.26K | 452,804,584 |
 | `AccReGBNBdUC...` | 15.69K | 451,953,922 |
 | `AYY1TCe347UZ...` | 10.70K | 452,491,297 |
 | `ECNnK4VjcKTs...` | 1.30K | 451,647,060 |
@@ -74,27 +73,28 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
 | `6mygxmZxmTqq...` | 2.00 | 452,810,971 |
 | `C6yZKSQpceMs...` | 1.01 | 0 |
-| `CQYPRQ4vqn8e...` | 1.00 | 452,768,976 |
+| `CQYPRQ4vqn8e...` | 1.00 | 452,849,952 |
+| `8Mp6Yx7h2pTd...` | 1.00 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.42 |
-| SOL 24h | -2.77% |
-| SOL 7d | -1.02% |
-| SOL 30d | 18.39% |
-| Market cap | $70.24B |
-| Spot volume 24h | $3.62B |
+| SOL price | $119.34 |
+| SOL 24h | -2.20% |
+| SOL 7d | -1.04% |
+| SOL 30d | 18.89% |
+| Market cap | $70.19B |
+| Spot volume 24h | $3.01B |
 | Circulating supply | 588.15M SOL |
 | Circulating share | 92.60% |
 | DeFi TVL | $6.64B |
-| TVL 24h | 0.94% |
-| TVL 7d | 0.04% |
-| Stablecoin supply | $16.65B |
-| DEX volume 24h | $2.57B |
-| DEX volume 7d | $15.88B |
-| Chain fees 24h (REV proxy) | $17.26M |
+| TVL 24h | 1.03% |
+| TVL 7d | 0.16% |
+| Stablecoin supply | $16.62B |
+| DEX volume 24h | $2.76B |
+| DEX volume 7d | $17.10B |
+| Chain fees 24h (REV proxy) | $17.30M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -120,9 +120,9 @@ SIMDs referenced in the last feed window: SIMD-0376, SIMD-0215, SIMD-0558, SIMD-
 - [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)
 - [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)
+- [Release v4.5.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1)
 - [Release v4.4.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0)
 - [Amend simd 0376 ed25519-zebra verification (#616)](https://github.com/solana-foundation/solana-improvement-documents/commit/4b643ca8746742183a469681765e694b385bb315)
-- [SIMD-0215: clarify LtHash security considerations (#669)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1afd941b9fa5061ea80a5401feb72172121ebb5)
 
 ## Not collected
 
