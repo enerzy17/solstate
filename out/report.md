@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-05T14:51:24Z** in 11.8s across 15 HTTP calls.
+Generated **2026-10-05T22:43:17Z** in 8.8s across 15 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 155 prior runs.
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,050 |
-| Epoch progress | 2.60% |
-| Epoch time remaining (est.) | 46h 45m |
-| Absolute slot | 453,611,246 |
-| Block height | 431,649,335 |
-| TPS (all) | 5,309.65 |
-| TPS (non-vote) | 2,820.65 |
-| TPS (30-sample mean) | 5,003.69 |
-| Slot time | 269.10 ms |
+| Epoch progress | 26.97% |
+| Epoch time remaining (est.) | 35h 3m |
+| Absolute slot | 453,716,509 |
+| Block height | 431,754,396 |
+| TPS (all) | 4,093.33 |
+| TPS (non-vote) | 1,582.07 |
+| TPS (30-sample mean) | 4,538.40 |
+| Slot time | 266.70 ms |
 | Block lag vs wall clock | 10s |
-| Lifetime transactions | 556,379,431,184 |
+| Lifetime transactions | 556,513,702,354 |
 
 ## Validators
 
@@ -80,21 +80,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.56 |
-| SOL 24h | -1.57% |
-| SOL 7d | -0.17% |
-| SOL 30d | 16.46% |
-| Market cap | $70.34B |
-| Spot volume 24h | $2.63B |
-| Circulating supply | 588.39M SOL |
+| SOL price | $121.09 |
+| SOL 24h | -0.53% |
+| SOL 7d | 2.89% |
+| SOL 30d | 16.74% |
+| Market cap | $71.25B |
+| Spot volume 24h | $2.68B |
+| Circulating supply | 588.38M SOL |
 | Circulating share | 92.61% |
-| DeFi TVL | $6.70B |
-| TVL 24h | 1.29% |
-| TVL 7d | 0.95% |
-| Stablecoin supply | $16.52B |
+| DeFi TVL | $6.78B |
+| TVL 24h | 2.50% |
+| TVL 7d | 2.16% |
+| Stablecoin supply | $16.73B |
 | DEX volume 24h | $1.71B |
 | DEX volume 7d | $16.28B |
-| Chain fees 24h (REV proxy) | $16.13M |
+| Chain fees 24h (REV proxy) | $16.12M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
