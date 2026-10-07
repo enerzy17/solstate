@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-07T08:47:00Z** in 12.3s across 15 HTTP calls.
+Generated **2026-10-07T17:27:03Z** in 7.8s across 15 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 150 prior runs.
 
@@ -14,32 +14,32 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,051 |
-| Epoch progress | 32.72% |
-| Epoch time remaining (est.) | 32h 17m |
-| Absolute slot | 454,173,344 |
-| Block height | 432,210,928 |
-| TPS (all) | 3,882.18 |
-| TPS (non-vote) | 1,368.20 |
-| TPS (30-sample mean) | 3,917.32 |
+| Epoch progress | 59.62% |
+| Epoch time remaining (est.) | 19h 22m |
+| Absolute slot | 454,289,551 |
+| Block height | 432,327,123 |
+| TPS (all) | 4,587.02 |
+| TPS (non-vote) | 2,079.07 |
+| TPS (30-sample mean) | 4,895.20 |
 | Slot time | 266.70 ms |
-| Block lag vs wall clock | 9s |
-| Lifetime transactions | 557,066,870,318 |
+| Block lag vs wall clock | 10s |
+| Lifetime transactions | 557,207,558,738 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 673 |
-| Delinquent | 8 |
-| Delinquent share of stake | 0.00% |
+| Active | 671 |
+| Delinquent | 10 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 439.34M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.62% |
 | Stake in top 20 | 35.63% |
 | Stake in top 50 | 55.32% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 232 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 229 |
+| Validators at 100% commission | 64 |
 
 ### Largest validators by active stake
 
@@ -65,7 +65,9 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `TQmxEmTFVn5g...` | 10.83K | 454,213,564 |
 | `AYY1TCe347UZ...` | 10.69K | 452,491,297 |
+| `ApVnoa3r3okD...` | 10.37K | 454,213,509 |
 | `AccReGBNBdUC...` | 4.97K | 451,953,922 |
 | `R1parD2CtxPB...` | 2.87 | 384,048,870 |
 | `6mygxmZxmTqq...` | 2.00 | 454,100,491 |
@@ -78,20 +80,20 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $118.39 |
-| SOL 24h | -1.82% |
-| SOL 7d | -0.03% |
-| SOL 30d | 13.35% |
-| Market cap | $69.76B |
-| Spot volume 24h | $2.85B |
+| SOL price | $116.51 |
+| SOL 24h | -3.19% |
+| SOL 7d | -3.13% |
+| SOL 30d | 12.20% |
+| Market cap | $68.62B |
+| Spot volume 24h | $3.04B |
 | Circulating supply | 589.09M SOL |
 | Circulating share | 92.72% |
-| DeFi TVL | $6.53B |
-| TVL 24h | -3.71% |
-| TVL 7d | -0.48% |
-| Stablecoin supply | $16.65B |
-| DEX volume 24h | $2.04B |
-| DEX volume 7d | $14.33B |
+| DeFi TVL | $6.43B |
+| TVL 24h | -2.72% |
+| TVL 7d | -1.31% |
+| Stablecoin supply | $16.46B |
+| DEX volume 24h | $2.05B |
+| DEX volume 7d | $15.19B |
 | Chain fees 24h (REV proxy) | $16.06M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
@@ -108,7 +110,6 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
-- [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)
 - [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
@@ -116,6 +117,7 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
+- [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
 - [amend SIMD-0464: clarify aliasing rules (#618)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107)
