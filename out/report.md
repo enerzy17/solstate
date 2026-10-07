@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-07T01:37:43Z** in 12.4s across 15 HTTP calls.
+Generated **2026-10-07T08:47:00Z** in 12.3s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 151 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 150 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,051 |
-| Epoch progress | 10.48% |
-| Epoch time remaining (est.) | 42h 58m |
-| Absolute slot | 454,077,288 |
-| Block height | 432,114,898 |
-| TPS (all) | 4,562.50 |
-| TPS (non-vote) | 2,014.55 |
-| TPS (30-sample mean) | 4,557.50 |
-| Slot time | 263.20 ms |
-| Block lag vs wall clock | 10s |
-| Lifetime transactions | 556,956,345,589 |
+| Epoch progress | 32.72% |
+| Epoch time remaining (est.) | 32h 17m |
+| Absolute slot | 454,173,344 |
+| Block height | 432,210,928 |
+| TPS (all) | 3,882.18 |
+| TPS (non-vote) | 1,368.20 |
+| TPS (30-sample mean) | 3,917.32 |
+| Slot time | 266.70 ms |
+| Block lag vs wall clock | 9s |
+| Lifetime transactions | 557,066,870,318 |
 
 ## Validators
 
@@ -68,7 +68,7 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `AYY1TCe347UZ...` | 10.69K | 452,491,297 |
 | `AccReGBNBdUC...` | 4.97K | 451,953,922 |
 | `R1parD2CtxPB...` | 2.87 | 384,048,870 |
-| `6mygxmZxmTqq...` | 2.00 | 453,779,732 |
+| `6mygxmZxmTqq...` | 2.00 | 454,100,491 |
 | `C6yZKSQpceMs...` | 1.01 | 0 |
 | `8Mp6Yx7h2pTd...` | 1.00 | 0 |
 | `JDY2ADULVm1u...` | 1.00 | 0 |
@@ -78,21 +78,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $119.97 |
-| SOL 24h | -0.65% |
-| SOL 7d | 0.96% |
-| SOL 30d | 13.14% |
-| Market cap | $70.67B |
-| Spot volume 24h | $2.43B |
+| SOL price | $118.39 |
+| SOL 24h | -1.82% |
+| SOL 7d | -0.03% |
+| SOL 30d | 13.35% |
+| Market cap | $69.76B |
+| Spot volume 24h | $2.85B |
 | Circulating supply | 589.09M SOL |
 | Circulating share | 92.72% |
-| DeFi TVL | $6.63B |
-| TVL 24h | -1.51% |
-| TVL 7d | 2.68% |
-| Stablecoin supply | $16.62B |
+| DeFi TVL | $6.53B |
+| TVL 24h | -3.71% |
+| TVL 7d | -0.48% |
+| Stablecoin supply | $16.65B |
 | DEX volume 24h | $2.04B |
 | DEX volume 7d | $14.33B |
-| Chain fees 24h (REV proxy) | $15.95M |
+| Chain fees 24h (REV proxy) | $16.06M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -110,12 +110,12 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
 - [Project Harmonia Brings Institutional Tokenized Funds to Solana](https://solana.com/news/project-harmonia-brings-institutional-tokenized-funds-to-solana)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)
+- [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
+- [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
-- [Solana Summer School 2026: From first program to demo day](https://solana.com/news/solana-summer-school-2026)
-- [Solana: Building, Proving and Earning Trust in Public](https://solana.com/news/solana-building-trust-in-public)
 - [Breakpoint 2026: A guide to getting oriented (Part 1)](https://solana.com/news/breakpoint-guide-part1)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
 - [amend SIMD-0464: clarify aliasing rules (#618)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107)
