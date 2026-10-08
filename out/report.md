@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-07T23:09:21Z** in 8.4s across 15 HTTP calls.
+Generated **2026-10-08T06:13:36Z** in 7.7s across 15 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 150 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 149 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,051 |
-| Epoch progress | 77.23% |
-| Epoch time remaining (est.) | 10h 55m |
-| Absolute slot | 454,365,633 |
-| Block height | 432,403,136 |
-| TPS (all) | 4,542.20 |
-| TPS (non-vote) | 2,056.63 |
-| TPS (30-sample mean) | 4,542.18 |
-| Slot time | 269.10 ms |
-| Block lag vs wall clock | 10s |
-| Lifetime transactions | 557,308,346,074 |
+| Epoch progress | 99.23% |
+| Epoch time remaining (est.) | 22m 2s |
+| Absolute slot | 454,460,694 |
+| Block height | 432,498,180 |
+| TPS (all) | 3,892.05 |
+| TPS (non-vote) | 1,366.05 |
+| TPS (30-sample mean) | 3,897.96 |
+| Slot time | 264.30 ms |
+| Block lag vs wall clock | 9s |
+| Lifetime transactions | 557,418,470,138 |
 
 ## Validators
 
@@ -80,21 +80,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $116.03 |
-| SOL 24h | -3.91% |
-| SOL 7d | -1.78% |
-| SOL 30d | 12.10% |
-| Market cap | $68.36B |
-| Spot volume 24h | $3.14B |
+| SOL price | $115.14 |
+| SOL 24h | -2.89% |
+| SOL 7d | -3.53% |
+| SOL 30d | 11.85% |
+| Market cap | $67.83B |
+| Spot volume 24h | $2.88B |
 | Circulating supply | 589.09M SOL |
-| Circulating share | 92.71% |
-| DeFi TVL | $6.46B |
-| TVL 24h | -4.82% |
-| TVL 7d | -1.63% |
-| Stablecoin supply | $16.28B |
-| DEX volume 24h | $2.05B |
-| DEX volume 7d | $15.19B |
-| Chain fees 24h (REV proxy) | $16.05M |
+| Circulating share | 92.72% |
+| DeFi TVL | $6.45B |
+| TVL 24h | -2.76% |
+| TVL 7d | -0.19% |
+| Stablecoin supply | $16.33B |
+| DEX volume 24h | $2.14B |
+| DEX volume 7d | $13.90B |
+| Chain fees 24h (REV proxy) | $13.75M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -110,13 +110,13 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
 - [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
+- [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet)
 - [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)
 - [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
 - [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)
 - [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
-- [How AI Is Reshaping Crypto Security, with Michael Coates](https://solana.com/news/bits-to-bricks-crypto-security-michael-coates)
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
