@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-08T19:58:54Z** in 12.2s across 15 HTTP calls.
+Generated **2026-10-09T00:26:17Z** in 9.6s across 15 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 100.0% (14/14 probes returned data). History depth: 149 prior runs.
 
@@ -14,32 +14,32 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,052 |
-| Epoch progress | 41.88% |
-| Epoch time remaining (est.) | 27h 53m |
-| Absolute slot | 454,644,937 |
-| Block height | 432,682,322 |
-| TPS (all) | 5,354.08 |
-| TPS (non-vote) | 2,823.22 |
-| TPS (30-sample mean) | 5,144.02 |
-| Slot time | 263.20 ms |
-| Block lag vs wall clock | 9s |
-| Lifetime transactions | 557,645,257,521 |
+| Epoch progress | 55.68% |
+| Epoch time remaining (est.) | 21h 16m |
+| Absolute slot | 454,704,542 |
+| Block height | 432,741,907 |
+| TPS (all) | 4,777.87 |
+| TPS (non-vote) | 2,295.35 |
+| TPS (30-sample mean) | 4,669.40 |
+| Slot time | 269.10 ms |
+| Block lag vs wall clock | 10s |
+| Lifetime transactions | 557,721,560,850 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 669 |
-| Delinquent | 10 |
-| Delinquent share of stake | 0.04% |
+| Active | 673 |
+| Delinquent | 8 |
+| Delinquent share of stake | 0.01% |
 | Total active stake | 439.01M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.58% |
 | Stake in top 20 | 35.60% |
 | Stake in top 50 | 55.33% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 230 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 231 |
+| Validators at 100% commission | 64 |
 
 ### Largest validators by active stake
 
@@ -65,8 +65,6 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `DefiihS7gLkj...` | 85.64K | 454,644,056 |
-| `ssx2rHZNVy6J...` | 41.72K | 454,643,273 |
 | `TQmxEmTFVn5g...` | 10.83K | 454,213,564 |
 | `AYY1TCe347UZ...` | 10.69K | 452,491,297 |
 | `ApVnoa3r3okD...` | 10.37K | 454,213,509 |
@@ -80,21 +78,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $109.22 |
-| SOL 24h | -5.68% |
-| SOL 7d | -7.70% |
-| SOL 30d | 5.62% |
-| Market cap | $64.34B |
-| Spot volume 24h | $4.65B |
-| Circulating supply | 589.15M SOL |
-| Circulating share | 92.71% |
-| DeFi TVL | $6.33B |
-| TVL 24h | -4.45% |
-| TVL 7d | -2.67% |
-| Stablecoin supply | $16.16B |
-| DEX volume 24h | $2.21B |
-| DEX volume 7d | $14.83B |
-| Chain fees 24h (REV proxy) | $13.74M |
+| SOL price | $108.92 |
+| SOL 24h | -6.34% |
+| SOL 7d | -7.99% |
+| SOL 30d | 5.38% |
+| Market cap | $64.15B |
+| Spot volume 24h | $4.92B |
+| Circulating supply | 588.70M SOL |
+| Circulating share | 92.64% |
+| DeFi TVL | $6.24B |
+| TVL 24h | -5.85% |
+| TVL 7d | -4.09% |
+| Stablecoin supply | $16.08B |
+| DEX volume 24h | $2.37B |
+| DEX volume 7d | $13.57B |
+| Chain fees 24h (REV proxy) | $13.75M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -120,9 +118,9 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
+- [Release v4.5.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2)
 - [amend SIMD-0464: clarify aliasing rules (#618)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107)
 - [Release v4.5.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1)
-- [Release v4.4.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.0)
 
 ## Not collected
 
