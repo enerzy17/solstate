@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-11T23:43:27Z** in 9.3s across 15 HTTP calls.
+Generated **2026-10-12T06:06:42Z** in 8.3s across 15 HTTP calls.
 
 > **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 145 prior runs.
 
 ## Anomalies
 
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.9 robust deviations from its 145-point median of 267.9, a 19.7% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.9 robust deviations from its 145-point median of 266.7, a 19.3% move.
 
 ## Network performance
 
@@ -14,24 +14,24 @@ Generated **2026-10-11T23:43:27Z** in 9.3s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,055 |
-| Epoch progress | 17.68% |
-| Epoch time remaining (est.) | 39h 30m |
-| Absolute slot | 455,836,397 |
-| Block height | 433,873,514 |
-| TPS (all) | 4,212.40 |
-| TPS (non-vote) | 1,097.40 |
-| TPS (30-sample mean) | 4,661.42 |
+| Epoch progress | 42.08% |
+| Epoch time remaining (est.) | 27h 48m |
+| Absolute slot | 455,941,784 |
+| Block height | 433,978,876 |
+| TPS (all) | 4,652.93 |
+| TPS (non-vote) | 1,546.78 |
+| TPS (30-sample mean) | 4,719.52 |
 | Slot time | 215.10 ms |
 | Block lag vs wall clock | 8s |
-| Lifetime transactions | 558,927,062,792 |
+| Lifetime transactions | 559,037,659,942 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 673 |
-| Delinquent | 8 |
-| Delinquent share of stake | 0.02% |
+| Active | 671 |
+| Delinquent | 10 |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 438.76M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.47% |
@@ -65,34 +65,36 @@ Generated **2026-10-11T23:43:27Z** in 9.3s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `vtav4QSdUYDb...` | 60.81K | 455,818,473 |
+| `tboxdsRMjUfY...` | 64.55K | 455,937,969 |
+| `vtav4QSdUYDb...` | 60.81K | 455,911,320 |
+| `FFevTkywysWf...` | 32.80K | 455,930,349 |
 | `TQmxEmTFVn5g...` | 8.50K | 454,213,564 |
 | `9gMjDS6WPahW...` | 5.00K | 455,566,680 |
 | `ApVnoa3r3okD...` | 209.75 | 454,213,509 |
 | `HgozywotiKv4...` | 30.49 | 448,492,871 |
 | `R1parD2CtxPB...` | 2.87 | 384,048,870 |
-| `6mygxmZxmTqq...` | 2.00 | 455,500,251 |
+| `6mygxmZxmTqq...` | 2.00 | 455,897,443 |
 | `BAqygpJA82ZJ...` | 1.00 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $111.19 |
-| SOL 24h | 1.07% |
-| SOL 7d | -8.61% |
-| SOL 30d | 9.20% |
-| Market cap | $65.50B |
-| Spot volume 24h | $1.84B |
+| SOL price | $112.69 |
+| SOL 24h | 3.07% |
+| SOL 7d | -6.42% |
+| SOL 30d | 10.88% |
+| Market cap | $66.40B |
+| Spot volume 24h | $2.27B |
 | Circulating supply | 589.11M SOL |
 | Circulating share | 92.68% |
-| DeFi TVL | $6.24B |
-| TVL 24h | 0.83% |
-| TVL 7d | -5.57% |
-| Stablecoin supply | $16.07B |
-| DEX volume 24h | $1.29B |
-| DEX volume 7d | $13.93B |
-| Chain fees 24h (REV proxy) | $11.94M |
+| DeFi TVL | $6.26B |
+| TVL 24h | 0.72% |
+| TVL 7d | -6.97% |
+| Stablecoin supply | $16.06B |
+| DEX volume 24h | $1.25B |
+| DEX volume 7d | $12.88B |
+| Chain fees 24h (REV proxy) | $11.24M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -107,14 +109,14 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 ## Ecosystem news
 
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
-- [Stocks Go Onchain: What the SEC's Innovation Exemption Means for Solana](https://solana.com/news/stocks-sec-innovation-exemption)
 - [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet)
 - [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)
 - [Solana Changelog: September 24, 2026](https://solana.com/news/solana-changelog-september-24-2026)
 - [Solana Foundation Appoints Rachel Conlan as Chief Strategy Officer and Jamal Raees as General Manager of Payments](https://solana.com/news/solana-foundation-appoints-2026)
+- [Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)](https://solana.com/news/breakpoint-guide-part2)
+- [Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026)
 - [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)
-- [Solana Changelog: September 18, 2026](https://solana.com/news/solana-changelog-september-18-2026)
 - [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
