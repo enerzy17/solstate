@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-12T23:02:22Z** in 12.1s across 15 HTTP calls.
+Generated **2026-10-13T06:51:44Z** in 9.0s across 15 HTTP calls.
 
-> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 143 prior runs.
+> **Status:** 1 warning-level anomaly. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 7.4 robust deviations from its 143-point median of 266.7, a 14.5% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.9 robust deviations from its 142-point median of 266.7, a 19.3% move.
 
 ## Network performance
 
@@ -14,16 +14,16 @@ Generated **2026-10-12T23:02:22Z** in 12.1s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,056 |
-| Epoch progress | 6.57% |
-| Epoch time remaining (est.) | 44h 50m |
-| Absolute slot | 456,220,392 |
-| Block height | 434,257,147 |
-| TPS (all) | 5,173.63 |
-| TPS (non-vote) | 2,308.25 |
-| TPS (30-sample mean) | 5,026.27 |
-| Slot time | 228.10 ms |
-| Block lag vs wall clock | 9s |
-| Lifetime transactions | 559,350,188,743 |
+| Epoch progress | 36.43% |
+| Epoch time remaining (est.) | 30h 30m |
+| Absolute slot | 456,349,389 |
+| Block height | 434,386,023 |
+| TPS (all) | 4,343.52 |
+| TPS (non-vote) | 1,232.47 |
+| TPS (30-sample mean) | 4,428.54 |
+| Slot time | 215.10 ms |
+| Block lag vs wall clock | 7s |
+| Lifetime transactions | 559,486,758,768 |
 
 ## Validators
 
@@ -38,7 +38,7 @@ Generated **2026-10-12T23:02:22Z** in 12.1s across 15 HTTP calls.
 | Stake in top 20 | 35.66% |
 | Stake in top 50 | 55.41% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 231 |
+| Validators at 0% commission | 230 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -67,32 +67,32 @@ Generated **2026-10-12T23:02:22Z** in 12.1s across 15 HTTP calls.
 | --- | --- | --- |
 | `rssaJ2iKcE9Q...` | 34.39K | 456,203,301 |
 | `tboxdsRMjUfY...` | 18.53K | 455,988,360 |
-| `9gMjDS6WPahW...` | 5.00K | 455,566,680 |
+| `9gMjDS6WPahW...` | 5.00K | 456,329,990 |
 | `ApVnoa3r3okD...` | 180.14 | 454,213,509 |
 | `BZBKHmW1DhBa...` | 9.59 | 402,784,479 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
 | `TQmxEmTFVn5g...` | 2.14 | 454,213,564 |
-| `6mygxmZxmTqq...` | 2.00 | 455,897,443 |
+| `6mygxmZxmTqq...` | 2.00 | 456,290,998 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $106.37 |
-| SOL 24h | -4.20% |
-| SOL 7d | -12.09% |
-| SOL 30d | 4.62% |
-| Market cap | $62.75B |
-| Spot volume 24h | $3.01B |
+| SOL price | $108.60 |
+| SOL 24h | -3.25% |
+| SOL 7d | -9.33% |
+| SOL 30d | 6.69% |
+| Market cap | $63.98B |
+| Spot volume 24h | $3.89B |
 | Circulating supply | 589.16M SOL |
 | Circulating share | 92.68% |
-| DeFi TVL | $6.11B |
-| TVL 24h | -1.64% |
-| TVL 7d | -7.79% |
-| Stablecoin supply | $15.93B |
-| DEX volume 24h | $1.28B |
-| DEX volume 7d | $13.50B |
-| Chain fees 24h (REV proxy) | $11.30M |
+| DeFi TVL | $6.08B |
+| TVL 24h | -2.72% |
+| TVL 7d | -10.26% |
+| Stablecoin supply | $15.96B |
+| DEX volume 24h | $1.87B |
+| DEX volume 7d | $12.69B |
+| Chain fees 24h (REV proxy) | $12.98M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -118,9 +118,9 @@ SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
+- [Release v4.4.0-beta.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.1)
 - [Release v4.5.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2)
 - [amend SIMD-0464: clarify aliasing rules (#618)](https://github.com/solana-foundation/solana-improvement-documents/commit/f1f6c8b05dc205552d3c290a854a438392701107)
-- [Release v4.5.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.1)
 
 ## Not collected
 
