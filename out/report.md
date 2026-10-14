@@ -1,14 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-14T07:43:54Z** in 10.0s across 15 HTTP calls.
+Generated **2026-10-14T13:47:40Z** in 11.9s across 15 HTTP calls.
 
 > **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 141 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 3.6 robust deviations from its 141-point median of 1.101e+08, a 17.4% move.
+- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 3.5 robust deviations from its 141-point median of 1.101e+08, a 17.1% move.
 - [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 4.7 robust deviations from its 141-point median of 126, a 5.6% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.7 robust deviations from its 141-point median of 266.7, a 18.8% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 10.8 robust deviations from its 141-point median of 266.7, a 21.1% move.
 
 ## Network performance
 
@@ -16,16 +16,16 @@ Generated **2026-10-14T07:43:54Z** in 10.0s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,057 |
-| Epoch progress | 31.39% |
-| Epoch time remaining (est.) | 32h 55m |
-| Absolute slot | 456,759,620 |
-| Block height | 434,795,923 |
-| TPS (all) | 4,375.92 |
-| TPS (non-vote) | 1,291.97 |
-| TPS (30-sample mean) | 4,455.56 |
-| Slot time | 216.60 ms |
+| Epoch progress | 54.70% |
+| Epoch time remaining (est.) | 21h 44m |
+| Absolute slot | 456,860,300 |
+| Block height | 434,896,551 |
+| TPS (all) | 5,415.90 |
+| TPS (non-vote) | 2,233.87 |
+| TPS (30-sample mean) | 5,315.14 |
+| Slot time | 210.50 ms |
 | Block lag vs wall clock | 7s |
-| Lifetime transactions | 559,933,595,904 |
+| Lifetime transactions | 560,036,356,607 |
 
 ## Validators
 
@@ -40,8 +40,8 @@ Generated **2026-10-14T07:43:54Z** in 10.0s across 15 HTTP calls.
 | Stake in top 20 | 35.72% |
 | Stake in top 50 | 55.50% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 230 |
-| Validators at 100% commission | 63 |
+| Validators at 0% commission | 228 |
+| Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
 
@@ -77,21 +77,21 @@ Generated **2026-10-14T07:43:54Z** in 10.0s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $107.29 |
-| SOL 24h | -1.40% |
-| SOL 7d | -9.68% |
-| SOL 30d | 5.70% |
-| Market cap | $63.21B |
-| Spot volume 24h | $2.93B |
+| SOL price | $106.03 |
+| SOL 24h | -0.88% |
+| SOL 7d | -8.89% |
+| SOL 30d | 4.65% |
+| Market cap | $62.49B |
+| Spot volume 24h | $2.88B |
 | Circulating supply | 589.22M SOL |
 | Circulating share | 92.68% |
 | DeFi TVL | $6.03B |
-| TVL 24h | 0.76% |
-| TVL 7d | -8.60% |
-| Stablecoin supply | $16.14B |
-| DEX volume 24h | $2.28B |
-| DEX volume 7d | $12.91B |
-| Chain fees 24h (REV proxy) | $11.68M |
+| TVL 24h | 0.84% |
+| TVL 7d | -8.56% |
+| Stablecoin supply | $15.89B |
+| DEX volume 24h | $2.50B |
+| DEX volume 7d | $14.12B |
+| Chain fees 24h (REV proxy) | $11.65M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -101,7 +101,7 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0464, SIMD-0376, SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550
+SIMDs referenced in the last feed window: SIMD-0123, SIMD-0464, SIMD-0376, SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550
 
 ## Ecosystem news
 
