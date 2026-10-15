@@ -1,14 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-15T04:48:51Z** in 8.9s across 15 HTTP calls.
+Generated **2026-10-15T11:38:31Z** in 9.5s across 15 HTTP calls.
 
-> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 141 prior runs.
+> **Status:** 3 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 4.3 robust deviations from its 141-point median of 1.101e+08, a 20.7% move.
-- [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 4.7 robust deviations from its 141-point median of 126, a 5.6% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.9 robust deviations from its 141-point median of 266.7, a 19.3% move.
+- [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 4.0 robust deviations from its 142-point median of 1.099e+08, a 20.1% move.
+- [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 4.7 robust deviations from its 142-point median of 126, a 5.6% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 9.5 robust deviations from its 142-point median of 266.7, a 18.5% move.
 
 ## Network performance
 
@@ -16,31 +16,31 @@ Generated **2026-10-15T04:48:51Z** in 8.9s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,058 |
-| Epoch progress | 12.47% |
-| Epoch time remaining (est.) | 42h 0m |
-| Absolute slot | 457,109,878 |
-| Block height | 435,145,804 |
-| TPS (all) | 4,571.50 |
-| TPS (non-vote) | 1,460.78 |
-| TPS (30-sample mean) | 4,817.66 |
-| Slot time | 215.10 ms |
-| Block lag vs wall clock | 8s |
-| Lifetime transactions | 560,320,675,676 |
+| Epoch progress | 38.82% |
+| Epoch time remaining (est.) | 29h 21m |
+| Absolute slot | 457,223,714 |
+| Block height | 435,259,598 |
+| TPS (all) | 5,149.00 |
+| TPS (non-vote) | 2,060.70 |
+| TPS (30-sample mean) | 5,101.40 |
+| Slot time | 217.40 ms |
+| Block lag vs wall clock | 7s |
+| Lifetime transactions | 560,435,693,680 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 672 |
-| Delinquent | 8 |
-| Delinquent share of stake | 0.00% |
+| Active | 671 |
+| Delinquent | 9 |
+| Delinquent share of stake | 0.03% |
 | Total active stake | 437.89M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.48% |
 | Stake in top 20 | 35.62% |
 | Stake in top 50 | 55.37% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 231 |
+| Validators at 0% commission | 229 |
 | Validators at 100% commission | 62 |
 
 ### Largest validators by active stake
@@ -67,6 +67,7 @@ Generated **2026-10-15T04:48:51Z** in 8.9s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `Eu6FQvMfaVav...` | 128.44K | 457,221,838 |
 | `rssaJ2iKcE9Q...` | 1.42K | 456,203,301 |
 | `HyperSPG8w4j...` | 397.89 | 457,059,085 |
 | `9bjXFvs3ygxH...` | 5.00 | 0 |
@@ -80,21 +81,21 @@ Generated **2026-10-15T04:48:51Z** in 8.9s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.06 |
-| SOL 24h | -3.65% |
-| SOL 7d | -10.05% |
-| SOL 30d | 2.53% |
-| Market cap | $61.33B |
+| SOL price | $102.33 |
+| SOL 24h | -4.39% |
+| SOL 7d | -10.51% |
+| SOL 30d | 1.38% |
+| Market cap | $60.30B |
 | Spot volume 24h | $4.09B |
 | Circulating supply | 589.27M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.92B |
-| TVL 24h | -1.13% |
-| TVL 7d | -7.80% |
+| DeFi TVL | $5.91B |
+| TVL 24h | -1.84% |
+| TVL 7d | -8.01% |
 | Stablecoin supply | $15.76B |
-| DEX volume 24h | $2.25B |
-| DEX volume 7d | $12.96B |
-| Chain fees 24h (REV proxy) | $10.64M |
+| DEX volume 24h | $2.12B |
+| DEX volume 7d | $14.03B |
+| Chain fees 24h (REV proxy) | $10.63M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,18 +105,18 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0123, SIMD-0464, SIMD-0376, SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550
+SIMDs referenced in the last feed window: SIMD-0675, SIMD-0123, SIMD-0464, SIMD-0376, SIMD-0215, SIMD-0558, SIMD-0582, SIMD-0377, SIMD-0609, SIMD-0610, SIMD-0608, SIMD-0550
 
 ## Ecosystem news
 
 - [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
+- [Geo-Aware Leader Schedule](https://solana.com/news/geo-aware-leader-schedule)
 - [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet)
 - [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)
 - [Solana Foundation Launches Solana DvP, an Atomic Settlement Program Built for Financial Institutions](https://solana.com/news/solana-foundation-launches-solana-dv-p-an-atomic-settlement-program-built-for-financial-institutions)
 - [Breakpoint 2026: Booked Breakpoint? Let's Get You Prepped (Part 2)](https://solana.com/news/breakpoint-guide-part2)
 - [Solana Changelog: October 8, 2026](https://solana.com/news/solana-changelog-october-8-2026)
 - [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)
-- [Slot Time Reduction Effects](https://solana.com/news/slot-time-reduction-effects)
 - [More Breakpoint 2026 Speakers Confirmed for London](https://solana.com/news/breakpoint-2026-london-speakers-2)
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories)
