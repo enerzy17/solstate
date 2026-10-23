@@ -1,70 +1,68 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-23T13:31:48Z** in 9.2s across 15 HTTP calls.
+Generated **2026-10-23T18:25:49Z** in 8.4s across 15 HTTP calls.
 
-> **Status:** 8 warning-level anomalies. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
+> **Status:** **1 critical** anomaly open. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 142-point median of 9, a 88.9% move.
+- [CRITICAL] **tps** (rule) - TPS 1893 is 59% below the trailing median of 4636.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 6.1 robust deviations from its 142-point median of 9, a 100.0% move.
 - [WARNING] **chain_fees_7d_usd** (statistical) - chain_fees_7d_usd is 4.7 robust deviations from its 142-point median of 1.096e+08, a 26.1% move.
-- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 3.8 robust deviations from its 142-point median of 1.468, a 111.6% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 14.9 robust deviations from its 142-point median of 0.0176, a 1866.5% move.
-- [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 8.1 robust deviations from its 142-point median of 126, a 9.5% move.
-- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 4.4 robust deviations from its 142-point median of 263.2, a 17.4% move.
-- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 5.7 robust deviations from its 142-point median of 4646, a 55.7% move.
-- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 3.7 robust deviations from its 142-point median of 10, a 110.0% move.
+- [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 5.2 robust deviations from its 142-point median of 126.5, a 9.1% move.
+- [WARNING] **slot_time_ms** (statistical) - slot_time_ms is 4.4 robust deviations from its 142-point median of 263.2, a 19.1% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 5.3 robust deviations from its 142-point median of 4646, a 51.1% move.
 
 ## Network performance
 
 | Metric | Value |
 | --- | --- |
 | Health | ok |
-| Epoch | 1,065 |
-| Epoch progress | 88.18% |
-| Epoch time remaining (est.) | 5h 40m |
-| Absolute slot | 460,460,951 |
-| Block height | 438,493,188 |
-| TPS (all) | 3,292.07 |
-| TPS (non-vote) | 3,292.07 |
-| TPS (30-sample mean) | 2,060.51 |
-| Slot time | 217.40 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 563,387,719,114 |
+| Epoch | 1,066 |
+| Epoch progress | 7.48% |
+| Epoch time remaining (est.) | 44h 24m |
+| Absolute slot | 460,544,293 |
+| Block height | 438,575,263 |
+| TPS (all) | 1,893.28 |
+| TPS (non-vote) | 1,893.28 |
+| TPS (30-sample mean) | 2,270.27 |
+| Slot time | 212.80 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 563,428,130,505 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 655 |
-| Delinquent | 21 |
-| Delinquent share of stake | 0.35% |
-| Total active stake | 438.32M SOL |
+| Active | 664 |
+| Delinquent | 14 |
+| Delinquent share of stake | 0.07% |
+| Total active stake | 437.12M SOL |
 | Nakamoto coefficient | 18 |
-| Stake in top 10 | 24.38% |
-| Stake in top 20 | 35.55% |
-| Stake in top 50 | 55.29% |
+| Stake in top 10 | 24.44% |
+| Stake in top 20 | 35.61% |
+| Stake in top 50 | 55.36% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 221 |
-| Validators at 100% commission | 64 |
+| Validators at 0% commission | 227 |
+| Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
 
 | # | Node | Stake (SOL) | Share | Commission |
 | --- | --- | --- | --- | --- |
-| 1 | `Fd7btgySsrju...` | 17.13M | 3.91% | 7.00% |
-| 2 | `HEL1USMZKAL2...` | 15.97M | 3.64% | 0.00% |
-| 3 | `DRpbCBMxVnDK...` | 12.56M | 2.86% | 0.00% |
-| 4 | `E1r4Psq84tHf...` | 10.94M | 2.50% | 0.00% |
-| 5 | `JUPiTERrZqgf...` | 9.73M | 2.22% | 5.00% |
-| 6 | `CAo1dCGYrB6N...` | 9.48M | 2.16% | 10.00% |
-| 7 | `C8Bey3LKVJHV...` | 9.24M | 2.11% | 7.00% |
-| 8 | `EvnRmnMrd69k...` | 7.80M | 1.78% | 7.00% |
+| 1 | `Fd7btgySsrju...` | 17.10M | 3.91% | 7.00% |
+| 2 | `HEL1USMZKAL2...` | 16.02M | 3.67% | 0.00% |
+| 3 | `DRpbCBMxVnDK...` | 12.57M | 2.88% | 0.00% |
+| 4 | `E1r4Psq84tHf...` | 10.88M | 2.49% | 0.00% |
+| 5 | `JUPiTERrZqgf...` | 9.72M | 2.22% | 5.00% |
+| 6 | `CAo1dCGYrB6N...` | 9.48M | 2.17% | 10.00% |
+| 7 | `C8Bey3LKVJHV...` | 9.21M | 2.11% | 7.00% |
+| 8 | `EvnRmnMrd69k...` | 7.78M | 1.78% | 7.00% |
 | 9 | `9eGrDohdNTAo...` | 7.04M | 1.61% | 5.00% |
 | 10 | `Awes4Tr6TX8J...` | 7.00M | 1.60% | 0.00% |
 | 11 | `JD549HsbJHeE...` | 6.61M | 1.51% | 0.00% |
-| 12 | `5pPRHniefFjk...` | 5.99M | 1.37% | 5.00% |
-| 13 | `5Cchr1XGEg7d...` | 5.68M | 1.30% | 100.00% |
+| 12 | `5pPRHniefFjk...` | 5.97M | 1.37% | 5.00% |
+| 13 | `5Cchr1XGEg7d...` | 5.69M | 1.30% | 100.00% |
 | 14 | `GnC339vkyXRm...` | 4.86M | 1.11% | 7.00% |
 | 15 | `9rkJMARqK6VB...` | 4.72M | 1.08% | 8.00% |
 
@@ -72,33 +70,33 @@ Generated **2026-10-23T13:31:48Z** in 9.2s across 15 HTTP calls.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `EdFUcP2f6j9i...` | 558.47K | 460,079,999 |
-| `9GHvMeJ4ZWuA...` | 234.44K | 460,079,999 |
-| `TREEir31FswH...` | 222.01K | 460,412,088 |
-| `SyndicAgdEph...` | 156.88K | 460,079,999 |
-| `8nbE53mcKhy7...` | 115.58K | 460,079,999 |
-| `uEhHSnCXvWgt...` | 99.96K | 460,079,999 |
-| `SANDCxXBbQhv...` | 43.62K | 460,079,999 |
-| `ark1hdnnfmus...` | 42.39K | 460,079,999 |
-| `2Le6TjeEescF...` | 20.43K | 460,079,999 |
-| `9fa5wcqnAQqH...` | 11.73K | 459,643,077 |
+| `3rqEEEGjHRyn...` | 136.96K | 460,511,999 |
+| `FyLVPAKkgdAy...` | 74.42K | 460,511,999 |
+| `ssx2rHZNVy6J...` | 43.05K | 460,511,999 |
+| `SANDCxXBbQhv...` | 34.56K | 460,079,999 |
+| `GqDCbnafLmKk...` | 397.56 | 460,079,999 |
+| `BGD4V7L4aZF5...` | 374.87 | 458,009,563 |
+| `Eu6FQvMfaVav...` | 4.49 | 460,079,999 |
+| `stacheBmGG5z...` | 3.00 | 429,535,683 |
+| `R1parD2CtxPB...` | 2.87 | 384,048,870 |
+| `FdPyYztZ3DoK...` | 2.00 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $104.34 |
-| SOL 24h | -0.14% |
-| SOL 7d | -1.14% |
-| SOL 30d | -10.73% |
-| Market cap | $61.51B |
-| Spot volume 24h | $2.09B |
-| Circulating supply | 589.65M SOL |
+| SOL price | $104.23 |
+| SOL 24h | 0.85% |
+| SOL 7d | 0.59% |
+| SOL 30d | -8.98% |
+| Market cap | $61.47B |
+| Spot volume 24h | $2.04B |
+| Circulating supply | 589.71M SOL |
 | Circulating share | 92.67% |
 | DeFi TVL | $5.84B |
-| TVL 24h | -2.28% |
-| TVL 7d | -2.33% |
-| Stablecoin supply | $15.68B |
+| TVL 24h | -2.35% |
+| TVL 7d | -2.39% |
+| Stablecoin supply | $15.56B |
 | DEX volume 24h | $2.04B |
 | DEX volume 7d | $13.69B |
 | Chain fees 24h (REV proxy) | $11.29M |
@@ -115,7 +113,6 @@ SIMDs referenced in the last feed window: SIMD-0675, SIMD-0123, SIMD-0683, SIMD-
 
 ## Ecosystem news
 
-- [Open USD Is Live on Solana](https://solana.com/news/open-usd-is-live-on-solana)
 - [Geo-Aware Leader Schedule](https://solana.com/news/geo-aware-leader-schedule)
 - [Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices](https://solana.com/news/samsung-wallet)
 - [Solana Ecosystem Roundup: September 2026](https://solana.com/news/solana-ecosystem-roundup-september-2026)
@@ -125,6 +122,7 @@ SIMDs referenced in the last feed window: SIMD-0675, SIMD-0123, SIMD-0683, SIMD-
 - [Solana Changelog: October 1, 2026](https://solana.com/news/solana-changelog-october-1-2026)
 - [More Breakpoint 2026 Speakers Confirmed for London](https://solana.com/news/breakpoint-2026-london-speakers-2)
 - [Introducing Solana Microscope: Program Monitoring and Alerts](https://solana.com/news/solana-microscope)
+- [Solana Changelog: October 16, 2026](https://solana.com/news/solana-changelog-october-16-2026)
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
 - [SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (#683)](https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0)
