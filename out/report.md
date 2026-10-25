@@ -1,16 +1,16 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-24T22:32:16Z** in 10.3s across 15 HTTP calls.
+Generated **2026-10-25T04:51:35Z** in 10.2s across 15 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 1894 is 59% below the trailing median of 4630.
+- [CRITICAL] **tps** (rule) - TPS 1890 is 59% below the trailing median of 4630.
 - [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 142-point median of 9, a 88.9% move.
 - [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 5.0 robust deviations from its 142-point median of 1.468, a 146.7% move.
 - [WARNING] **dex_protocols_tracked** (statistical) - dex_protocols_tracked is 3.7 robust deviations from its 142-point median of 127, a 8.7% move.
-- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 5.6 robust deviations from its 142-point median of 4632, a 62.6% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 5.8 robust deviations from its 142-point median of 4632, a 68.2% move.
 - [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 5.1 robust deviations from its 142-point median of 10, a 150.0% move.
 
 ## Network performance
@@ -19,16 +19,16 @@ Generated **2026-10-24T22:32:16Z** in 10.3s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,067 |
-| Epoch progress | 17.84% |
-| Epoch time remaining (est.) | 39h 26m |
-| Absolute slot | 461,021,056 |
-| Block height | 439,050,154 |
-| TPS (all) | 1,894.35 |
-| TPS (non-vote) | 1,894.35 |
-| TPS (30-sample mean) | 1,734.28 |
+| Epoch progress | 42.63% |
+| Epoch time remaining (est.) | 27h 32m |
+| Absolute slot | 461,128,177 |
+| Block height | 439,157,111 |
+| TPS (all) | 1,889.80 |
+| TPS (non-vote) | 1,889.80 |
+| TPS (30-sample mean) | 1,472.76 |
 | Slot time | 213.50 ms |
 | Block lag vs wall clock | 1s |
-| Lifetime transactions | 563,606,183,264 |
+| Lifetime transactions | 563,644,490,413 |
 
 ## Validators
 
@@ -85,21 +85,21 @@ Generated **2026-10-24T22:32:16Z** in 10.3s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.44 |
-| SOL 24h | -1.79% |
-| SOL 7d | -0.78% |
-| SOL 30d | -13.16% |
-| Market cap | $59.82B |
-| Spot volume 24h | $2.53B |
+| SOL price | $102.54 |
+| SOL 24h | -0.04% |
+| SOL 7d | -1.81% |
+| SOL 30d | -12.23% |
+| Market cap | $60.49B |
+| Spot volume 24h | $2.27B |
 | Circulating supply | 589.76M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.73B |
-| TVL 24h | -2.23% |
-| TVL 7d | -3.27% |
-| Stablecoin supply | $15.62B |
-| DEX volume 24h | $2.00B |
-| DEX volume 7d | $13.52B |
-| Chain fees 24h (REV proxy) | $10.55M |
+| DeFi TVL | $5.78B |
+| TVL 24h | -0.01% |
+| TVL 7d | -2.04% |
+| Stablecoin supply | $15.60B |
+| DEX volume 24h | $1.73B |
+| DEX volume 7d | $12.96B |
+| Chain fees 24h (REV proxy) | $9.95M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
