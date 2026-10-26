@@ -1,17 +1,17 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-26T00:26:36Z** in 9.2s across 15 HTTP calls.
+Generated **2026-10-26T07:52:27Z** in 9.7s across 15 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 2634 is 43% below the trailing median of 4592.
-- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 142-point median of 9, a 88.9% move.
-- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 4.9 robust deviations from its 142-point median of 1.475, a 145.6% move.
+- [CRITICAL] **tps** (rule) - TPS 1589 is 65% below the trailing median of 4592.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 6.1 robust deviations from its 142-point median of 9, a 100.0% move.
+- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 3.9 robust deviations from its 142-point median of 1.539, a 135.4% move.
 - [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 4.4 robust deviations from its 142-point median of 0.0185, a 567.0% move.
-- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 3.9 robust deviations from its 142-point median of 4626, a 48.1% move.
-- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 5.1 robust deviations from its 142-point median of 10, a 150.0% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 5.6 robust deviations from its 142-point median of 4626, a 70.1% move.
+- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 3.9 robust deviations from its 142-point median of 10.5, a 138.1% move.
 
 ## Network performance
 
@@ -19,16 +19,16 @@ Generated **2026-10-26T00:26:36Z** in 9.2s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,068 |
-| Epoch progress | 19.49% |
-| Epoch time remaining (est.) | 38h 38m |
-| Absolute slot | 461,460,186 |
-| Block height | 439,487,540 |
-| TPS (all) | 2,634.33 |
-| TPS (non-vote) | 2,634.33 |
-| TPS (30-sample mean) | 2,399.87 |
-| Slot time | 209.80 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 563,754,122,912 |
+| Epoch progress | 48.63% |
+| Epoch time remaining (est.) | 24h 39m |
+| Absolute slot | 461,586,061 |
+| Block height | 439,613,308 |
+| TPS (all) | 1,589.32 |
+| TPS (non-vote) | 1,589.32 |
+| TPS (30-sample mean) | 1,380.97 |
+| Slot time | 212.00 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 563,797,115,604 |
 
 ## Validators
 
@@ -85,21 +85,21 @@ Generated **2026-10-26T00:26:36Z** in 9.2s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.30 |
-| SOL 24h | -0.93% |
-| SOL 7d | -2.60% |
-| SOL 30d | -17.02% |
-| Market cap | $59.76B |
-| Spot volume 24h | $1.50B |
+| SOL price | $100.57 |
+| SOL 24h | -1.08% |
+| SOL 7d | -4.84% |
+| SOL 30d | -16.34% |
+| Market cap | $59.32B |
+| Spot volume 24h | $1.81B |
 | Circulating supply | 589.82M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.73B |
-| TVL 24h | -0.78% |
-| TVL 7d | -2.81% |
-| Stablecoin supply | $15.61B |
-| DEX volume 24h | $1.42B |
-| DEX volume 7d | $13.69B |
-| Chain fees 24h (REV proxy) | $10.05M |
+| DeFi TVL | $5.70B |
+| TVL 24h | -1.31% |
+| TVL 7d | -2.67% |
+| Stablecoin supply | $15.69B |
+| DEX volume 24h | $1.35B |
+| DEX volume 7d | $12.50B |
+| Chain fees 24h (REV proxy) | $9.63M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -126,7 +126,7 @@ SIMDs referenced in the last feed window: SIMD-0675, SIMD-0123, SIMD-0670, SIMD-
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
 - [SIMD-0670: ABIv1 invoke signed v2 syscall (#670)](https://github.com/solana-foundation/solana-improvement-documents/commit/c9ec366af14dd32a74259f5d9f5772249188bd25)
-- [Release v4.4.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.0)
+- [v4.4.0-rc.0: Bump version to 4.4.0-rc.0 (#16364)](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.0)
 - [SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (#683)](https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0)
 
 ## Not collected
