@@ -1,14 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-26T21:03:15Z** in 8.1s across 15 HTTP calls.
+Generated **2026-10-27T01:30:40Z** in 10.5s across 15 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 100.0% (14/14 probes returned data). History depth: 142 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 1963 is 57% below the trailing median of 4584.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 4.0 robust deviations from its 142-point median of 0.0203, a 516.3% move.
-- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 4.4 robust deviations from its 142-point median of 4597, a 59.6% move.
+- [CRITICAL] **tps** (rule) - TPS 1557 is 66% below the trailing median of 4584.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 4.7 robust deviations from its 142-point median of 8, a 87.5% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 4.7 robust deviations from its 142-point median of 4597, a 65.1% move.
 
 ## Network performance
 
@@ -16,24 +16,24 @@ Generated **2026-10-26T21:03:15Z** in 8.1s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,069 |
-| Epoch progress | 0.31% |
-| Epoch time remaining (est.) | 47h 50m |
-| Absolute slot | 461,809,356 |
-| Block height | 439,836,200 |
-| TPS (all) | 1,963.20 |
-| TPS (non-vote) | 1,963.20 |
-| TPS (30-sample mean) | 1,855.83 |
-| Slot time | 211.30 ms |
+| Epoch progress | 17.79% |
+| Epoch time remaining (est.) | 39h 27m |
+| Absolute slot | 461,884,860 |
+| Block height | 439,910,811 |
+| TPS (all) | 1,556.82 |
+| TPS (non-vote) | 1,556.82 |
+| TPS (30-sample mean) | 1,605.68 |
+| Slot time | 209.80 ms |
 | Block lag vs wall clock | 1s |
-| Lifetime transactions | 563,895,148,591 |
+| Lifetime transactions | 563,924,872,516 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 664 |
-| Delinquent | 21 |
-| Delinquent share of stake | 0.13% |
+| Active | 665 |
+| Delinquent | 20 |
+| Delinquent share of stake | 0.09% |
 | Total active stake | 436.87M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.58% |
@@ -68,7 +68,6 @@ Generated **2026-10-26T21:03:15Z** in 8.1s across 15 HTTP calls.
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
 | `BGAjnivVWqLq...` | 266.14K | 461,375,999 |
-| `ReFiqMfGnc7t...` | 174.34K | 461,809,069 |
 | `2jS8AX38m8F9...` | 102.51K | 461,375,999 |
 | `HzrEstnLfzsi...` | 2.61K | 461,807,999 |
 | `GqDCbnafLmKk...` | 397.56 | 460,079,999 |
@@ -76,27 +75,28 @@ Generated **2026-10-26T21:03:15Z** in 8.1s across 15 HTTP calls.
 | `SANDCxXBbQhv...` | 181.00 | 460,079,999 |
 | `Eu6FQvMfaVav...` | 4.49 | 460,079,999 |
 | `FdPyYztZ3DoK...` | 2.00 | 0 |
-| `Guv98LNBMw8z...` | 1.01 | 0 |
+| `2RbUD2jPMugJ...` | 1.01 | 0 |
+| `E2krixVbP37z...` | 1.01 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $100.25 |
-| SOL 24h | -1.27% |
-| SOL 7d | -4.03% |
-| SOL 30d | -16.68% |
-| Market cap | $59.12B |
-| Spot volume 24h | $2.48B |
+| SOL price | $100.52 |
+| SOL 24h | -0.60% |
+| SOL 7d | -3.95% |
+| SOL 30d | -16.79% |
+| Market cap | $59.26B |
+| Spot volume 24h | $2.45B |
 | Circulating supply | 589.87M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.69B |
-| TVL 24h | -1.55% |
-| TVL 7d | -2.83% |
-| Stablecoin supply | $15.55B |
-| DEX volume 24h | $1.45B |
-| DEX volume 7d | $13.44B |
-| Chain fees 24h (REV proxy) | $9.29M |
+| DeFi TVL | $5.67B |
+| TVL 24h | 0.00% |
+| TVL 7d | -3.09% |
+| Stablecoin supply | $15.48B |
+| DEX volume 24h | $1.72B |
+| DEX volume 7d | $12.70B |
+| Chain fees 24h (REV proxy) | $11.61M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -122,9 +122,9 @@ SIMDs referenced in the last feed window: SIMD-0675, SIMD-0123, SIMD-0690, SIMD-
 - [Solana Changelog: October 16, 2026](https://solana.com/news/solana-changelog-october-16-2026)
 - [Payments on Solana: September 2026 in Five Stories](https://solana.com/news/payments-on-solana-september-2026-in-five-stories)
 - [Solana x AI: The Democratization Layer](https://solana.com/news/solana-ai-the-democratization-layer)
+- [Release v4.4.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1)
 - [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4)
 - [v4.5.0-alpha.3: Bump version to 4.5.0-alpha.3 (#16402)](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.3)
-- [SIMD-0690: Hash validation in program migrations and upgrades (#690)](https://github.com/solana-foundation/solana-improvement-documents/commit/eac20f2994dd064482d96f178a4bbc0f4e358fd0)
 
 ## Not collected
 
