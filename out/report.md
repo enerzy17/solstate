@@ -1,15 +1,16 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-28T01:26:31Z** in 9.8s across 15 HTTP calls.
+Generated **2026-10-28T08:40:22Z** in 11.0s across 15 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 100.0% (14/14 probes returned data). History depth: 141 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 2194 is 52% below the trailing median of 4568.
-- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 141-point median of 8, a 100.0% move.
+- [CRITICAL] **tps** (rule) - TPS 1306 is 71% below the trailing median of 4568.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 4.7 robust deviations from its 141-point median of 8, a 87.5% move.
 - [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 5.8 robust deviations from its 141-point median of 1.611, a 160.6% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 32.1 robust deviations from its 141-point median of 0.0206, a 4201.0% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 31.0 robust deviations from its 141-point median of 0.0212, a 4079.2% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 4.3 robust deviations from its 141-point median of 4555, a 70.7% move.
 - [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 6.1 robust deviations from its 141-point median of 11, a 163.6% move.
 
 ## Network performance
@@ -18,16 +19,16 @@ Generated **2026-10-28T01:26:31Z** in 9.8s across 15 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,070 |
-| Epoch progress | 11.52% |
-| Epoch time remaining (est.) | 42h 28m |
-| Absolute slot | 462,289,768 |
-| Block height | 440,314,460 |
-| TPS (all) | 2,193.75 |
-| TPS (non-vote) | 2,193.75 |
-| TPS (30-sample mean) | 2,033.39 |
-| Slot time | 210.50 ms |
-| Block lag vs wall clock | 0s |
-| Lifetime transactions | 564,079,045,971 |
+| Epoch progress | 39.82% |
+| Epoch time remaining (est.) | 28h 53m |
+| Absolute slot | 462,412,011 |
+| Block height | 440,436,609 |
+| TPS (all) | 1,306.20 |
+| TPS (non-vote) | 1,306.20 |
+| TPS (30-sample mean) | 1,333.64 |
+| Slot time | 212.00 ms |
+| Block lag vs wall clock | 1s |
+| Lifetime transactions | 564,117,846,343 |
 
 ## Validators
 
@@ -84,21 +85,21 @@ Generated **2026-10-28T01:26:31Z** in 9.8s across 15 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $101.26 |
-| SOL 24h | 0.83% |
-| SOL 7d | -4.96% |
-| SOL 30d | -16.79% |
-| Market cap | $59.73B |
-| Spot volume 24h | $2.02B |
+| SOL price | $103.08 |
+| SOL 24h | 3.34% |
+| SOL 7d | -3.42% |
+| SOL 30d | -12.68% |
+| Market cap | $60.81B |
+| Spot volume 24h | $2.04B |
 | Circulating supply | 589.93M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.69B |
-| TVL 24h | -0.00% |
-| TVL 7d | -4.59% |
-| Stablecoin supply | $15.51B |
+| DeFi TVL | $5.73B |
+| TVL 24h | 1.04% |
+| TVL 7d | -3.97% |
+| Stablecoin supply | $15.12B |
 | DEX volume 24h | $1.85B |
 | DEX volume 7d | $11.94B |
-| Chain fees 24h (REV proxy) | $11.07M |
+| Chain fees 24h (REV proxy) | $11.08M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
