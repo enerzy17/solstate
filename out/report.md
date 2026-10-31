@@ -1,15 +1,14 @@
 # Solana Ecosystem State Report
 
-Generated **2026-10-31T12:43:08Z** in 17.7s across 17 HTTP calls.
+Generated **2026-10-31T18:37:28Z** in 18.9s across 17 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 92.9% (13/14 probes returned data). History depth: 124 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 1147 is 74% below the trailing median of 4432.
-- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 4.7 robust deviations from its 124-point median of 8, a 87.5% move.
+- [CRITICAL] **tps** (rule) - TPS 1842 is 58% below the trailing median of 4432.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 124-point median of 8, a 100.0% move.
 - [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 29.2 robust deviations from its 124-point median of 0.0212, a 3897.2% move.
-- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 3.6 robust deviations from its 124-point median of 4540, a 73.9% move.
 
 ## Network performance
 
@@ -17,16 +16,16 @@ Generated **2026-10-31T12:43:08Z** in 17.7s across 17 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,073 |
-| Epoch progress | 36.26% |
-| Epoch time remaining (est.) | 30h 35m |
-| Absolute slot | 463,692,626 |
-| Block height | 441,714,478 |
-| TPS (all) | 1,146.72 |
-| TPS (non-vote) | 1,146.72 |
-| TPS (30-sample mean) | 1,185.92 |
-| Slot time | 216.60 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 564,589,047,374 |
+| Epoch progress | 59.23% |
+| Epoch time remaining (est.) | 19h 34m |
+| Absolute slot | 463,791,855 |
+| Block height | 441,813,689 |
+| TPS (all) | 1,841.72 |
+| TPS (non-vote) | 1,841.72 |
+| TPS (30-sample mean) | 1,607.49 |
+| Slot time | 214.30 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 564,622,574,785 |
 
 ## Validators
 
@@ -41,8 +40,8 @@ Generated **2026-10-31T12:43:08Z** in 17.7s across 17 HTTP calls.
 | Stake in top 20 | 35.89% |
 | Stake in top 50 | 55.64% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 228 |
-| Validators at 100% commission | 63 |
+| Validators at 0% commission | 225 |
+| Validators at 100% commission | 65 |
 
 ### Largest validators by active stake
 
@@ -83,18 +82,18 @@ Generated **2026-10-31T12:43:08Z** in 17.7s across 17 HTTP calls.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $96.19 |
-| SOL 24h | -0.33% |
-| SOL 7d | -5.15% |
-| SOL 30d | -18.45% |
-| Market cap | $56.75B |
-| Spot volume 24h | $2.87B |
+| SOL price | $96.09 |
+| SOL 24h | 2.57% |
+| SOL 7d | -4.30% |
+| SOL 30d | -18.67% |
+| Market cap | $56.70B |
+| Spot volume 24h | $2.10B |
 | Circulating supply | 590.10M SOL |
 | Circulating share | 92.67% |
 | DeFi TVL | $5.42B |
-| TVL 24h | 1.40% |
-| TVL 7d | -5.94% |
-| Stablecoin supply | $15.20B |
+| TVL 24h | 1.46% |
+| TVL 7d | -5.89% |
+| Stablecoin supply | $15.19B |
 | DEX volume 24h | $2.12B |
 | DEX volume 7d | $12.67B |
 | Chain fees 24h (REV proxy) | $11.23M |
@@ -107,10 +106,11 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0123, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683, SIMD-0529, SIMD-0648, SIMD-0565, SIMD-0504, SIMD-0686, SIMD-0688, SIMD-0684
+SIMDs referenced in the last feed window: SIMD-0123, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683, SIMD-0529, SIMD-0648, SIMD-0565, SIMD-0504, SIMD-0686, SIMD-0688
 
 ## Ecosystem news
 
+- [SIMD-0650: bn254 pairing output (#650)](https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34)
 - [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0)
 - [docs: align SIMD-0550 with the integer inflation schedule (#704)](https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231)
 - [Mark SIMDs as Activated (#710)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956)
@@ -125,7 +125,6 @@ SIMDs referenced in the last feed window: SIMD-0123, SIMD-0550, SIMD-0607, SIMD-
 - [[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp…](https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe)
 - [Release v4.3.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.2)
 - [SIMD-0648: Unbound LoaderV3 Instruction Data (#648)](https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0)
-- [[SIMD-0565] Specify compute unit costs for the SIMD-0565 secp256r1 sy…](https://github.com/solana-foundation/solana-improvement-documents/commit/f13f5d657ccae32cb19cae84ccb6c781cd125ad7)
 
 ## Not collected
 
