@@ -1,16 +1,15 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-01T06:17:56Z** in 17.0s across 17 HTTP calls.
+Generated **2026-11-01T15:15:38Z** in 18.8s across 17 HTTP calls.
 
 > **Status:** **1 critical** anomaly open. Data completeness 92.9% (13/14 probes returned data). History depth: 124 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 1120 is 75% below the trailing median of 4396.
-- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 4.7 robust deviations from its 124-point median of 8, a 87.5% move.
-- [WARNING] **delinquent_pct_by_count** (statistical) - delinquent_pct_by_count is 3.8 robust deviations from its 124-point median of 1.767, a 184.5% move.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 44.3 robust deviations from its 124-point median of 0.0224, a 6134.4% move.
-- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 3.9 robust deviations from its 124-point median of 12, a 191.7% move.
+- [CRITICAL] **tps** (rule) - TPS 1835 is 58% below the trailing median of 4396.
+- [WARNING] **block_lag_seconds** (statistical) - block_lag_seconds is 5.4 robust deviations from its 124-point median of 8, a 100.0% move.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 30.5 robust deviations from its 124-point median of 0.0244, a 4200.4% move.
+- [WARNING] **validators_delinquent** (statistical) - validators_delinquent is 3.5 robust deviations from its 124-point median of 12, a 175.0% move.
 
 ## Network performance
 
@@ -18,32 +17,32 @@ Generated **2026-11-01T06:17:56Z** in 17.0s across 17 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,074 |
-| Epoch progress | 4.66% |
-| Epoch time remaining (est.) | 45h 45m |
-| Absolute slot | 463,988,124 |
-| Block height | 442,009,688 |
-| TPS (all) | 1,119.63 |
-| TPS (non-vote) | 1,119.63 |
-| TPS (30-sample mean) | 1,081.93 |
-| Slot time | 217.40 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 564,684,612,415 |
+| Epoch progress | 39.54% |
+| Epoch time remaining (est.) | 29h 1m |
+| Absolute slot | 464,138,825 |
+| Block height | 442,160,304 |
+| TPS (all) | 1,834.60 |
+| TPS (non-vote) | 1,834.60 |
+| TPS (30-sample mean) | 2,005.97 |
+| Slot time | 215.10 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 564,724,279,629 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 661 |
-| Delinquent | 35 |
-| Delinquent share of stake | 1.40% |
+| Active | 663 |
+| Delinquent | 33 |
+| Delinquent share of stake | 1.05% |
 | Total active stake | 433.94M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.69% |
 | Stake in top 20 | 35.87% |
 | Stake in top 50 | 55.60% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 224 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 225 |
+| Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
 
@@ -71,34 +70,34 @@ Generated **2026-11-01T06:17:56Z** in 17.0s across 17 HTTP calls.
 | --- | --- | --- |
 | `7qGNnXKW1e3D...` | 1.84M | 463,967,999 |
 | `722RdWmHC5TG...` | 1.35M | 462,239,999 |
-| `HaLanfo94ezL...` | 1.16M | 463,982,260 |
 | `BXAxLMMMUNYf...` | 794.23K | 462,239,999 |
-| `9xcXe4WRAfbV...` | 349.84K | 463,984,606 |
 | `7cVfgArCheMR...` | 250.45K | 462,239,999 |
 | `RAuSNo4DRjo8...` | 145.76K | 463,535,999 |
 | `uEhHSnCXvWgt...` | 96.62K | 463,967,999 |
 | `2dfgsiSaZ51Q...` | 62.32K | 462,239,999 |
 | `LandXx5ebB8B...` | 16.59K | 463,967,999 |
+| `HzrEstnLfzsi...` | 2.60K | 461,807,999 |
+| `JDvwML44fiV2...` | 289.16 | 0 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $95.78 |
-| SOL 24h | -0.13% |
-| SOL 7d | -5.98% |
-| SOL 30d | -21.41% |
-| Market cap | $56.54B |
-| Spot volume 24h | $1.37B |
+| SOL price | $95.01 |
+| SOL 24h | -0.75% |
+| SOL 7d | -6.17% |
+| SOL 30d | -21.26% |
+| Market cap | $56.07B |
+| Spot volume 24h | $1.30B |
 | Circulating supply | 590.15M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.41B |
-| TVL 24h | -0.77% |
-| TVL 7d | -6.11% |
-| Stablecoin supply | $15.23B |
-| DEX volume 24h | $1.44B |
-| DEX volume 7d | $11.80B |
-| Chain fees 24h (REV proxy) | $8.58M |
+| DeFi TVL | $5.40B |
+| TVL 24h | -0.96% |
+| TVL 7d | -6.28% |
+| Stablecoin supply | $15.16B |
+| DEX volume 24h | $953.37M |
+| DEX volume 7d | $12.20B |
+| Chain fees 24h (REV proxy) | $8.27M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -108,10 +107,11 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0123, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683, SIMD-0529, SIMD-0648, SIMD-0565, SIMD-0504, SIMD-0686, SIMD-0688
+SIMDs referenced in the last feed window: SIMD-0123, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683, SIMD-0529, SIMD-0648, SIMD-0565, SIMD-0504
 
 ## Ecosystem news
 
+- [SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)](https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f)
 - [SIMD-0650: bn254 pairing output (#650)](https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34)
 - [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0)
 - [docs: align SIMD-0550 with the integer inflation schedule (#704)](https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231)
@@ -126,7 +126,6 @@ SIMDs referenced in the last feed window: SIMD-0123, SIMD-0650, SIMD-0550, SIMD-
 - [SIMD-0683: Pass ABIv1 input metadata via registers r3–r5 (#683)](https://github.com/solana-foundation/solana-improvement-documents/commit/a084840a512454a7ee5e2ef8dd736c790102bea0)
 - [[SIMD-0529] Finalize compute unit costs for the SIMD-0529 big_mod_exp…](https://github.com/solana-foundation/solana-improvement-documents/commit/51dbb649da0233481cc40f5640f33fe74d6dbffe)
 - [Release v4.3.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.2)
-- [SIMD-0648: Unbound LoaderV3 Instruction Data (#648)](https://github.com/solana-foundation/solana-improvement-documents/commit/27ff5a704391d121869dd3bc8cfa8127483329d0)
 
 ## Not collected
 
