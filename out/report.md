@@ -1,13 +1,13 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-02T20:23:46Z** in 17.8s across 17 HTTP calls.
+Generated **2026-11-03T03:30:51Z** in 99.4s across 19 HTTP calls.
 
-> **Status:** **1 critical** anomaly open. Data completeness 92.9% (13/14 probes returned data). History depth: 124 prior runs.
+> **Status:** **1 critical** anomaly open. Data completeness 85.7% (12/14 probes returned data). History depth: 123 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 2152 is 51% below the trailing median of 4347.
-- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 26.4 robust deviations from its 124-point median of 0.0272, a 3617.3% move.
+- [CRITICAL] **tps** (rule) - TPS 2023 is 53% below the trailing median of 4344.
+- [WARNING] **delinquent_pct_by_stake** (statistical) - delinquent_pct_by_stake is 25.7 robust deviations from its 123-point median of 0.0272, a 3616.9% move.
 
 ## Network performance
 
@@ -15,23 +15,23 @@ Generated **2026-11-02T20:23:46Z** in 17.8s across 17 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,075 |
-| Epoch progress | 52.82% |
-| Epoch time remaining (est.) | 22h 38m |
-| Absolute slot | 464,628,175 |
-| Block height | 442,649,265 |
-| TPS (all) | 2,151.55 |
-| TPS (non-vote) | 2,151.55 |
-| TPS (30-sample mean) | 2,775.49 |
-| Slot time | 215.10 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 564,912,442,382 |
+| Epoch progress | 80.45% |
+| Epoch time remaining (est.) | 9h 22m |
+| Absolute slot | 464,747,554 |
+| Block height | 442,768,628 |
+| TPS (all) | 2,023.48 |
+| TPS (non-vote) | 2,023.48 |
+| TPS (30-sample mean) | 1,735.34 |
+| Slot time | 211.30 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 564,957,117,863 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
 | Active | 665 |
-| Delinquent | 29 |
+| Delinquent | 28 |
 | Delinquent share of stake | 1.01% |
 | Total active stake | 434.16M SOL |
 | Nakamoto coefficient | 18 |
@@ -56,7 +56,7 @@ Generated **2026-11-02T20:23:46Z** in 17.8s across 17 HTTP calls.
 | 8 | `EvnRmnMrd69k...` | 7.80M | 1.80% | 7.00% |
 | 9 | `Awes4Tr6TX8J...` | 7.00M | 1.61% | 0.00% |
 | 10 | `9eGrDohdNTAo...` | 6.98M | 1.61% | 5.00% |
-| 11 | `JD549HsbJHeE...` | 6.06M | 1.39% | 0.00% |
+| 11 | `JD549HsbJHeE...` | 6.06M | 1.40% | 0.00% |
 | 12 | `5pPRHniefFjk...` | 5.98M | 1.38% | 5.00% |
 | 13 | `5Cchr1XGEg7d...` | 5.72M | 1.32% | 100.00% |
 | 14 | `GnC339vkyXRm...` | 5.03M | 1.16% | 7.00% |
@@ -75,27 +75,27 @@ Generated **2026-11-02T20:23:46Z** in 17.8s across 17 HTTP calls.
 | `LandXx5ebB8B...` | 16.59K | 463,967,999 |
 | `CTDGxTK789Zv...` | 2.69K | 464,160,502 |
 | `HzrEstnLfzsi...` | 2.60K | 461,807,999 |
-| `JDvwML44fiV2...` | 289.16 | 0 |
+| `Bi9kKNxfW2Xq...` | 63.43 | 462,464,506 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $91.82 |
-| SOL 24h | -2.11% |
-| SOL 7d | -8.51% |
-| SOL 30d | -23.33% |
-| Market cap | $54.19B |
-| Spot volume 24h | $2.58B |
+| SOL price | $92.02 |
+| SOL 24h | -3.51% |
+| SOL 7d | -8.10% |
+| SOL 30d | -23.55% |
+| Market cap | $54.31B |
+| Spot volume 24h | $2.61B |
 | Circulating supply | 590.21M SOL |
 | Circulating share | 92.67% |
-| DeFi TVL | $5.34B |
-| TVL 24h | -1.18% |
-| TVL 7d | -6.10% |
-| Stablecoin supply | $15.15B |
-| DEX volume 24h | $905.60M |
-| DEX volume 7d | $11.66B |
-| Chain fees 24h (REV proxy) | $8.39M |
+| DeFi TVL | unavailable |
+| TVL 24h | unavailable |
+| TVL 7d | unavailable |
+| Stablecoin supply | $15.09B |
+| DEX volume 24h | $1.40B |
+| DEX volume 7d | $10.52B |
+| Chain fees 24h (REV proxy) | $11.01M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -132,6 +132,7 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **daily_active_addresses** - No key-free public endpoint. Available via Dune; enable with --dune-key.
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
+- **defi/tvl** - probe failed: TimeoutError: The read operation timed out
 - **ecosystem/https://solana.com/news/rss.xml** - probe failed: HTTP 429
 
 ---
