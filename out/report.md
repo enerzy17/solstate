@@ -1,12 +1,12 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-08T01:29:07Z** in 17.1s across 17 HTTP calls.
+Generated **2026-11-08T09:06:03Z** in 37.3s across 19 HTTP calls.
 
-> **Status:** **1 critical** anomaly open. Data completeness 92.9% (13/14 probes returned data). History depth: 121 prior runs.
+> **Status:** **1 critical** anomaly open. Data completeness 85.7% (12/14 probes returned data). History depth: 121 prior runs.
 
 ## Anomalies
 
-- [CRITICAL] **tps** (rule) - TPS 1426 is 46% below the trailing median of 2634.
+- [CRITICAL] **tps** (rule) - TPS 908 is 65% below the trailing median of 2621.
 
 ## Network performance
 
@@ -14,31 +14,31 @@ Generated **2026-11-08T01:29:07Z** in 17.1s across 17 HTTP calls.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,080 |
-| Epoch progress | 39.48% |
-| Epoch time remaining (est.) | 29h 3m |
-| Absolute slot | 466,730,540 |
-| Block height | 444,748,980 |
-| TPS (all) | 1,426.50 |
-| TPS (non-vote) | 1,426.50 |
-| TPS (30-sample mean) | 1,384.63 |
-| Slot time | 214.30 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 565,719,025,981 |
+| Epoch progress | 69.04% |
+| Epoch time remaining (est.) | 14h 51m |
+| Absolute slot | 466,858,261 |
+| Block height | 444,876,627 |
+| TPS (all) | 908.47 |
+| TPS (non-vote) | 908.47 |
+| TPS (30-sample mean) | 971.92 |
+| Slot time | 212.00 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 565,753,376,659 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 664 |
-| Delinquent | 33 |
-| Delinquent share of stake | 0.14% |
+| Active | 662 |
+| Delinquent | 35 |
+| Delinquent share of stake | 0.16% |
 | Total active stake | 434.78M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.63% |
 | Stake in top 20 | 36.05% |
 | Stake in top 50 | 55.97% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 223 |
+| Validators at 0% commission | 222 |
 | Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
@@ -70,31 +70,31 @@ Generated **2026-11-08T01:29:07Z** in 17.1s across 17 HTTP calls.
 | `BULKzVM41WAy...` | 134.48K | 466,294,271 |
 | `7nzTzRZzezmu...` | 70.73K | 465,263,999 |
 | `2dfgsiSaZ51Q...` | 60.11K | 462,239,999 |
+| `DiFeTctQSaNc...` | 48.37K | 466,816,251 |
 | `HzrEstnLfzsi...` | 2.60K | 461,807,999 |
 | `CTDGxTK789Zv...` | 1.84K | 464,160,502 |
 | `yJeahQNRHNWt...` | 700.23 | 465,263,999 |
 | `BXAxLMMMUNYf...` | 527.30 | 462,239,999 |
-| `pebb1eQXvcuQ...` | 192.42 | 466,127,999 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $89.27 |
+| SOL price | $89.18 |
 | SOL 24h | -1.10% |
-| SOL 7d | -6.67% |
-| SOL 30d | -18.29% |
-| Market cap | $52.76B |
-| Spot volume 24h | $840.49M |
+| SOL 7d | -6.91% |
+| SOL 30d | -19.34% |
+| Market cap | $52.71B |
+| Spot volume 24h | $847.71M |
 | Circulating supply | 591.04M SOL |
 | Circulating share | 92.76% |
-| DeFi TVL | $5.19B |
-| TVL 24h | -1.34% |
-| TVL 7d | -4.79% |
+| DeFi TVL | $5.18B |
+| TVL 24h | -0.92% |
+| TVL 7d | -4.29% |
 | Stablecoin supply | $14.66B |
-| DEX volume 24h | $1.20B |
-| DEX volume 7d | $10.92B |
-| Chain fees 24h (REV proxy) | $8.19M |
+| DEX volume 24h | $1.30B |
+| DEX volume 7d | $11.17B |
+| Chain fees 24h (REV proxy) | $7.98M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,25 +104,20 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0504, SIMD-0123, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683
+SIMDs referenced in the last feed window: SIMD-0504, SIMD-0123
 
 ## Ecosystem news
 
-- [SIMD-0701: Vote Account v5 (#701)](https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022)
-- [SIMD-0602: Disallow Nonce Account as Program ID (#602)](https://github.com/solana-foundation/solana-improvement-documents/commit/809a97a0b0e0f2190fa5d494bcc5856a06907969)
 - [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0)
 - [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1)
-- [SIMD-0685: Loader V3: Remove ExtendProgram (#685)](https://github.com/solana-foundation/solana-improvement-documents/commit/540f6ab4b9b71b584eae4f00c156194308d6650e)
-- [rekey simd-0529 big int mod exp (#715)](https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591)
-- [SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)](https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f)
-- [SIMD-0650: bn254 pairing output (#650)](https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34)
 - [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0)
-- [docs: align SIMD-0550 with the integer inflation schedule (#704)](https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231)
-- [Mark SIMDs as Activated (#710)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956)
-- [Amend SIMD-0607: Derive per-slot decay and increase intermediate prec…](https://github.com/solana-foundation/solana-improvement-documents/commit/2934dbeb1c8a7dfecc4f70a93a6b152e525b1698)
 - [Release v4.4.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1)
 - [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4)
 - [v4.5.0-alpha.3: Bump version to 4.5.0-alpha.3 (#16402)](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.3)
+- [v4.4.0-rc.0: Bump version to 4.4.0-rc.0 (#16364)](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.0)
+- [Release v4.3.2](https://github.com/anza-xyz/agave/releases/tag/v4.3.2)
+- [Release v4.4.0-beta.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-beta.1)
+- [Release v4.5.0-alpha.2](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.2)
 
 ## Not collected
 
@@ -132,6 +127,7 @@ Listing these explicitly is deliberate: a gap that is named is a gap a reader ca
 - **tokenized_equity_volume** - Issuer-level breakdown (xStocks et al.) needs Dune or a vendor API.
 - **mev_tips** - Jito tip data needs the Jito API; excluded to keep the run key-free.
 - **ecosystem/https://solana.com/news/rss.xml** - probe failed: HTTP 429
+- **ecosystem/https://github.com/solana-foundation/solana-improvement-documents/commits/main.atom** - probe failed: HTTP 504
 
 ---
 
