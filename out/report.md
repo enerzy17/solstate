@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-19T20:44:42Z** in 17.5s across 17 HTTP calls.
+Generated **2026-11-20T03:26:17Z** in 19.6s across 17 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 109 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 108 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,091 |
-| Epoch progress | 37.50% |
-| Epoch time remaining (est.) | 29h 59m |
-| Absolute slot | 471,474,021 |
-| Block height | 449,488,162 |
-| TPS (all) | 2,249.08 |
-| TPS (non-vote) | 2,249.05 |
-| TPS (30-sample mean) | 2,208.98 |
-| Slot time | 216.60 ms |
-| Block lag vs wall clock | 2s |
-| Lifetime transactions | 567,477,362,956 |
+| Epoch progress | 63.39% |
+| Epoch time remaining (est.) | 17h 34m |
+| Absolute slot | 471,585,852 |
+| Block height | 449,599,953 |
+| TPS (all) | 1,618.20 |
+| TPS (non-vote) | 1,618.20 |
+| TPS (30-sample mean) | 1,905.97 |
+| Slot time | 215.80 ms |
+| Block lag vs wall clock | 1s |
+| Lifetime transactions | 567,528,845,515 |
 
 ## Validators
 
@@ -38,8 +38,8 @@ Nothing outside the configured thresholds or the statistical baseline.
 | Stake in top 20 | 36.00% |
 | Stake in top 50 | 56.23% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 219 |
-| Validators at 100% commission | 60 |
+| Validators at 0% commission | 218 |
+| Validators at 100% commission | 61 |
 
 ### Largest validators by active stake
 
@@ -73,28 +73,28 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `7cVfgArCheMR...` | 2.10 | 462,239,999 |
 | `e1STgSzsMaxT...` | 2.03 | 470,447,999 |
 | `FhFB8MAj5Kzx...` | 1.50 | 469,698,063 |
+| `BGD4V7L4aZF5...` | 1.00 | 458,009,563 |
 | `FFevTkywysWf...` | 1.00 | 465,304,579 |
-| `yJeahQNRHNWt...` | 1.00 | 465,263,999 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $72.90 |
-| SOL 24h | -0.02% |
-| SOL 7d | -10.63% |
-| SOL 30d | -31.21% |
-| Market cap | $43.14B |
-| Spot volume 24h | $2.05B |
+| SOL price | $72.86 |
+| SOL 24h | -0.65% |
+| SOL 7d | -9.11% |
+| SOL 30d | -31.38% |
+| Market cap | $43.12B |
+| Spot volume 24h | $2.45B |
 | Circulating supply | 591.85M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.73B |
-| TVL 24h | -1.32% |
-| TVL 7d | -5.98% |
-| Stablecoin supply | $12.95B |
-| DEX volume 24h | $1.82B |
-| DEX volume 7d | $10.91B |
-| Chain fees 24h (REV proxy) | $10.95M |
+| DeFi TVL | $4.70B |
+| TVL 24h | -0.22% |
+| TVL 7d | -5.94% |
+| Stablecoin supply | $13.04B |
+| DEX volume 24h | $1.85B |
+| DEX volume 7d | $10.39B |
+| Chain fees 24h (REV proxy) | $9.57M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,10 +104,12 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0504, SIMD-0123, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670, SIMD-0683
+SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670
 
 ## Ecosystem news
 
+- [Amend 0529: charge a flat cu first before execution (#707)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc)
+- [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1)
 - [SIMD-0701: Vote Account v5 (#701)](https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022)
 - [SIMD-0602: Disallow Nonce Account as Program ID (#602)](https://github.com/solana-foundation/solana-improvement-documents/commit/809a97a0b0e0f2190fa5d494bcc5856a06907969)
 - [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0)
@@ -121,8 +123,6 @@ SIMDs referenced in the last feed window: SIMD-0504, SIMD-0123, SIMD-0701, SIMD-
 - [Mark SIMDs as Activated (#710)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956)
 - [Amend SIMD-0607: Derive per-slot decay and increase intermediate prec…](https://github.com/solana-foundation/solana-improvement-documents/commit/2934dbeb1c8a7dfecc4f70a93a6b152e525b1698)
 - [Release v4.4.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1)
-- [Release v4.5.0-alpha.4](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.4)
-- [v4.5.0-alpha.3: Bump version to 4.5.0-alpha.3 (#16402)](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-alpha.3)
 
 ## Not collected
 
