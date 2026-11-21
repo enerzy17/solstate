@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-21T03:15:31Z** in 21.6s across 17 HTTP calls.
+Generated **2026-11-21T12:45:15Z** in 15.1s across 17 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 106 prior runs.
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,092 |
-| Epoch progress | 55.71% |
-| Epoch time remaining (est.) | 21h 15m |
-| Absolute slot | 471,984,646 |
-| Block height | 449,998,620 |
-| TPS (all) | 1,528.25 |
-| TPS (non-vote) | 1,528.25 |
-| TPS (30-sample mean) | 1,645.52 |
-| Slot time | 213.50 ms |
+| Epoch progress | 92.51% |
+| Epoch time remaining (est.) | 3h 35m |
+| Absolute slot | 472,143,660 |
+| Block height | 450,157,618 |
+| TPS (all) | 1,178.20 |
+| TPS (non-vote) | 1,178.20 |
+| TPS (30-sample mean) | 1,304.20 |
+| Slot time | 214.30 ms |
 | Block lag vs wall clock | 1s |
-| Lifetime transactions | 567,683,229,367 |
+| Lifetime transactions | 567,732,538,821 |
 
 ## Validators
 
@@ -80,21 +80,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $67.99 |
-| SOL 24h | -6.03% |
-| SOL 7d | -10.67% |
-| SOL 30d | -35.52% |
-| Market cap | $40.25B |
-| Spot volume 24h | $3.38B |
+| SOL price | $69.30 |
+| SOL 24h | -2.53% |
+| SOL 7d | -8.68% |
+| SOL 30d | -33.61% |
+| Market cap | $41.02B |
+| Spot volume 24h | $4.75B |
 | Circulating supply | 591.91M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.56B |
-| TVL 24h | -2.02% |
-| TVL 7d | -6.08% |
-| Stablecoin supply | $12.97B |
-| DEX volume 24h | $1.84B |
-| DEX volume 7d | $10.67B |
-| Chain fees 24h (REV proxy) | $8.96M |
+| DeFi TVL | $4.50B |
+| TVL 24h | -4.58% |
+| TVL 7d | -7.37% |
+| Stablecoin supply | $13.19B |
+| DEX volume 24h | $1.88B |
+| DEX volume 7d | $11.64B |
+| Chain fees 24h (REV proxy) | $8.29M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
