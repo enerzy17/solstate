@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-21T20:34:17Z** in 20.9s across 17 HTTP calls.
+Generated **2026-11-22T02:17:55Z** in 15.8s across 17 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 105 prior runs.
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,093 |
-| Epoch progress | 22.80% |
-| Epoch time remaining (est.) | 37h 3m |
-| Absolute slot | 472,274,487 |
-| Block height | 450,288,426 |
-| TPS (all) | 1,431.13 |
-| TPS (non-vote) | 1,431.13 |
-| TPS (30-sample mean) | 1,728.51 |
-| Slot time | 214.30 ms |
+| Epoch progress | 45.01% |
+| Epoch time remaining (est.) | 26h 23m |
+| Absolute slot | 472,370,447 |
+| Block height | 450,384,366 |
+| TPS (all) | 1,218.10 |
+| TPS (non-vote) | 1,218.10 |
+| TPS (30-sample mean) | 1,398.18 |
+| Slot time | 215.80 ms |
 | Block lag vs wall clock | 1s |
-| Lifetime transactions | 567,779,205,878 |
+| Lifetime transactions | 567,812,793,108 |
 
 ## Validators
 
@@ -80,21 +80,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $70.53 |
-| SOL 24h | 3.89% |
-| SOL 7d | -2.43% |
-| SOL 30d | -31.88% |
-| Market cap | $41.74B |
-| Spot volume 24h | $4.06B |
+| SOL price | $70.18 |
+| SOL 24h | 2.25% |
+| SOL 7d | 3.42% |
+| SOL 30d | -32.45% |
+| Market cap | $41.55B |
+| Spot volume 24h | $3.57B |
 | Circulating supply | 591.96M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.61B |
-| TVL 24h | -2.21% |
-| TVL 7d | -5.07% |
-| Stablecoin supply | $13.19B |
-| DEX volume 24h | $1.88B |
-| DEX volume 7d | $11.64B |
-| Chain fees 24h (REV proxy) | $8.30M |
+| DeFi TVL | $4.60B |
+| TVL 24h | 0.39% |
+| TVL 7d | -0.34% |
+| Stablecoin supply | $13.16B |
+| DEX volume 24h | $1.56B |
+| DEX volume 7d | $10.54B |
+| Chain fees 24h (REV proxy) | $7.89M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
