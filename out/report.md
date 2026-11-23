@@ -1,12 +1,16 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-23T02:53:06Z** in 17.8s across 17 HTTP calls.
+Generated **2026-11-23T14:49:21Z** in 17.0s across 17 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 103 prior runs.
+> **Status:** 4 warning-level anomalies. Data completeness 92.9% (13/14 probes returned data). History depth: 103 prior runs.
 
 ## Anomalies
 
-Nothing outside the configured thresholds or the statistical baseline.
+- [WARNING] **sol_change_24h_pct** (statistical) - sol_change_24h_pct is 4.7 robust deviations from its 103-point median of -0.93, a 1090.3% move.
+- [WARNING] **sol_change_7d_pct** (statistical) - sol_change_7d_pct is 3.6 robust deviations from its 103-point median of -6.87, a 222.7% move.
+- [WARNING] **tps_avg_30_samples** (statistical) - tps_avg_30_samples is 3.9 robust deviations from its 103-point median of 1659, a 116.2% move.
+- [WARNING] **tps_non_vote** (statistical) - tps_non_vote is 5.2 robust deviations from its 103-point median of 1676, a 127.2% move.
+- [INFO] **tps** (rule) - TPS 3807 is 127% above the trailing median of 1676.
 
 ## Network performance
 
@@ -14,16 +18,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,094 |
-| Epoch progress | 40.28% |
-| Epoch time remaining (est.) | 28h 39m |
-| Absolute slot | 472,782,012 |
-| Block height | 450,795,592 |
-| TPS (all) | 1,820.62 |
-| TPS (non-vote) | 1,820.62 |
-| TPS (30-sample mean) | 1,623.78 |
+| Epoch progress | 86.55% |
+| Epoch time remaining (est.) | 6h 27m |
+| Absolute slot | 472,981,890 |
+| Block height | 450,995,386 |
+| TPS (all) | 3,807.15 |
+| TPS (non-vote) | 3,807.13 |
+| TPS (30-sample mean) | 3,587.28 |
 | Slot time | 216.60 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 567,943,016,285 |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 568,005,783,288 |
 
 ## Validators
 
@@ -31,15 +35,15 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Active | 661 |
 | Delinquent | 24 |
-| Delinquent share of stake | 0.03% |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 425.69M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.99% |
 | Stake in top 20 | 36.03% |
 | Stake in top 50 | 56.41% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 220 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 219 |
+| Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
 
@@ -65,7 +69,7 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
-| `SA1LFXr4os2P...` | 77.38K | 472,781,490 |
+| `DefiihS7gLkj...` | 103.74K | 472,960,606 |
 | `omeg2wsojzB7...` | 37.69K | 472,608,648 |
 | `BkZtKQkM2NFb...` | 12.77K | 471,311,999 |
 | `722RdWmHC5TG...` | 10.07 | 462,239,999 |
@@ -80,21 +84,21 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $69.87 |
-| SOL 24h | 0.53% |
-| SOL 7d | -2.06% |
-| SOL 30d | -31.84% |
-| Market cap | $41.36B |
-| Spot volume 24h | $1.85B |
+| SOL price | $76.74 |
+| SOL 24h | 9.21% |
+| SOL 7d | 8.43% |
+| SOL 30d | -24.25% |
+| Market cap | $45.44B |
+| Spot volume 24h | $2.84B |
 | Circulating supply | 592.02M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.62B |
-| TVL 24h | 0.49% |
-| TVL 7d | -1.25% |
-| Stablecoin supply | $13.14B |
-| DEX volume 24h | $1.19B |
-| DEX volume 7d | $10.37B |
-| Chain fees 24h (REV proxy) | $6.01M |
+| DeFi TVL | $4.68B |
+| TVL 24h | 1.91% |
+| TVL 7d | 0.14% |
+| Stablecoin supply | $13.32B |
+| DEX volume 24h | $975.74M |
+| DEX volume 7d | $10.92B |
+| Chain fees 24h (REV proxy) | $5.92M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,10 +108,11 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690, SIMD-0670
+SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-0706, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690
 
 ## Ecosystem news
 
+- [SIMD-0706: Reject unknown syscalls and `sol_alloc_free_` (#706)](https://github.com/solana-foundation/solana-improvement-documents/commit/44a4406237de1597ce56c1d106161dda950cbc68)
 - [Amend 0529: charge a flat cu first before execution (#707)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc)
 - [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1)
 - [SIMD-0701: Vote Account v5 (#701)](https://github.com/solana-foundation/solana-improvement-documents/commit/ae7b00f3287a614c5aa5d0a7ceb7bad0cdc4e022)
@@ -122,7 +127,6 @@ SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-
 - [docs: align SIMD-0550 with the integer inflation schedule (#704)](https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231)
 - [Mark SIMDs as Activated (#710)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956)
 - [Amend SIMD-0607: Derive per-slot decay and increase intermediate prec…](https://github.com/solana-foundation/solana-improvement-documents/commit/2934dbeb1c8a7dfecc4f70a93a6b152e525b1698)
-- [Release v4.4.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.0-rc.1)
 
 ## Not collected
 
