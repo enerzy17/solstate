@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-25T11:25:16Z** in 15.3s across 17 HTTP calls.
+Generated **2026-11-25T21:47:38Z** in 15.4s across 17 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 97 prior runs.
 
@@ -14,24 +14,24 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,096 |
-| Epoch progress | 59.43% |
-| Epoch time remaining (est.) | 19h 28m |
-| Absolute slot | 473,728,728 |
-| Block height | 451,741,803 |
-| TPS (all) | 1,415.08 |
-| TPS (non-vote) | 1,415.08 |
-| TPS (30-sample mean) | 1,273.81 |
-| Slot time | 212.80 ms |
-| Block lag vs wall clock | 0s |
-| Lifetime transactions | 568,310,087,743 |
+| Epoch progress | 99.62% |
+| Epoch time remaining (est.) | 10m 51s |
+| Absolute slot | 473,902,371 |
+| Block height | 451,915,331 |
+| TPS (all) | 2,641.35 |
+| TPS (non-vote) | 2,641.35 |
+| TPS (30-sample mean) | 2,338.83 |
+| Slot time | 216.60 ms |
+| Block lag vs wall clock | 1s |
+| Lifetime transactions | 568,397,586,198 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 660 |
-| Delinquent | 27 |
-| Delinquent share of stake | 0.02% |
+| Active | 658 |
+| Delinquent | 29 |
+| Delinquent share of stake | 0.04% |
 | Total active stake | 424.79M SOL |
 | Nakamoto coefficient | 18 |
 | Stake in top 10 | 24.99% |
@@ -65,36 +65,36 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Node | Stake (SOL) | Last vote |
 | --- | --- | --- |
+| `ByszyWdqC3rV...` | 96.29K | 473,749,295 |
 | `omeg2wsojzB7...` | 37.40K | 472,608,648 |
 | `DaRKu4L3qAgX...` | 30.42K | 473,471,999 |
 | `BkZtKQkM2NFb...` | 12.54K | 471,311,999 |
+| `H4TCC7HNnsSV...` | 10.65K | 473,845,956 |
 | `DzLjgYbBhDN8...` | 2.24K | 326,553,475 |
 | `5d9Mdc2Zk8as...` | 46.25 | 472,988,210 |
 | `722RdWmHC5TG...` | 10.07 | 462,239,999 |
 | `EUcJwf7jXskR...` | 9.10 | 470,879,999 |
 | `stacheBmGG5z...` | 3.00 | 429,535,683 |
-| `e1STgSzsMaxT...` | 2.03 | 470,447,999 |
-| `7cVfgArCheMR...` | 2.00 | 462,239,999 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $67.64 |
-| SOL 24h | -3.43% |
-| SOL 7d | -9.39% |
-| SOL 30d | -33.19% |
-| Market cap | $40.06B |
-| Spot volume 24h | $2.58B |
+| SOL price | $70.79 |
+| SOL 24h | 2.18% |
+| SOL 7d | -2.95% |
+| SOL 30d | -29.34% |
+| Market cap | $41.93B |
+| Spot volume 24h | $3.38B |
 | Circulating supply | 592.13M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.46B |
-| TVL 24h | -3.87% |
-| TVL 7d | -7.14% |
-| Stablecoin supply | $13.05B |
-| DEX volume 24h | $1.64B |
-| DEX volume 7d | $10.48B |
-| Chain fees 24h (REV proxy) | $7.22M |
+| DeFi TVL | $4.55B |
+| TVL 24h | -1.84% |
+| TVL 7d | -5.19% |
+| Stablecoin supply | $12.92B |
+| DEX volume 24h | $1.46B |
+| DEX volume 7d | $11.19B |
+| Chain fees 24h (REV proxy) | $7.15M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -104,10 +104,12 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-0706, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607, SIMD-0690
+SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0706, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550, SIMD-0607
 
 ## Ecosystem news
 
+- [Release v4.5.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0)
+- [100M CUs Pt2 (#698)](https://github.com/solana-foundation/solana-improvement-documents/commit/e4d2b0e1c035385a65a96b3875e5b92af5df868e)
 - [SIMD-0706: Reject unknown syscalls and `sol_alloc_free_` (#706)](https://github.com/solana-foundation/solana-improvement-documents/commit/44a4406237de1597ce56c1d106161dda950cbc68)
 - [Amend 0529: charge a flat cu first before execution (#707)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc)
 - [Release v5.0.0-alpha.1](https://github.com/anza-xyz/agave/releases/tag/v5.0.0-alpha.1)
@@ -121,8 +123,6 @@ SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0123, SIMD-
 - [SIMD-0650: bn254 pairing output (#650)](https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34)
 - [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0)
 - [docs: align SIMD-0550 with the integer inflation schedule (#704)](https://github.com/solana-foundation/solana-improvement-documents/commit/2be4cb0c0fd1025df8c037b19372f7346119b231)
-- [Mark SIMDs as Activated (#710)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cc17538e26601e65beca89bbfa761e755720956)
-- [Amend SIMD-0607: Derive per-slot decay and increase intermediate prec…](https://github.com/solana-foundation/solana-improvement-documents/commit/2934dbeb1c8a7dfecc4f70a93a6b152e525b1698)
 
 ## Not collected
 
