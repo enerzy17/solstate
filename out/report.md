@@ -1,6 +1,6 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-26T04:12:32Z** in 58.8s across 17 HTTP calls.
+Generated **2026-11-26T13:58:53Z** in 16.6s across 17 HTTP calls.
 
 > **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 96 prior runs.
 
@@ -14,23 +14,23 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,097 |
-| Epoch progress | 24.43% |
-| Epoch time remaining (est.) | 36h 16m |
-| Absolute slot | 474,009,525 |
-| Block height | 452,022,429 |
-| TPS (all) | 1,461.55 |
-| TPS (non-vote) | 1,461.55 |
-| TPS (30-sample mean) | 1,522.07 |
-| Slot time | 216.60 ms |
-| Block lag vs wall clock | 8s |
-| Lifetime transactions | 568,440,494,680 |
+| Epoch progress | 62.36% |
+| Epoch time remaining (est.) | 18h 4m |
+| Absolute slot | 474,173,391 |
+| Block height | 452,186,245 |
+| TPS (all) | 1,510.55 |
+| TPS (non-vote) | 1,510.52 |
+| TPS (30-sample mean) | 1,441.00 |
+| Slot time | 210.50 ms |
+| Block lag vs wall clock | 1s |
+| Lifetime transactions | 568,485,580,311 |
 
 ## Validators
 
 | Metric | Value |
 | --- | --- |
-| Active | 656 |
-| Delinquent | 32 |
+| Active | 657 |
+| Delinquent | 31 |
 | Delinquent share of stake | 0.03% |
 | Total active stake | 423.68M SOL |
 | Nakamoto coefficient | 18 |
@@ -38,8 +38,8 @@ Nothing outside the configured thresholds or the statistical baseline.
 | Stake in top 20 | 36.13% |
 | Stake in top 50 | 56.39% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 219 |
-| Validators at 100% commission | 63 |
+| Validators at 0% commission | 218 |
+| Validators at 100% commission | 64 |
 
 ### Largest validators by active stake
 
@@ -67,7 +67,6 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- | --- |
 | `ByszyWdqC3rV...` | 88.58K | 473,749,295 |
 | `DaRKu4L3qAgX...` | 30.41K | 473,471,999 |
-| `H4TCC7HNnsSV...` | 10.65K | 473,845,956 |
 | `BkZtKQkM2NFb...` | 9.53K | 471,311,999 |
 | `GZ4U21pYmFkC...` | 3.09K | 473,903,999 |
 | `DzLjgYbBhDN8...` | 2.24K | 326,553,475 |
@@ -75,26 +74,27 @@ Nothing outside the configured thresholds or the statistical baseline.
 | `5d9Mdc2Zk8as...` | 46.25 | 472,988,210 |
 | `722RdWmHC5TG...` | 10.07 | 462,239,999 |
 | `EUcJwf7jXskR...` | 9.10 | 470,879,999 |
+| `stacheBmGG5z...` | 3.00 | 429,535,683 |
 
 ## Economic indicators
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $71.10 |
-| SOL 24h | 3.04% |
-| SOL 7d | -4.10% |
-| SOL 30d | -28.92% |
+| SOL price | $71.13 |
+| SOL 24h | 6.47% |
+| SOL 7d | -4.92% |
+| SOL 30d | -29.44% |
 | Market cap | $42.11B |
-| Spot volume 24h | $3.37B |
+| Spot volume 24h | $2.86B |
 | Circulating supply | 592.18M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.59B |
-| TVL 24h | 0.97% |
-| TVL 7d | -2.70% |
-| Stablecoin supply | $13.01B |
-| DEX volume 24h | $1.47B |
-| DEX volume 7d | $10.09B |
-| Chain fees 24h (REV proxy) | $7.49M |
+| DeFi TVL | $4.58B |
+| TVL 24h | 1.39% |
+| TVL 7d | -2.71% |
+| Stablecoin supply | $12.72B |
+| DEX volume 24h | $1.51B |
+| DEX volume 7d | $10.88B |
+| Chain fees 24h (REV proxy) | $7.61M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 
@@ -108,8 +108,8 @@ SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0506, SIMD-
 
 ## Ecosystem news
 
-- [Withdraw SIMD-0506 (#738)](https://github.com/solana-foundation/solana-improvement-documents/commit/1536c3eceda1779de191453246f939e53d8d7c94)
 - [Release v4.5.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0)
+- [Withdraw SIMD-0506 (#738)](https://github.com/solana-foundation/solana-improvement-documents/commit/1536c3eceda1779de191453246f939e53d8d7c94)
 - [100M CUs Pt2 (#698)](https://github.com/solana-foundation/solana-improvement-documents/commit/e4d2b0e1c035385a65a96b3875e5b92af5df868e)
 - [SIMD-0706: Reject unknown syscalls and `sol_alloc_free_` (#706)](https://github.com/solana-foundation/solana-improvement-documents/commit/44a4406237de1597ce56c1d106161dda950cbc68)
 - [Amend 0529: charge a flat cu first before execution (#707)](https://github.com/solana-foundation/solana-improvement-documents/commit/6cf17cb7138d3fac03f5b637c1fde91a00fb48fc)
