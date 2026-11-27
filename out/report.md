@@ -1,8 +1,8 @@
 # Solana Ecosystem State Report
 
-Generated **2026-11-27T08:44:29Z** in 17.8s across 17 HTTP calls.
+Generated **2026-11-27T19:30:20Z** in 19.8s across 17 HTTP calls.
 
-> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 95 prior runs.
+> **Status:** No anomalies above threshold. Data completeness 92.9% (13/14 probes returned data). History depth: 94 prior runs.
 
 ## Anomalies
 
@@ -14,16 +14,16 @@ Nothing outside the configured thresholds or the statistical baseline.
 | --- | --- |
 | Health | ok |
 | Epoch | 1,098 |
-| Epoch progress | 35.08% |
-| Epoch time remaining (est.) | 31h 9m |
-| Absolute slot | 474,487,560 |
-| Block height | 452,500,248 |
-| TPS (all) | 1,290.85 |
-| TPS (non-vote) | 1,290.85 |
-| TPS (30-sample mean) | 1,187.11 |
-| Slot time | 209.80 ms |
-| Block lag vs wall clock | 1s |
-| Lifetime transactions | 568,594,250,460 |
+| Epoch progress | 76.85% |
+| Epoch time remaining (est.) | 11h 6m |
+| Absolute slot | 474,668,004 |
+| Block height | 452,680,650 |
+| TPS (all) | 1,867.57 |
+| TPS (non-vote) | 1,867.57 |
+| TPS (30-sample mean) | 1,904.90 |
+| Slot time | 215.10 ms |
+| Block lag vs wall clock | 0s |
+| Lifetime transactions | 568,659,444,469 |
 
 ## Validators
 
@@ -38,8 +38,8 @@ Nothing outside the configured thresholds or the statistical baseline.
 | Stake in top 20 | 36.09% |
 | Stake in top 50 | 56.35% |
 | Median commission | 5.00% |
-| Validators at 0% commission | 217 |
-| Validators at 100% commission | 62 |
+| Validators at 0% commission | 216 |
+| Validators at 100% commission | 63 |
 
 ### Largest validators by active stake
 
@@ -80,20 +80,20 @@ Nothing outside the configured thresholds or the statistical baseline.
 
 | Metric | Value |
 | --- | --- |
-| SOL price | $73.13 |
-| SOL 24h | 3.23% |
-| SOL 7d | 0.73% |
-| SOL 30d | -28.47% |
-| Market cap | $43.31B |
-| Spot volume 24h | $2.08B |
+| SOL price | $72.17 |
+| SOL 24h | 1.15% |
+| SOL 7d | 4.78% |
+| SOL 30d | -29.29% |
+| Market cap | $42.74B |
+| Spot volume 24h | $2.53B |
 | Circulating supply | 592.24M SOL |
 | Circulating share | 92.79% |
-| DeFi TVL | $4.68B |
-| TVL 24h | 2.11% |
-| TVL 7d | -0.70% |
-| Stablecoin supply | $12.45B |
-| DEX volume 24h | $1.23B |
-| DEX volume 7d | $9.41B |
+| DeFi TVL | $4.60B |
+| TVL 24h | 0.40% |
+| TVL 7d | -2.37% |
+| Stablecoin supply | $12.78B |
+| DEX volume 24h | $870.58M |
+| DEX volume 7d | $9.85B |
 | Chain fees 24h (REV proxy) | $6.15M |
 
 _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
@@ -104,10 +104,13 @@ _REV basis: DeFiLlama chain fees (24h). Proxy, not an official REV series._
 - **SIMD-0525** - Referenced in the brief as an upcoming change; tracked live from the solana-improvement-documents repository feed.
 - **Firedancer** - Independent validator client from Jump; matters for client diversity and therefore for liveness risk.
 
-SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0506, SIMD-0706, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550
+SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0579, SIMD-0506, SIMD-0706, SIMD-0701, SIMD-0602, SIMD-0685, SIMD-0529, SIMD-0567, SIMD-0650, SIMD-0550
 
 ## Ecosystem news
 
+- [Release v4.5.0-rc.1](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.1)
+- [Release v4.4.2](https://github.com/anza-xyz/agave/releases/tag/v4.4.2)
+- [SIMD-0579: Keccak-p1600 syscall (#579)](https://github.com/solana-foundation/solana-improvement-documents/commit/7a56bc9241056930caa2312bf0c8790a6799bccf)
 - [Release v4.5.0-beta.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-beta.0)
 - [Release v4.5.0-rc.0](https://github.com/anza-xyz/agave/releases/tag/v4.5.0-rc.0)
 - [Withdraw SIMD-0506 (#738)](https://github.com/solana-foundation/solana-improvement-documents/commit/1536c3eceda1779de191453246f939e53d8d7c94)
@@ -120,9 +123,6 @@ SIMDs referenced in the last feed window: SIMD-0005, SIMD-0504, SIMD-0506, SIMD-
 - [Release v4.4.1](https://github.com/anza-xyz/agave/releases/tag/v4.4.1)
 - [SIMD-0685: Loader V3: Remove ExtendProgram (#685)](https://github.com/solana-foundation/solana-improvement-documents/commit/540f6ab4b9b71b584eae4f00c156194308d6650e)
 - [rekey simd-0529 big int mod exp (#715)](https://github.com/solana-foundation/solana-improvement-documents/commit/0434aab3b2c6b596f607194bee44e94088ff2591)
-- [SIMD-0567: CU-optimized ATA Program (`p-ATA`) (#567)](https://github.com/solana-foundation/solana-improvement-documents/commit/93cdf03a368a8bb2743a7f8d458a4cd36d2a904f)
-- [SIMD-0650: bn254 pairing output (#650)](https://github.com/solana-foundation/solana-improvement-documents/commit/846194b6367badc2a5408d19f9341bf265e82e34)
-- [Release v4.4.0](https://github.com/anza-xyz/agave/releases/tag/v4.4.0)
 
 ## Not collected
 
